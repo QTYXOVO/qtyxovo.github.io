@@ -1,0 +1,4692 @@
+[
+  {
+    "name": "Testify",
+    "difficulties": {
+      "PST": "7.8",
+      "PRS": "9.4",
+      "FTR": "10.9",
+      "BYD": "12.0",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Designant.",
+    "difficulties": {
+      "PST": "7.5",
+      "PRS": "9.6",
+      "FTR": "10.9",
+      "BYD": "11.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Tempestissimo",
+    "difficulties": {
+      "PST": "7.0",
+      "PRS": "9.5",
+      "FTR": "10.7",
+      "BYD": "11.7",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Arcana Eden",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.7",
+      "FTR": "10.5",
+      "BYD": "11.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Pentiment",
+    "difficulties": {
+      "PST": "7.0",
+      "PRS": "8.7",
+      "FTR": "10.4",
+      "BYD": "11.5",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Aether Crest: Astral",
+    "difficulties": {
+      "PST": "6.0",
+      "PRS": "8.9",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": "11.5"
+    }
+  },
+  {
+    "name": "Lament Rain",
+    "difficulties": {
+      "PST": "6.5",
+      "PRS": "8.8",
+      "FTR": "10.6",
+      "BYD": "11.4",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Abstruse Dilemma",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.9",
+      "FTR": "11.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Arghena",
+    "difficulties": {
+      "PST": "7.5",
+      "PRS": "9.6",
+      "FTR": "11.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ALTER EGO",
+    "difficulties": {
+      "PST": "6.5",
+      "PRS": "9.2",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": "11.3"
+    }
+  },
+  {
+    "name": "Aegleseeker",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "9.1",
+      "FTR": "11.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Grievous Lady",
+    "difficulties": {
+      "PST": "6.5",
+      "PRS": "9.3",
+      "FTR": "11.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Fracture Ray",
+    "difficulties": {
+      "PST": "6.0",
+      "PRS": "9.5",
+      "FTR": "11.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "#1f1e33",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "9.2",
+      "FTR": "11.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "World Ender",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.0",
+      "BYD": "11.1",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "SAIKYO STRONGER",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "9.4",
+      "FTR": "11.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "LAMIA",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.5",
+      "FTR": "11.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Misdeed -la bonté de Dieu et l'origine du mal-",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.5",
+      "FTR": "10.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Infinite Strife,",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "10.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "TEmPTaTiON",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.2",
+      "FTR": "10.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "CHAOS",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "7.5",
+      "FTR": "10.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Vulcānus",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.5",
+      "FTR": "10.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "And Revive The Melody",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.5",
+      "FTR": "10.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Breach of Faith",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.4",
+      "FTR": "10.3",
+      "BYD": "10.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "DA'AT -The First Seeker of Souls-",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.4",
+      "FTR": "10.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ViRTUS",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.6",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": "10.9"
+    }
+  },
+  {
+    "name": "MEGALOVANIA (Camellia Remix)",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.4",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": "10.9"
+    }
+  },
+  {
+    "name": "We're All Gonna Die",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.0",
+      "FTR": "10.1",
+      "BYD": "",
+      "ETR": "10.9"
+    }
+  },
+  {
+    "name": "Ringed Genesis",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.4",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dantalion",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.2",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "BUCHiGiRE Berserker",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.6",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ω4",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.8",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Divine Light of Myriad",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "GENOCIDER",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.9",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Stasis",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "PRIMITIVE LIGHTS",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.8",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Spider's Thread",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "͟͝͞Ⅱ́̕",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.9",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "TeraVolt",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.9",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Meta-Mysteria",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "7.8",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Distorted Fate",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": "10.8"
+    }
+  },
+  {
+    "name": "Désive",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.0",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": "10.8"
+    }
+  },
+  {
+    "name": "Black MInD",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.0",
+      "FTR": "10.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Nightmare",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": "10.8"
+    }
+  },
+  {
+    "name": "ouroboros -twin stroke of the end-",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Cyaegha",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.4",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "World Vanquisher",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "AMAZING MIGHTYYYY!!!!",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "REKKA RESONANCE",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.9",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "NULL APOPHENIA",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.8",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "KYOREN ROMANCE",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Inverted World",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.7"
+    }
+  },
+  {
+    "name": "Don't Fight The Music",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": "10.7"
+    }
+  },
+  {
+    "name": "Axium Crisis",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.5",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "cyanine",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "corps-sans-organes",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "AttraqtiA",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "8.3",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Overwhelm",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.5",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Seclusion",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Live Fast Die Young",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.5",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Good bye, Merry-Go-Round.",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Crimson Throne",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "8.0",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Manic Jeer",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "[X]",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "UNKNOWN LEVELS",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "8.1",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Back to Basics",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.7",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MVURBD",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dies irae",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.6"
+    }
+  },
+  {
+    "name": "Astral Quantization",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.1",
+      "FTR": "10.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Singularity",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.5",
+      "BYD": "10.4",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Halcyon",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.2",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "GLORY：ROAD",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "GIMME DA BLOOD",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Sheriruth (Laur Remix)",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lightning Screw",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Aurgelmir",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.5",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Chronicle",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.9",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lucid Traveler",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.9",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Rise of the World",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.1",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ego Eimi",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.6",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "XTREME",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "eden",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.2",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Wish Upon a Snow",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Aleph-0",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.8",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Twilight Concerto",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.5"
+    }
+  },
+  {
+    "name": "10pt8ion",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": "10.5"
+    }
+  },
+  {
+    "name": "Judgement",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.6",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Rain of Conflict in a Radiant Abyss",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "7.8",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.5"
+    }
+  },
+  {
+    "name": "Spirit of the Dauntless",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Straight into the lights",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.5"
+    }
+  },
+  {
+    "name": "MEGALOVANIA",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.5"
+    }
+  },
+  {
+    "name": "Dull Blade",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.0",
+      "FTR": "10.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "BlythE",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": "10.5"
+    }
+  },
+  {
+    "name": "γuarδina",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "8.0",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Garakuta Doll Play",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "6.5",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Felis",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Climax",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Last Celebration",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Kissing Lucifer",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "PUPA",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "IMPACT",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.8",
+      "FTR": "9.6",
+      "BYD": "10.4",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "To the Milky Way",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.9",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Qovat",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.2",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lethal Voltage",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MIRINAE",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.3",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Rays of Remnant",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.7",
+      "BYD": "10.4",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Placebo♥Battler",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.3",
+      "FTR": "10.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Metallic Punisher",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ether Strike",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "8.3",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Tiferet",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ikazuchi",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "IZANA",
+    "difficulties": {
+      "PST": "5.0",
+      "PRS": "8.3",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "To: Alice Liddell",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Viyella's Tears",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hiiro Gekka, Kyoushou no Zetsu (nayuta 2017 ver.)",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "99 Glooms",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ultradiaxon-N3",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.5",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dual Doom Deathmatch",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": "10.3"
+    }
+  },
+  {
+    "name": "SUPER AMBULANCE",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "8-EM",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.3"
+    }
+  },
+  {
+    "name": "BREaK! BREaK! BREaK!",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": "10.3"
+    }
+  },
+  {
+    "name": "Nirv lucE",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "7.0",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "αterlβus",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "conflict",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Valhalla:0",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Malicious Mischance",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Löschen",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Quon",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.7",
+      "BYD": "10.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "lastendconductor",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.4",
+      "BYD": "10.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Redolent Shape",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "NEO WINGS",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Capella",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Magnolia",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Logos",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "10.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Renegade",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.6",
+      "BYD": "10.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Your Best Nightmare",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.9",
+      "BYD": "10.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "PRAGMATISM",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.6",
+      "FTR": "10.1",
+      "BYD": "11.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "G e n g a o z o",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "8.1",
+      "FTR": "10.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Medusa",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "10.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Trrricksters!!",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Kanbu de Tomatte Sugu Tokeru",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Gensou no Satellite",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": "10.1"
+    }
+  },
+  {
+    "name": "BlazinG AIR",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": "10.1"
+    }
+  },
+  {
+    "name": "Don't Die",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": "10.1"
+    }
+  },
+  {
+    "name": "OBLIVION",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": "10.1"
+    }
+  },
+  {
+    "name": "Sheriruth",
+    "difficulties": {
+      "PST": "5.5",
+      "PRS": "7.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Alexandrite",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Scarlet Lance",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Vicious Heroism",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.0",
+      "BYD": "11.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Xanatos",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Oshama Scramble!",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Bamboo",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "HIVEMIND",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "8.6",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Free Myself",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Masquerade Legion",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Chromafill",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Third Sun",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": "10.0"
+    }
+  },
+  {
+    "name": "TRPNO",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Liar",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "10.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Modelista",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "trappola bewitching",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.9",
+      "BYD": "10.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Nhelv",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.9",
+      "BYD": "10.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Heavensdoor",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "10.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Mirzam",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Antagonism",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Arcahv",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Galaxy Friends",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "7thSense",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Summer Fireworks of Love",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Trap Crow",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Astra walkthrough",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MAXRAGE",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "The Survivor (Game Edit)",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "New York Back Raise",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "INTERNET YAMERO",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Devillic Sphere",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ultimate taste",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Amekagura",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Beautiful Dreamer",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "STARGATE EXTREME",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.0",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": "9.9"
+    }
+  },
+  {
+    "name": "Distortion Human",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hypnotize",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": "9.9"
+    }
+  },
+  {
+    "name": "Ashen 6oundary",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Swan Song",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Shinchoku Doudesuka?",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": "9.9"
+    }
+  },
+  {
+    "name": "Tic! Tac! Toe!",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": "9.9"
+    }
+  },
+  {
+    "name": "Syriana",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "SOUNDWiTCH",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Memory Forest",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Linear Accelerator",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Black Territory",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Corruption",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Heavenly caress",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Einherjar Joker",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "10.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lost Desire",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Altale",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "9.8",
+      "BYD": "10.0",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Scarlet Cage",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Got hive of Ra",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Xeraphinite",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Far Away Light",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "THE ULTIMACY",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Mazy Metroplex",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ascent",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Haze of Autumn",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "init()",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Macrocosmic Modulation",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Protoflicker",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Defection",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Callima Karma",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ai Drew",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "FLUFFY FLASH",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "World Fragments III(radio edit)",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Genesis",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hybris (The one who shattered)",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "RGB",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Kanjou no Matenrou ～Arr.Demetori",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "To the Furthest Dream",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Technicolour",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Nameless Passion",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ouvertüre",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "LIVHT MY WΔY",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MORNINGLOOM",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": "9.8"
+    }
+  },
+  {
+    "name": "Old School Salvage",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "HYPER VISION",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "shrink",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Waltz for Lorelei",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": "9.8"
+    }
+  },
+  {
+    "name": "Crimson Quartz",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": "9.8"
+    }
+  },
+  {
+    "name": "LiftOff",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": "9.8"
+    }
+  },
+  {
+    "name": "Ignition",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "yomibito_shirazu",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "8.0",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Won't Back Down",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "U.A.D",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": "9.8"
+    }
+  },
+  {
+    "name": "Miles",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": "9.8"
+    }
+  },
+  {
+    "name": "Lethaeus",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "The Message",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Sulfur",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Fallensquare",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "DX Choseinou Full Metal Shojo",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "SUPERNOVA",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dreadnought",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Monochrome Princess",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Filament",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "BATTLE NO.1",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "BLRINK",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.8",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "amygdata",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Black Lotus",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "BADTEK",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Heart Jackin'",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dazzle hop",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Vandalism",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "AlterAle",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "goldenslaughterer",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "nέο κόsmo",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "μ",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Loveless Dress",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Last | Eternity",
+    "difficulties": {
+      "PST": "",
+      "PRS": "",
+      "FTR": "",
+      "BYD": "9.7",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Let's Rock (Arcaea mix)",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lost in the Abyss",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "SACRIFICE feat. ayame",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "B.B.K.K.B.K.K.",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hotarubi no Yuki",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Luna Rossa",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Innocence",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": "9.7"
+    }
+  },
+  {
+    "name": "IONOSTREAM",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": "9.7"
+    }
+  },
+  {
+    "name": "Awaken In Ruins",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hailstone",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Last Goodbye",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": "9.7"
+    }
+  },
+  {
+    "name": "Black Mirror on the Wall",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.6",
+      "BYD": "",
+      "ETR": "9.7"
+    }
+  },
+  {
+    "name": "τ (tau)",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.8",
+      "FTR": "9.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "carmine:scythe",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "LunarOrbit -believe in the Espebranch road-",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Astral tale",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Vindication",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "A Wandering Melody of Love",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Avant Raze",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Purple Verse",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.6",
+      "BYD": "10.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lazy Addiction",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ENERGY SYNERGY MATRIX",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.6",
+      "BYD": "10.3",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Last",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.0",
+      "BYD": "9.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Heart",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "5.0",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Remind the Souls (Short Version)",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Stratoliner",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Alone & Lorn",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "epitaxy",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.6",
+      "BYD": "",
+      "ETR": "9.6"
+    }
+  },
+  {
+    "name": "DataErr0r",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Cybernecia Catharsis",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "9.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Illegal Paradise",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "STAGER (ALL STAGE CLEAR)",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "OMAKENO Stroke",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "10.3",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MAHOROBA",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ΟΔΥΣΣΕΙΑ",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Evening in Scarlet",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "NULCTRL",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "GIMMICK",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dynitikós",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Transient Space",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "felys final remix",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "On And On!! feat. Jenga",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Jingle",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": "9.5"
+    }
+  },
+  {
+    "name": "〇、",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "In Vain",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "astral.exe",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "End of The Moonlight",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "SATISFACTION",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": "9.5"
+    }
+  },
+  {
+    "name": "Someday",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Party Vinyl",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.4",
+      "BYD": "10.3",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "CROSS†SOUL",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Your voice so... feat. Such",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Impure Bird",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dreamin' Attraction!!",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Red and Blue",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.8",
+      "FTR": "9.4",
+      "BYD": "10.2",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Yosakura Fubuki",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Specta",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Be There",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "VECTOЯ",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "AI[UE]OON",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Equilibrium",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Teriqma",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "9.7",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "CROSS†OVER",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lapis",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "6.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Crystal Gravity",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "with U",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Let you DIVE! (nitro rmx)",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Final Step!",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Sakura Fubuki",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Head BONK ache",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "PICO-Pico-Translation!",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "6.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Redraw the Colorless World",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MANTIS (Arcaea Ultra-Bloodrush VIP)",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "DRG",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Raven's Pride",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "FANTA5Y",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "FURETE-MITAI",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.4",
+      "BYD": "",
+      "ETR": "9.4"
+    }
+  },
+  {
+    "name": "Death By Glamour",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": "9.4"
+    }
+  },
+  {
+    "name": "I want You",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "8.3",
+      "BYD": "",
+      "ETR": "9.4"
+    }
+  },
+  {
+    "name": "GOODTEK (Arcaea Edit)",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "9.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Oracle",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ignotus",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "9.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Auxesia",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Syro",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Blaster",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Feels So Right feat. Renko",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Glow",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Can I Friend You on Bassbook? Lol",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Small Cloud Sugar Candy",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "False Embellishment",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Blocked Library",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lost Emotion feat. nomico",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.0",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "The Formula",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "HELLOHELL",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "7.5",
+      "BYD": "",
+      "ETR": "9.3"
+    }
+  },
+  {
+    "name": "Floating World",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lost Civilization",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.2",
+      "BYD": "9.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Anökumene",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "9.2",
+      "BYD": "9.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Strongholds",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Rugie",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Phantasia",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "5.5",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Libertas",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "5.5",
+      "FTR": "9.2",
+      "BYD": "10.5",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Alice à la mode",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dancin' on a Cat's Paw",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "cocoro*cosmetic",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Used to be",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Leave All Behind",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.5",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Sign of \"10.5km\"",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ladymade Star",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "8.4",
+      "BYD": "",
+      "ETR": "9.2"
+    }
+  },
+  {
+    "name": "qualia -ideaesthesia-",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.1",
+      "BYD": "9.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Essence of Twilight",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Iconoclast",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Journey",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "dropdead",
+    "difficulties": {
+      "PST": "1.5",
+      "PRS": "9.5",
+      "FTR": "9.1",
+      "BYD": "10.5",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Empire of Winter",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "ReviXy",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "La'qryma of the Wasteland",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.5",
+      "FTR": "9.1",
+      "BYD": "10.0",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Faint Light (Arcaea Edit)",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Alice's Suitcase",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Life is PIANO",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Coastal Highway",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Blue Rose",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "6.0",
+      "FTR": "9.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Prayer",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": "9.1"
+    }
+  },
+  {
+    "name": "Flyburg and Endroll",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Kanagawa Cyber Culvert",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "5.5",
+      "FTR": "9.0",
+      "BYD": "9.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Jump",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.0",
+      "FTR": "9.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Turbocharger",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "9.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Galactic Love",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "9.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lawless Point",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "9.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Primeval Texture",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "7.5",
+      "FTR": "9.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "memoryfactory.lzh",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Flashback",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Chronostasis",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "7.5",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Evoltex (poppi'n mix)",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "7.0",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Maze No.9",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "3.5",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "MERLIN",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "8.9",
+      "BYD": "9.4",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Chelsea",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Give Me a Nightmare",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "5.5",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lights of Muse",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.9",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Surrender",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "next to you",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "7.0",
+      "FTR": "8.8",
+      "BYD": "9.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Solitary Dream",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Antithese",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.8",
+      "BYD": "9.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Vivid Theory",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Cosmica",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dialnote",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "CYCLES",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Cosmo Pop Funclub",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hidden Rainbows of Epicurus",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "7.5",
+      "BYD": "",
+      "ETR": "8.8"
+    }
+  },
+  {
+    "name": "Saint or Sinner",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "cry of viyella",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Call My Name feat. Yukacco",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Grimheart",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Senkyou",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Beside You",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Paper Witch",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Tsuki ni Murakumo, Hana ni Kaze",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "WAIT FOR DAWN",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "7.8",
+      "FTR": "8.7",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Heartache",
+    "difficulties": {
+      "PST": "1.5",
+      "PRS": "4.5",
+      "FTR": "7.5",
+      "BYD": "",
+      "ETR": "8.7"
+    }
+  },
+  {
+    "name": "Silent Rush",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "8.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "FREEF4LL",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "7.0",
+      "FTR": "8.6",
+      "BYD": "9.8",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Gekka (Short Version)",
+    "difficulties": {
+      "PST": "4.0",
+      "PRS": "6.5",
+      "FTR": "8.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "April showers",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.5",
+      "FTR": "8.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "enchanted love",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "4.5",
+      "FTR": "8.6",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Babaroque",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dandelion",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Harutopia ~Utopia of Spring~",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "4.5",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Reinvent",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "DDD",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Altair (feat. *spiLa*)",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "syūten",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.5",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Snow White",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "8.4",
+      "BYD": "9.7",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lumia",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.4",
+      "BYD": "9.5",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "REconstruction",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Moonheart",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.4",
+      "BYD": "9.7",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Rabbit In The Black Room",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Purgatorium",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.4",
+      "BYD": "9.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Eccentric Tale",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.5",
+      "FTR": "8.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "INTERNET OVERDOSE",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.5",
+      "FTR": "8.4",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Shades of Light in a Transcendent Realm",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.3",
+      "BYD": "9.1",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Bookmaker (2D Version)",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "6.5",
+      "FTR": "8.3",
+      "BYD": "10.0",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dot to Dot feat. shully",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Tie me down gently",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "8.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Oblivia",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "5.0",
+      "FTR": "8.3",
+      "BYD": "9.7",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Ävril -Flicka i krans-",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "6.0",
+      "FTR": "8.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "san skia",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "8.3",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Lucifer",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "5.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "One Last Drive",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hall of Mirrors",
+    "difficulties": {
+      "PST": "3.0",
+      "PRS": "5.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "1F√",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.5",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "blue comet",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "5.0",
+      "FTR": "8.2",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "I've heard it said",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "8.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Hikari",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "6.0",
+      "FTR": "8.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Diode",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.5",
+      "FTR": "8.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Bullet Waiting for Me (James Landino remix)",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "4.5",
+      "FTR": "8.1",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Relentless",
+    "difficulties": {
+      "PST": "4.5",
+      "PRS": "6.5",
+      "FTR": "8.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "world.execute(me);",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "5.0",
+      "FTR": "8.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Prism",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "8.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Rise",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "4.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dement ~after legend~",
+    "difficulties": {
+      "PST": "3.5",
+      "PRS": "6.0",
+      "FTR": "7.8",
+      "BYD": "9.9",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Infinity Heaven",
+    "difficulties": {
+      "PST": "1.5",
+      "PRS": "5.5",
+      "FTR": "7.8",
+      "BYD": "9.6",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Brand new world",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "4.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Paradise",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "4.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Clotho and the stargazer",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": "8.8"
+    }
+  },
+  {
+    "name": "Moonlight of Sand Castle",
+    "difficulties": {
+      "PST": "1.5",
+      "PRS": "5.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Romance Wars",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "4.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Dream goes on",
+    "difficulties": {
+      "PST": "1.5",
+      "PRS": "5.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "inkar-usi",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "4.0",
+      "FTR": "7.8",
+      "BYD": "9.4",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Suomi",
+    "difficulties": {
+      "PST": "2.0",
+      "PRS": "5.0",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": "8.9"
+    }
+  },
+  {
+    "name": "First Snow",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "4.5",
+      "FTR": "7.8",
+      "BYD": "",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Sayonara Hatsukoi",
+    "difficulties": {
+      "PST": "1.5",
+      "PRS": "4.5",
+      "FTR": "7.0",
+      "BYD": "",
+      "ETR": "8.5"
+    }
+  },
+  {
+    "name": "Fairytale",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "3.5",
+      "FTR": "7.0",
+      "BYD": "9.5",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Vexaria",
+    "difficulties": {
+      "PST": "2.5",
+      "PRS": "5.0",
+      "FTR": "7.0",
+      "BYD": "9.0",
+      "ETR": ""
+    }
+  },
+  {
+    "name": "Blossoms",
+    "difficulties": {
+      "PST": "1.0",
+      "PRS": "4.0",
+      "FTR": "7.0",
+      "BYD": "",
+      "ETR": ""
+    }
+  }
+]

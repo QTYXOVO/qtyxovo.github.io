@@ -9,14 +9,25 @@ document.querySelector('.container').insertBefore(loadingIndicator, document.que
 // 获取歌曲数据
 async function fetchSongData() {
     try {
-        const response = await fetch('http://localhost:5000/api/songs');
+        // 尝试连接后端API
+        const response = await fetch('http://127.0.0.1:5000/api/songs');
         if (!response.ok) throw new Error('网络响应不正常');
         songData = await response.json();
         loadingIndicator.style.display = 'none';
         renderResults(songData); // 初始显示所有歌曲
     } catch (error) {
-        console.error('获取数据失败:', error);
-        loadingIndicator.innerHTML = `<p>加载失败，请刷新页面重试</p>`;
+        console.error('API请求失败，尝试加载本地数据:', error);
+        try {
+            // 尝试加载本地JSON文件
+            const localResponse = await fetch('offline/songs.json');
+            if (!localResponse.ok) throw new Error('本地文件不存在或无法访问');
+            songData = await localResponse.json();
+            loadingIndicator.style.display = 'none';
+            renderResults(songData);
+        } catch (localError) {
+            console.error('本地数据加载失败:', localError);
+            loadingIndicator.innerHTML = `<p>加载失败，请确保后端服务已启动或本地数据文件存在</p>`;
+        }
     }
 }
 
