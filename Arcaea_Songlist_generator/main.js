@@ -235,3 +235,26 @@
     }
   });
 })();
+
+// 暗黑模式切换功能
+document.addEventListener('DOMContentLoaded', function() {
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  
+  // 检查本地存储中的用户偏好或系统设置
+  if (localStorage.getItem('darkMode') === 'enabled' || 
+      (!localStorage.getItem('darkMode') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.body.classList.add('dark-mode');
+    darkModeToggle.checked = true;
+  }
+  
+  // 切换暗黑模式
+  darkModeToggle.addEventListener('change', function() {
+    if (this.checked) {
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
+});

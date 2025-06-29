@@ -1,5 +1,6 @@
 // 从后端API获取歌曲数据
 let songData = [];
+let lastUpdated = null;
 const loadingIndicator = document.createElement('div');
 loadingIndicator.className = 'loading';
 loadingIndicator.innerHTML = `<div class="spinner"></div><p>加载数据中...</p>`;
@@ -12,18 +13,24 @@ async function fetchSongData() {
         // 后端API地址，部署服务器需要修改
         const response = await fetch('http://127.0.0.1:5000/api/songs');
         if (!response.ok) throw new Error('网络响应不正常');
-        songData = await response.json();
+        const data = await response.json();
+        songData = data.songs || [];
+        lastUpdated = data.last_updated;
         loadingIndicator.style.display = 'none';
-        renderResults(songData); // 初始显示所有歌曲
+        renderResults(songData);
+        updateLastUpdatedDisplay();
     } catch (error) {
         console.error('API请求失败，尝试加载本地数据:', error);
         try {
             // 尝试加载本地JSON文件
             const localResponse = await fetch('offline/songs.json');
             if (!localResponse.ok) throw new Error('本地文件不存在或无法访问');
-            songData = await localResponse.json();
+            const localData = await localResponse.json();
+            songData = Array.isArray(localData) ? localData : (localData.songs || []);
+            lastUpdated = Array.isArray(localData) ? null : localData.last_updated;
             loadingIndicator.style.display = 'none';
             renderResults(songData);
+            updateLastUpdatedDisplay();
         } catch (localError) {
             console.error('本地数据加载失败:', localError);
             loadingIndicator.innerHTML = `<p>加载失败，请确保后端服务已启动或本地数据文件存在</p>`;
@@ -131,3 +138,20 @@ function renderResults(songs) {
 function formatDifficulty(difficulty, value) {
     if (!value) return '-';
     return `<span class="difficulty-${difficulty.toLowerCase()}">${value}</span>`;}
+
+// 添加数据更新时间显示
+function updateLastUpdatedDisplay() {
+    let updateElement = document.getElementById('data-update-time');
+    if (!updateElement) {
+        updateElement = document.createElement('div');
+        updateElement.id = 'data-update-time';
+        updateElement.className = 'update-time';
+        document.querySelector('.container').insertBefore(updateElement, document.querySelector('.search-container'));
+    }
+    if (lastUpdated) {
+        const date = new Date(lastUpdated);
+        updateElement.textContent = `离线数据最后更新: ${date.toLocaleString()}`;
+    } else {
+        updateElement.textContent = '离线数据最后更新: 未知';
+    }
+}

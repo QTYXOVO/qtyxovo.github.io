@@ -1,340 +1,180 @@
-<!DOCTYPE html>
-<!-- saved from url=(0023)https://arcaea.top/gen/ -->
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+:root { 
+  --bg-color: #f0f2f5; 
+  --text-color: #202124; 
+  --card-bg: white; 
+  --status-bg: #e8f0fe; 
+  --status-color: #1a73e8; 
+  --border-color: #eee; 
+  --table-alt-bg: #f8f9fa; 
+  --input-border: #ddd; 
+  --input-focus-border: #1a73e8; 
+  --button-bg: #1a73e8; 
+  --button-hover-bg: #1967d2; 
+  --shadow-light: 0 2px 12px rgba(0,0,0,0.08); 
+  --shadow-medium: 0 3px 10px rgba(0,0,0,0.07); 
+  --border-radius: 10px; 
+  --accent-color: #1a73e8; 
+} 
+.dark-mode { 
+  --bg-color: #1a1a1a; 
+  --text-color: #e0e0e0; 
+  --card-bg: #2d2d2d; 
+  --status-bg: #2d3748; 
+  --status-color: #90cdf4; 
+  --border-color: #444; 
+  --table-alt-bg: #3d3d3d; 
+  --input-border: #555; 
+  --input-focus-border: #63b3ed; 
+  --button-bg: #3182ce; 
+  --button-hover-bg: #2c5282; 
+  --shadow-light: 0 2px 12px rgba(0,0,0,0.3); 
+  --shadow-medium: 0 3px 10px rgba(0,0,0,0.2); 
+  --accent-color: #63b3ed; 
+} body { width: calc(100% - 20px); max-width: 800px; margin: 0 auto; padding: 12px; background: var(--bg-color); color: var(--text-color); cursor: default; font-family: -apple-system, Arial, "PingFang SC", "STHeiti Light", "Microsoft YaHei", sans-serif; margin-bottom: 15px; box-shadow: var(--shadow-light); border-radius: 10px; transition: background-color 0.3s; } #status-message { padding: 8px 10px; margin: 8px 0; background: var(--status-bg); border-radius: 8px; color: var(--status-color); font-weight: 500; font-size: 13px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: background-color 0.3s, color 0.3s; } .score-item { margin-bottom: 8px; padding: 10px; background: var(--card-bg); border-radius: 10px; box-shadow: var(--shadow-medium); transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s; } .song-title, .char-name { font-weight: 600; font-size: 16px; display: inline-block; color: var(--text-color); } .song-score { font-size: 20px; font-family: Arial; color: var(--text-color); } .song-clear-type, .song-detail { color: #5f6368; } .dark-mode .song-clear-type, .dark-mode .song-detail { color: #b0b0b0; } .clearfix::after { content: ""; display: table; clear: both; } .difficulty.chart-0 { color: #fff; background: #0d6efd; } .difficulty.chart-1 { color: #fff; background: #28a745; } .difficulty.chart-2 { color: #fff; background: #6610f2; } .difficulty.chart-3 { color: #fff; background: #dc3545; } .difficulty.chart-4 { color: #fff; background: #6f42c1; } table { width: 100%; border-collapse: collapse; margin: 8px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.05); } tr:nth-of-type(2n) { background: var(--table-alt-bg); } td { padding: 10px; border-bottom: 1px solid var(--border-color); } input[type="text"], select { width: 100%; padding: 8px; margin: 4px 0; border: 1px solid var(--input-border); border-radius: 6px; box-sizing: border-box; transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s; font-size: 13px; background-color: var(--card-bg); color: var(--text-color); } input[type="text"]:focus, select:focus { border-color: var(--input-focus-border); outline: none; box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2); } input[type="button"], input[type="submit"] { background: linear-gradient(135deg, var(--button-bg), #0d5bcd);
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 2px 2px 2px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.08);
+  position: relative;
+  overflow: hidden;
+}
 
-    <style>
-      body {
-        width: calc(100% - 20px);
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 10px;
-        background: #efeff4;
-        cursor: default;
-        /*font-family: -apple-system, Arial, sans-serif;*/
-        font-family: -apple-system, Arial, "PingFang SC", "STHeiti Light",
-          "Microsoft YaHei", sans-serif;
-        margin-bottom: 30px;
-      }
-      #status-message:after {
-        content: " ";
-        display: inline-block;
-      }
-      .score-item {
-        margin-bottom: 10px;
-      }
-      .song-title,
-      .char-name {
-        font-weight: bold;
-        font-size: 18px;
-        display: inline-block;
-      }
-      .difficulty,
-      .rank {
-        font-size: 14px;
-        margin-left: 4px;
-        padding: 0 4px;
-      }
-      .song-score {
-        font-size: 22px;
-        font-family: Arial;
-      }
-      .song-clear-type {
-        font-size: 14px;
-        padding-left: 10px;
-      }
-      .song-detail {
-        font-size: 13px;
-        float: right;
-        text-align: right;
-      }
-      /* PAST(pst) */
-      .difficulty.chart-0 {
-        color: #fff;
-        background: rgb(10, 130, 190);
-      }
-      /* PRESENT(prs) */
-      .difficulty.chart-1 {
-        color: #fff;
-        background: rgb(100, 140, 60);
-      }
-      /*  FUTURE(ftr) */
-      .difficulty.chart-2 {
-        color: #fff;
-        background: rgb(80, 25, 75);
-      }
-      /*  BEYOND(byd) */
-      .difficulty.chart-3 {
-        color: #fff;
-        background: rgb(130, 35, 40);
-      }
+input[type="button"]::after, input[type="submit"]::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(rgba(255,255,0.2), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
-      /*  ETERNAL(etr) */
-      .difficulty.chart-4 {
-        color: #fff;
-        background: rgb(93, 78, 118);
-      }
+input[type="button"]:hover, input[type="submit"]:hover {
+  background: linear-gradient(135deg, var(--button-hover-bg), #0a4bad);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.1);
+}
 
-      table {
-        width: 100%;
-      }
-      tr:nth-of-type(2n) {
-        background: #ddd;
-      }
-      .difficulty + input:not(:checked) ~ table {
-        display: none;
-      }
-      details[data-id] {
-        margin-bottom: 10px;
-      }
-    </style>
-    <script src="../js/gen/main.js" defer=""></script>
-    <title>Songlist generator - Arcaea</title>
-    <style type="text/css">
-      @font-face {
-        font-family: "element-icons";
-        src: url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.woff")
-            format("woff"),
-          url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.ttf ")
-            format("truetype"); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-      }
-    </style>
-  </head>
-  <body ontouchstart="">
-    <h4>Arcaea Songlist generator - by esterTion</h4>
-    <h5>2020.06.12 v3.0 简易适配 by 某魏</h5>
-    <h5>2021.09.27 移除 Tempestissimo 自动添加</h5>
-    <h5>2023.09.12 v4.0.255 添加消色侧支持 by 御坂12456</h5>
-    <h5>2024.07.28 v5.4 添加 ETR (Eternal) 难度支持 by 御坂12456</h5>
-    <h5>2024.12.11 v6.0 添加Lephon侧支持 by 御坂12456</h5>
-    <form autocomplete="off" style="display: none">
-      <label
-        ><input
-          type="radio"
-          name="file-type"
-          data-value="songlist"
-        />Songlist</label
-      >
-    </form>
-    <form autocomplete="off">
-      <input type="file" id="load-file" /><br />
-      <input type="button" id="load-from-text" value="手动输入songlist" /><br />
-      <input type="button" id="save-file" value="保存文件" />
-      <input type="button" id="copy-content" value="复制输出" />
-    </form>
-    <br />
-    <div id="status-message"></div>
-    <br />
-    <form class="input-field songlist">
-      <table>
-        <tbody>
-          <tr>
-            <td>id：</td>
-            <td><input type="text" name="info-id" /></td>
-          </tr>
-          <tr>
-            <td>曲名：</td>
-            <td><input type="text" name="info-title" /></td>
-          </tr>
-          <tr>
-            <td>曲师：</td>
-            <td><input type="text" name="info-artist" /></td>
-          </tr>
-          <tr>
-            <td>显示bpm：</td>
-            <td><input type="text" name="info-bpm" /></td>
-          </tr>
-          <tr>
-            <td>基准bpm：</td>
-            <td><input type="text" name="info-bpm_base" /></td>
-          </tr>
-          <tr>
-            <td>曲包id：</td>
-            <td><input type="text" name="info-set" value="base" /></td>
-          </tr>
-          <tr>
-            <td>音频预览开始/ms：</td>
-            <td><input type="text" name="info-audioPreview" /></td>
-          </tr>
-          <tr>
-            <td>音频预览结束/ms：</td>
-            <td><input type="text" name="info-audioPreviewEnd" /></td>
-          </tr>
-          <tr>
-            <td>歌曲侧：</td>
-            <td>
-              <select name="info-side">
-                <option value="0">光芒(光)</option>
-                <option value="1">纷争(对立)</option>
-                <option value="2">消色</option>
-                <option value="3">Lephon</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td>背景：</td>
-            <td><input type="text" name="info-bg" /></td>
-          </tr>
-          <tr>
-            <td>日期（置空则为现在时刻）：</td>
-            <td><input type="text" name="info-date" /></td>
-          </tr>
-          <tr>
-            <td>版本：</td>
-            <td><input type="text" name="info-version" /></td>
-          </tr>
-        </tbody>
-      </table>
-      <div>
-        <span class="difficulty chart-0">PST</span
-        ><input type="checkbox" title="启用此难度" name="enable-0" /><br />
-        <table>
-          <tbody>
-            <tr>
-              <td>谱师：</td>
-              <td><input type="text" name="charter-0" /></td>
-            </tr>
-            <tr>
-              <td>封面画师：</td>
-              <td><input type="text" name="jacket-0" /></td>
-            </tr>
-            <tr>
-              <td>难度 (0=?)：</td>
-              <td><input type="text" name="rating-0" /></td>
-            </tr>
-            <tr>
-              <td>+：</td>
-              <td>
-                <select name="ratingPlus-0">
-                  <option value="0">false</option>
-                  <option value="1">true</option>
-                </select>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <span class="difficulty chart-1">PRS</span
-        ><input type="checkbox" title="启用此难度" name="enable-1" /><br />
-        <table>
-          <tbody>
-            <tr>
-              <td>谱师：</td>
-              <td><input type="text" name="charter-1" /></td>
-            </tr>
-            <tr>
-              <td>封面画师：</td>
-              <td><input type="text" name="jacket-1" /></td>
-            </tr>
-            <tr>
-              <td>难度 (0=?)：</td>
-              <td><input type="text" name="rating-1" /></td>
-            </tr>
-            <tr>
-              <td>+：</td>
-              <td>
-                <select name="ratingPlus-1">
-                  <option value="0">false</option>
-                  <option value="1">true</option>
-                </select>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <span class="difficulty chart-2">FTR</span
-        ><input type="checkbox" title="启用此难度" name="enable-2" /><br />
-        <table>
-          <tbody>
-            <tr>
-              <td>谱师：</td>
-              <td><input type="text" name="charter-2" /></td>
-            </tr>
-            <tr>
-              <td>封面画师：</td>
-              <td><input type="text" name="jacket-2" /></td>
-            </tr>
-            <tr>
-              <td>难度 (0=?)：</td>
-              <td><input type="text" name="rating-2" /></td>
-            </tr>
-            <tr>
-              <td>+：</td>
-              <td>
-                <select name="ratingPlus-2">
-                  <option value="0">false</option>
-                  <option value="1">true</option>
-                </select>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <span class="difficulty chart-3">BYD</span
-        ><input type="checkbox" title="启用此难度" name="enable-3" /><br />
-        <table>
-          <tbody>
-            <tr>
-              <td>谱师：</td>
-              <td><input type="text" name="charter-3" /></td>
-            </tr>
-            <tr>
-              <td>封面画师：</td>
-              <td><input type="text" name="jacket-3" /></td>
-            </tr>
-            <tr>
-              <td>难度 (0=?)：</td>
-              <td><input type="text" name="rating-3" /></td>
-            </tr>
-            <tr>
-              <td>+：</td>
-              <td>
-                <select name="ratingPlus-3">
-                  <option value="0">false</option>
-                  <option value="1">true</option>
-                </select>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <span class="difficulty chart-4">ETR</span
-        ><input type="checkbox" title="启用此难度" name="enable-4" /><br />
-        <table>
-          <tbody>
-            <tr>
-              <td>谱师：</td>
-              <td><input type="text" name="charter-4" /></td>
-            </tr>
-            <tr>
-              <td>封面画师：</td>
-              <td><input type="text" name="jacket-4" /></td>
-            </tr>
-            <tr>
-              <td>难度 (0=?)：</td>
-              <td><input type="text" name="rating-4" /></td>
-            </tr>
-            <tr>
-              <td>+：</td>
-              <td>
-                <select name="ratingPlus-4">
-                  <option value="0">false</option>
-                  <option value="1">true</option>
-                </select>
-              </td>
-            </tr>
-          </tbody>
-      </div>
-      <input type="submit" value="添加" />
-    </form>
-    <p>
-      <input type="button" value="清空" id="clear-list" />
-    </p>
-    <p id="output-list"></p>
-  </body>
-</html>
+input[type="button"]:hover::after, input[type="submit"]:hover::after {
+  opacity: 1;
+}
+
+input[type="button"]:active, input[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.08);
+}
+
+input[type="button"]:focus, input[type="submit"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.3);
+}
+.difficulty + input:not(:checked) ~ table { display: none; } details[data-id] { margin-bottom: 8px; border-radius: 8px; overflow: hidden; } details[data-id] summary { padding: 8px 12px; background: var(--card-bg); cursor: pointer; font-weight: 500; border-bottom: 1px solid var(--border-color); transition: background-color 0.3s; } details[data-id] summary:hover { background: #eee; } .dark-mode details[data-id] summary:hover { background: #3d3d3d; } h4, h5 { color: var(--text-color); border-bottom: 1px solid var(--border-color); padding-bottom: 6px; margin: 10px 0 6px 0; } @media (max-width: 480px) { .song-title, .char-name { font-size: 16px; } .song-score { font-size: 20px; } input[type="button"], input[type="submit"] { width: 100%; margin: 5px 0; padding: 10px; } .score-item { padding: 10px; } }
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.version-history {
+  font-size: 0.85rem;
+}
+
+.version-details {
+  cursor: pointer;
+}
+
+.version-list {
+  margin: 0.5rem 0 0 1.5rem;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.control-panel {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  box-shadow: var(--shadow-light);
+}
+
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.form-section {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-light);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group h5 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.difficulty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.difficulty-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  box-shadow: var(--shadow-medium);
+  border: 1px solid var(--border-color);
+}
+
+.difficulty-card .difficulty {
+  margin-right: 0.5rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .difficulty-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}

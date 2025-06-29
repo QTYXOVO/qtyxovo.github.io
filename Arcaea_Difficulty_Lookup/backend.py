@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+import datetime
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -10,7 +11,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})  # 允许所有来源的跨�
 
 # 缓存数据以避免频繁请求
 CACHE = {
-    'data': None,
+    'songs': None,
     'last_updated': None
 }
 
@@ -20,8 +21,11 @@ OFFLINE_DATA_PATH = os.path.join(os.path.dirname(__file__), 'offline', 'songs.js
 @app.route('/api/songs')
 def get_songs():
     # 如果有缓存数据，直接返回
-    if CACHE['data']:
-        return jsonify(CACHE['data'])
+    if CACHE['songs']:
+        return jsonify({
+            'songs': CACHE['songs'],
+            'last_updated': CACHE['last_updated']
+        })
 
     # 从维基页面获取数据
     url = 'https://arcwiki.mcd.blue/%E5%AE%9A%E6%95%B0%E8%AF%A6%E8%A1%A8'
@@ -32,8 +36,12 @@ def get_songs():
         # 在线请求失败，尝试加载本地文件
         if os.path.exists(OFFLINE_DATA_PATH):
             with open(OFFLINE_DATA_PATH, 'r', encoding='utf-8') as f:
-                CACHE['data'] = json.load(f)
-            return jsonify(CACHE['data'])
+                CACHE['songs'] = data.get('songs', [])
+                CACHE['last_updated'] = data.get('last_updated')
+            return jsonify({
+                'songs': CACHE['songs'],
+                'last_updated': CACHE['last_updated']
+            })
         else:
             return jsonify({"error": "在线获取数据失败，且本地无缓存数据"}), 500
 
@@ -45,8 +53,12 @@ def get_songs():
         # 无法找到表格，尝试使用本地缓存
         if os.path.exists(OFFLINE_DATA_PATH):
             with open(OFFLINE_DATA_PATH, 'r', encoding='utf-8') as f:
-                CACHE['data'] = json.load(f)
-            return jsonify(CACHE['data'])
+                CACHE['songs'] = data.get('songs', [])
+                CACHE['last_updated'] = data.get('last_updated')
+            return jsonify({
+                'songs': CACHE['songs'],
+                'last_updated': CACHE['last_updated']
+            })
         else:
             return jsonify({"error": "无法解析在线数据，且本地无缓存数据"}), 500
 
@@ -75,12 +87,16 @@ def get_songs():
             unique_songs.append(song)
 
     # 更新缓存
-    CACHE['data'] = unique_songs
+    CACHE['songs'] = unique_songs
+    CACHE['last_updated'] = datetime.datetime.now().isoformat()
 
     # 保存数据到本地文件
     os.makedirs(os.path.dirname(OFFLINE_DATA_PATH), exist_ok=True)
     with open(OFFLINE_DATA_PATH, 'w', encoding='utf-8') as f:
-        json.dump(unique_songs, f, ensure_ascii=False, indent=2)
+        json.dump({
+            'songs': unique_songs,
+            'last_updated': CACHE['last_updated']
+        }, f, ensure_ascii=False, indent=2)
 
     return jsonify(unique_songs)
 
