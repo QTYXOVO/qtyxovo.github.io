@@ -1,0 +1,716 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <style>
+      body {
+        width: calc(100% - 20px);
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        background: #efeff4;
+        cursor: default;
+        /*font-family: -apple-system, Arial, sans-serif;*/
+        font-family: -apple-system, Arial, "PingFang SC", "STHeiti Light",
+          "Microsoft YaHei", sans-serif;
+        margin-bottom: 30px;
+      }
+      #status-message:after {
+        content: " ";
+        display: inline-block;
+      }
+      .score-item {
+        margin-bottom: 10px;
+      }
+      .song-title,
+      .char-name {
+        font-weight: bold;
+        font-size: 18px;
+        display: inline-block;
+      }
+      .difficulty,
+      .rank {
+        font-size: 14px;
+        margin-left: 4px;
+        padding: 0 4px;
+      }
+      .song-score {
+        font-size: 22px;
+        font-family: Arial;
+      }
+      .song-clear-type {
+        font-size: 14px;
+        padding-left: 10px;
+      }
+      .song-detail {
+        font-size: 13px;
+        float: right;
+        text-align: right;
+      }
+      /* PAST(pst) */
+      .difficulty.chart-0 {
+        color: #fff;
+        background: rgb(10, 130, 190);
+      }
+      /* PRESENT(prs) */
+      .difficulty.chart-1 {
+        color: #fff;
+        background: rgb(100, 140, 60);
+      }
+      /*  FUTURE(ftr) */
+      .difficulty.chart-2 {
+        color: #fff;
+        background: rgb(80, 25, 75);
+      }
+      /*  BEYOND(byd) */
+      .difficulty.chart-3 {
+        color: #fff;
+        background: rgb(130, 35, 40);
+      }
+
+      /*  ETERNAL(etr) */
+      .difficulty.chart-4 {
+        color: #fff;
+        background: rgb(93, 78, 118);
+      }
+
+      table {
+        width: 100%;
+      }
+      tr:nth-of-type(2n) {
+        background: #ddd;
+      }
+      .difficulty + input:not(:checked) ~ table {
+        display: none;
+      }
+      details[data-id] {
+        margin-bottom: 10px;
+      }
+    </style>
+    <script src="../js/gen/main.js" defer=""></script>
+    <title>Songlist generator - Arcaea</title>
+    <style type="text/css">
+      @font-face {
+        font-family: "element-icons";
+        src: url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.woff")
+            format("woff"),
+          url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.ttf ")
+            format("truetype"); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      }
+    </style>
+  <style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2147483647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.immersive-translate-attach-loading::after {
+  content: " ";
+
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000%, -50%);
+  z-index: 100;
+}
+
+.immersive-translate-loading-spinner {
+  vertical-align: middle !important;
+  width: 10px !important;
+  height: 10px !important;
+  display: inline-block !important;
+  margin: 0 4px !important;
+  border: 2px rgba(221, 244, 255, 0.6) solid !important;
+  border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+  animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+}
+
+@-webkit-keyframes immersive-translate-loading-animation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes immersive-translate-loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.immersive-translate-input-loading {
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+}
+
+@keyframes immersiveTranslateShadowRolling {
+  0% {
+    box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  12% {
+    box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  25% {
+    box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  36% {
+    box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color),
+      100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color),
+      110px 0 var(--loading-color), 100px 0 var(--loading-color);
+  }
+
+  62% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color),
+      120px 0 var(--loading-color), 110px 0 var(--loading-color);
+  }
+
+  75% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      130px 0 var(--loading-color), 120px 0 var(--loading-color);
+  }
+
+  87% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
+  }
+
+  100% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.immersive-translate-toast {
+  display: flex;
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  right: 0;
+  top: 1%;
+  width: fit-content;
+  padding: 12px 20px;
+  margin: auto;
+  overflow: auto;
+  background: #fef6f9;
+  box-shadow: 0px 4px 10px 0px rgba(0, 10, 30, 0.06);
+  font-size: 15px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.immersive-translate-toast-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.immersive-translate-toast-hidden {
+  margin: 0 20px 0 72px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.immersive-translate-toast-close {
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-toast {
+    top: 0;
+    padding: 12px 0px 0 10px;
+  }
+  .immersive-translate-toast-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .immersive-translate-toast-hidden {
+    margin: 10px auto;
+  }
+}
+
+.immersive-translate-modal {
+  display: none;
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.immersive-translate-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 40px 24px 24px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 270px;
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-content {
+    margin: 50% auto !important;
+  }
+}
+
+.immersive-translate-modal .immersive-translate-modal-content-in-input {
+  max-width: 500px;
+}
+.immersive-translate-modal-content-in-input .immersive-translate-modal-body {
+  text-align: left;
+  max-height: unset;
+}
+
+.immersive-translate-modal-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.immersive-translate-modal-body {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  word-break: break-all;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-body {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}
+
+.immersive-translate-close {
+  color: #666666;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.immersive-translate-close:hover,
+.immersive-translate-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.immersive-translate-modal-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.immersive-translate-btn {
+  width: fit-content;
+  color: #fff;
+  background-color: #ea4c89;
+  border: none;
+  font-size: 16px;
+  margin: 0 8px;
+  padding: 9px 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.immersive-translate-btn:hover {
+  background-color: #f082ac;
+}
+.immersive-translate-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.immersive-translate-btn:disabled:hover {
+  background-color: #ea4c89;
+}
+
+.immersive-translate-cancel-btn {
+  /* gray color */
+  background-color: rgb(89, 107, 120);
+}
+
+.immersive-translate-cancel-btn:hover {
+  background-color: hsl(205, 20%, 32%);
+}
+
+.immersive-translate-action-btn {
+  background-color: transparent;
+  color: #ea4c89;
+  border: 1px solid #ea4c89;
+}
+
+.immersive-translate-btn svg {
+  margin-right: 5px;
+}
+
+.immersive-translate-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #007bff;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.immersive-translate-primary-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #ea4c89;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.immersive-translate-modal input[type="radio"] {
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.immersive-translate-modal label {
+  cursor: pointer;
+}
+
+.immersive-translate-close-action {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.imt-image-status {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 16px !important;
+}
+.imt-image-status img,
+.imt-image-status svg,
+.imt-img-loading {
+  width: 28px !important;
+  height: 28px !important;
+  margin: 0 0 8px 0 !important;
+  min-height: 28px !important;
+  min-width: 28px !important;
+  position: relative !important;
+}
+.imt-img-loading {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAPHRSTlMABBMIDyQXHwyBfFdDMSw+OjXCb+5RG51IvV/k0rOqlGRM6KKMhdvNyZBz9MaupmxpWyj437iYd/yJVNZeuUC7AAACt0lEQVRIx53T2XKiUBCA4QYOiyCbiAsuuGBcYtxiYtT3f6/pbqoYHVFO5r+iivpo6DpAWYpqeoFfr9f90DsYAuRSWkFnPO50OgR9PwiCUFcl2GEcx+N/YBh6pvKaefHlUgZd1zVe0NbYcQjGBfzrPE8Xz8aF+71D8gG6DHFPpc4a7xFiCDuhaWgKgGIJQ3d5IMGDrpS4S5KgpIm+en9f6PlAhKby4JwEIxlYJV9h5k5nee9GoxHJ2IDSNB0dwdad1NAxDJ/uXDHYmebdk4PdbkS58CIVHdYSUHTYYRWOJblWSyu2lmy3KNFVJNBhxcuGW4YBVCbYGRZwIooipHsNqjM4FbgOQqQqSKQQU9V8xmi1QlgHqQQ6DDBvRUVCDirs+EzGDGOQTCATgtYTnbCVLgsVgRE0T1QE0qHCFAht2z6dLvJQs3Lo2FQoDxWNUiBhaP4eRgwNkI+dAjVOA/kUrIDwf3CG8NfNOE0eiFotSuo+rBiq8tD9oY4Qzc6YJw99hl1wzpQvD7ef2M8QgnOGJfJw+EltQc+oX2yn907QB22WZcvlUpd143dqQu+8pCJZuGE4xCuPXJqqcs5sNpsI93Rmzym1k4Npk+oD1SH3/a3LOK/JpUBpWfqNySxWzCfNCUITuDG5dtuphrUJ1myeIE9bIsPiKrfqTai5WZxbhtNphYx6GEIHihyGFTI69lje/rxajdh0s0msZ0zYxyPLhYCb1CyHm9Qsd2H37Y3lugVwL9kNh8Ot8cha6fUNQ8nuXi5z9/ExsAO4zQrb/ev1yrCB7lGyQzgYDGuxq1toDN/JGvN+HyWNHKB7zEoK+PX11e12G431erGYzwmytAWU56fkMHY5JJnDRR2eZji3AwtIcrEV8Cojat/BdQ7XOwGV1e1hDjGGjXbdArm8uJZtCH5MbcctVX8A1WpqumJHwckAAAAASUVORK5CYII=");
+  background-size: 28px 28px;
+  animation: image-loading-rotate 1s linear infinite !important;
+}
+
+.imt-image-status span {
+  color: var(--bg-2, #fff) !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  font-weight: 500 !important;
+  font-family: "PingFang SC", Arial, sans-serif !important;
+}
+
+@keyframes image-loading-rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+</style></head>
+  <body ontouchstart="">
+    <h4>Arcaea Songlist generator - by esterTion</h4>
+    <h5>2020.06.12 v3.0 简易适配 by 某魏</h5>
+    <h5>2021.09.27 移除 Tempestissimo 自动添加</h5>
+    <h5>2023.09.12 v4.0.255 添加消色侧支持 by 御坂12456</h5>
+    <h5>2024.07.28 v5.4 添加 ETR (Eternal) 难度支持 by 御坂12456</h5>
+    <h5>2024.12.11 v6.0 添加Lephon侧支持 by 御坂12456</h5>
+    <form autocomplete="off" style="display: none">
+      <label><input type="radio" name="file-type" data-value="songlist">Songlist</label>
+    </form>
+    <form autocomplete="off">
+      <input type="file" id="load-file"><br>
+      <input type="button" id="load-from-text" value="手动输入songlist"><br>
+      <input type="button" id="save-file" value="保存文件">
+      <input type="button" id="copy-content" value="复制输出">
+    </form>
+    <br>
+    <div id="status-message"></div>
+    <br>
+    <form class="input-field songlist">
+      <table>
+        <tbody>
+          <tr>
+            <td>id：</td>
+            <td><input type="text" name="info-id"></td>
+          </tr>
+          <tr>
+            <td>曲名：</td>
+            <td><input type="text" name="info-title"></td>
+          </tr>
+          <tr>
+            <td>曲师：</td>
+            <td><input type="text" name="info-artist"></td>
+          </tr>
+          <tr>
+            <td>显示bpm：</td>
+            <td><input type="text" name="info-bpm"></td>
+          </tr>
+          <tr>
+            <td>基准bpm：</td>
+            <td><input type="text" name="info-bpm_base"></td>
+          </tr>
+          <tr>
+            <td>曲包id：</td>
+            <td><input type="text" name="info-set" value="base"></td>
+          </tr>
+          <tr>
+            <td>音频预览开始/ms：</td>
+            <td><input type="text" name="info-audioPreview"></td>
+          </tr>
+          <tr>
+            <td>音频预览结束/ms：</td>
+            <td><input type="text" name="info-audioPreviewEnd"></td>
+          </tr>
+          <tr>
+            <td>歌曲侧：</td>
+            <td>
+              <select name="info-side">
+                <option value="0">光芒(光)</option>
+                <option value="1">纷争(对立)</option>
+                <option value="2">消色</option>
+                <option value="3">Lephon</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>背景：</td>
+            <td><input type="text" name="info-bg"></td>
+          </tr>
+          <tr>
+            <td>日期（置空则为现在时刻）：</td>
+            <td><input type="text" name="info-date"></td>
+          </tr>
+          <tr>
+            <td>版本：</td>
+            <td><input type="text" name="info-version"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <span class="difficulty chart-0">PST</span><input type="checkbox" title="启用此难度" name="enable-0"><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-0"></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-0"></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-0"></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-0">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-1">PRS</span><input type="checkbox" title="启用此难度" name="enable-1"><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-1"></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-1"></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-1"></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-1">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-2">FTR</span><input type="checkbox" title="启用此难度" name="enable-2"><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-2"></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-2"></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-2"></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-2">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-3">BYD</span><input type="checkbox" title="启用此难度" name="enable-3"><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-3"></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-3"></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-3"></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-3">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-4">ETR</span><input type="checkbox" title="启用此难度" name="enable-4"><br>
+        <input type="submit" value="添加"><p>
+      <input type="button" value="清空" id="clear-list">
+    </p><p id="output-list"></p><table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-4"></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-4"></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-4"></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-4">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+      
+      
+    
+    
+    
+  
+
+</table></div></form></body><div id="immersive-translate-popup" style="all: initial"></div></html>

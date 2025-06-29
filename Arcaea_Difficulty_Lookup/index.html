@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcaea 定数查询工具</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <!-- 自定义弹窗 -->
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p>数据来源于Arcaea中文维基 <a href="https://arcwiki.mcd.blue/" target="_blank">链接</a></p>
+        </div>
+    </div>
+    <button id="about-button" style="margin: 10px 0; padding: 8px 16px; cursor: pointer;">关于</button>
+        <h1>Arcaea 定数查询</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="输入歌曲名称搜索..." autocomplete="off">
+            <select id="difficulty-select">
+                <option value="all">所有难度</option>
+                <option value="BYD">BYD</option>
+                <option value="ETR">ETR</option>
+            </select>
+            <button id="search-button">搜索</button>
+        </div>
+        <div class="results-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>歌曲名称</th>
+                        <th>PST</th>
+                        <th>PRS</th>
+                        <th>FTR</th>
+                        <th>BYD</th>
+                        <th>ETR</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body">
+                    <!-- 搜索结果将在这里显示 -->
+                </tbody>
+            </table>
+            <div id="no-results" class="no-results">没有找到匹配的歌曲</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

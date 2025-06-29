@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://arcaea.top/gen/ -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <style>
+      body {
+        width: calc(100% - 20px);
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        background: #efeff4;
+        cursor: default;
+        /*font-family: -apple-system, Arial, sans-serif;*/
+        font-family: -apple-system, Arial, "PingFang SC", "STHeiti Light",
+          "Microsoft YaHei", sans-serif;
+        margin-bottom: 30px;
+      }
+      #status-message:after {
+        content: " ";
+        display: inline-block;
+      }
+      .score-item {
+        margin-bottom: 10px;
+      }
+      .song-title,
+      .char-name {
+        font-weight: bold;
+        font-size: 18px;
+        display: inline-block;
+      }
+      .difficulty,
+      .rank {
+        font-size: 14px;
+        margin-left: 4px;
+        padding: 0 4px;
+      }
+      .song-score {
+        font-size: 22px;
+        font-family: Arial;
+      }
+      .song-clear-type {
+        font-size: 14px;
+        padding-left: 10px;
+      }
+      .song-detail {
+        font-size: 13px;
+        float: right;
+        text-align: right;
+      }
+      /* PAST(pst) */
+      .difficulty.chart-0 {
+        color: #fff;
+        background: rgb(10, 130, 190);
+      }
+      /* PRESENT(prs) */
+      .difficulty.chart-1 {
+        color: #fff;
+        background: rgb(100, 140, 60);
+      }
+      /*  FUTURE(ftr) */
+      .difficulty.chart-2 {
+        color: #fff;
+        background: rgb(80, 25, 75);
+      }
+      /*  BEYOND(byd) */
+      .difficulty.chart-3 {
+        color: #fff;
+        background: rgb(130, 35, 40);
+      }
+
+      /*  ETERNAL(etr) */
+      .difficulty.chart-4 {
+        color: #fff;
+        background: rgb(93, 78, 118);
+      }
+
+      table {
+        width: 100%;
+      }
+      tr:nth-of-type(2n) {
+        background: #ddd;
+      }
+      .difficulty + input:not(:checked) ~ table {
+        display: none;
+      }
+      details[data-id] {
+        margin-bottom: 10px;
+      }
+    </style>
+    <script src="../js/gen/main.js" defer=""></script>
+    <title>Songlist generator - Arcaea</title>
+    <style type="text/css">
+      @font-face {
+        font-family: "element-icons";
+        src: url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.woff")
+            format("woff"),
+          url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.ttf ")
+            format("truetype"); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      }
+    </style>
+  </head>
+  <body ontouchstart="">
+    <h4>Arcaea Songlist generator - by esterTion</h4>
+    <h5>2020.06.12 v3.0 简易适配 by 某魏</h5>
+    <h5>2021.09.27 移除 Tempestissimo 自动添加</h5>
+    <h5>2023.09.12 v4.0.255 添加消色侧支持 by 御坂12456</h5>
+    <h5>2024.07.28 v5.4 添加 ETR (Eternal) 难度支持 by 御坂12456</h5>
+    <h5>2024.12.11 v6.0 添加Lephon侧支持 by 御坂12456</h5>
+    <form autocomplete="off" style="display: none">
+      <label
+        ><input
+          type="radio"
+          name="file-type"
+          data-value="songlist"
+        />Songlist</label
+      >
+    </form>
+    <form autocomplete="off">
+      <input type="file" id="load-file" /><br />
+      <input type="button" id="load-from-text" value="手动输入songlist" /><br />
+      <input type="button" id="save-file" value="保存文件" />
+      <input type="button" id="copy-content" value="复制输出" />
+    </form>
+    <br />
+    <div id="status-message"></div>
+    <br />
+    <form class="input-field songlist">
+      <table>
+        <tbody>
+          <tr>
+            <td>id：</td>
+            <td><input type="text" name="info-id" /></td>
+          </tr>
+          <tr>
+            <td>曲名：</td>
+            <td><input type="text" name="info-title" /></td>
+          </tr>
+          <tr>
+            <td>曲师：</td>
+            <td><input type="text" name="info-artist" /></td>
+          </tr>
+          <tr>
+            <td>显示bpm：</td>
+            <td><input type="text" name="info-bpm" /></td>
+          </tr>
+          <tr>
+            <td>基准bpm：</td>
+            <td><input type="text" name="info-bpm_base" /></td>
+          </tr>
+          <tr>
+            <td>曲包id：</td>
+            <td><input type="text" name="info-set" value="base" /></td>
+          </tr>
+          <tr>
+            <td>音频预览开始/ms：</td>
+            <td><input type="text" name="info-audioPreview" /></td>
+          </tr>
+          <tr>
+            <td>音频预览结束/ms：</td>
+            <td><input type="text" name="info-audioPreviewEnd" /></td>
+          </tr>
+          <tr>
+            <td>歌曲侧：</td>
+            <td>
+              <select name="info-side">
+                <option value="0">光芒(光)</option>
+                <option value="1">纷争(对立)</option>
+                <option value="2">消色</option>
+                <option value="3">Lephon</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>背景：</td>
+            <td><input type="text" name="info-bg" /></td>
+          </tr>
+          <tr>
+            <td>日期（置空则为现在时刻）：</td>
+            <td><input type="text" name="info-date" /></td>
+          </tr>
+          <tr>
+            <td>版本：</td>
+            <td><input type="text" name="info-version" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <span class="difficulty chart-0">PST</span
+        ><input type="checkbox" title="启用此难度" name="enable-0" /><br />
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-0" /></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-0" /></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-0" /></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-0">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-1">PRS</span
+        ><input type="checkbox" title="启用此难度" name="enable-1" /><br />
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-1" /></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-1" /></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-1" /></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-1">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-2">FTR</span
+        ><input type="checkbox" title="启用此难度" name="enable-2" /><br />
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-2" /></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-2" /></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-2" /></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-2">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-3">BYD</span
+        ><input type="checkbox" title="启用此难度" name="enable-3" /><br />
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-3" /></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-3" /></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-3" /></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-3">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <span class="difficulty chart-4">ETR</span
+        ><input type="checkbox" title="启用此难度" name="enable-4" /><br />
+        <table>
+          <tbody>
+            <tr>
+              <td>谱师：</td>
+              <td><input type="text" name="charter-4" /></td>
+            </tr>
+            <tr>
+              <td>封面画师：</td>
+              <td><input type="text" name="jacket-4" /></td>
+            </tr>
+            <tr>
+              <td>难度 (0=?)：</td>
+              <td><input type="text" name="rating-4" /></td>
+            </tr>
+            <tr>
+              <td>+：</td>
+              <td>
+                <select name="ratingPlus-4">
+                  <option value="0">false</option>
+                  <option value="1">true</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+      </div>
+      <input type="submit" value="添加" />
+    </form>
+    <p>
+      <input type="button" value="清空" id="clear-list" />
+    </p>
+    <p id="output-list"></p>
+  </body>
+</html>

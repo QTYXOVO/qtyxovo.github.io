@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcaea 工具导航</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .nav-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #45a049;
+        }
+        .nav-button:nth-child(2) {
+            background-color: #2196F3;
+        }
+        .nav-button:nth-child(2):hover {
+            background-color: #0b7dda;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Arcaea 工具导航</h1>
+        <div class="nav-links">
+            <a href="./Arcaea_Difficulty_Lookup/index.html" class="nav-button">Arcaea 定数查询工具</a>
+            <a href="./Arcaea_Songlist_generator/index.html" class="nav-button">Arcaea 歌曲列表生成器</a>
+        </div>
+    </div>
+</body>
+</html>
