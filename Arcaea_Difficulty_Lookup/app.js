@@ -9,7 +9,7 @@ document.querySelector('.container').insertBefore(loadingIndicator, document.que
 // 获取歌曲数据
 async function fetchSongData() {
     try {
-        // 尝试连接后端API
+        // 后端API地址，部署服务器需要修改
         const response = await fetch('http://127.0.0.1:5000/api/songs');
         if (!response.ok) throw new Error('网络响应不正常');
         songData = await response.json();

@@ -1,18 +1,18 @@
 # Arcaea Difficulty Lookup 运行指南
 
 ## 项目介绍
-Arcaea Difficulty Lookup是一个用于查询Arcaea歌曲难度数据的Web应用，前端基于HTML/CSS/JavaScript，后端使用Flask提供API服务。
+Arcaea Difficulty Lookup是一个用于查询Arcaea歌曲难度数据的Web应用，前端基于HTML/CSS/JavaScript开发。支持在线API获取最新数据和离线本地数据查询两种模式，无需后端服务也可使用。
 
 ## 环境要求
-- Python 3.6+ 
 - 现代浏览器（Chrome, Firefox, Edge等）
+- （可选）Python 3.6+（仅在线模式需要）
 
 ## 安装步骤
 
 ### 1. 克隆或下载项目
 将项目文件保存到本地目录
 
-### 2. 安装依赖
+### 2. 安装依赖（仅在线模式需要）
 打开命令提示符，进入项目目录并安装所需依赖：
 ```bash
 pip install -r requirements.txt
@@ -20,31 +20,44 @@ pip install -r requirements.txt
 
 ## 运行步骤
 
-### 1. 启动后端服务
-在项目目录下执行以下命令启动Flask后端：
-```bash
-python backend.py
-```
-后端服务将运行在 http://127.0.0.1:5000
+### 模式一：在线模式（推荐，获取最新数据）
+1. 启动后端服务：
+   ```bash
+   python backend.py
+   ```
+   后端服务将运行在 http://127.0.0.1:5000
+   启动后端服务将会生成`songs.json`文件
 
-### 2. 启动前端HTTP服务器
-打开新的命令提示符窗口，进入项目目录并启动HTTP服务器：
-```bash
-python -m http.server 8000
-```
-前端服务将运行在 http://localhost:8000
+### 模式二：离线模式
+1. 确保`offline`目录下存在`songs.json`文件（首次使用需通过在线模式获取）
+2. 启动前端HTTP服务器：
+   ```bash
+   python -m http.server 8000
+   ```
+3. 打开浏览器访问：http://localhost:8000
 
-### 3. 访问应用
-打开浏览器，访问以下地址即可使用应用：
-http://localhost:8000
+
+
+2. 启动前端HTTP服务器（新命令窗口）：
+   ```bash
+   python -m http.server 8000
+   ```
+   前端服务将运行在 http://localhost:8000
+
+3. 打开浏览器访问：http://localhost:8000
+
+## 数据管理
+- 在线模式下，应用会自动从维基获取最新数据并保存到`offline/songs.json`
+- 离线模式下，应用将直接读取本地`offline/songs.json`文件
+- 如需更新离线数据，只需启动在线模式一次即可刷新缓存
 
 ## 注意事项
-- 确保后端服务和前端服务器都已启动
-- 如果端口8000或5000被占用，可以更换端口号，例如：
+- 端口占用时可更换端口号，例如：
   ```bash
   python -m http.server 8080  # 使用8080端口
   ```
-- 关闭应用时，在命令提示符窗口按 Ctrl+C 停止服务
+- 关闭服务时，在命令提示符窗口按 Ctrl+C
+- 首次使用若无离线数据，需先运行在线模式获取数据
 
 ## 数据来源
 数据来源于Arcaea中文维基：<https://arcwiki.mcd.blue/>
