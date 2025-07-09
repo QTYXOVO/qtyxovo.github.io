@@ -6,6 +6,7 @@ Arcaea Difficulty Lookup是一个用于查询Arcaea歌曲难度数据的Web应�
 ## 环境要求
 - 现代浏览器（Chrome, Firefox, Edge等）
 - （可选）Python 3.6+（仅在线模式需要）
+- 必要Python依赖：requests, beautifulsoup4（通过requirements.txt安装）
 
 ## 安装步骤
 
@@ -21,24 +22,30 @@ pip install -r requirements.txt
 ## 运行步骤
 
 ### 模式一：在线模式（推荐，获取最新数据）
-1. 启动后端服务：
+1. （可选）手动更新数据（如需强制刷新数据时使用）：
+   ```bash
+   python crawler.py
+   ```
+   该命令会直接从维基获取最新数据并保存到`offline/songs.json`
+
+2. 启动后端服务：
    ```bash
    python backend.py
    ```
    后端服务将运行在 http://127.0.0.1:5000
-   启动后端服务将会生成`songs.json`文件
+   *注：后端服务启动时会自动检查数据是否存在，如不存在将自动调用爬虫获取数据*
 
 ### 模式二：离线模式
 1. 确保`offline`目录下存在`songs.json`文件（首次使用需通过在线模式获取）
 2. 启动前端HTTP服务器：
    ```bash
-   python -m http.server 8000
+   python -m http.server 8000 --directory Arcaea_Difficulty_Lookup
    ```
 3. 打开浏览器访问：http://localhost:8000
 
 
 
-2. 启动前端HTTP服务器（新命令窗口）：
+3. 启动前端HTTP服务器（新命令窗口）：
    ```bash
    python -m http.server 8000
    ```
@@ -47,6 +54,7 @@ pip install -r requirements.txt
 3. 打开浏览器访问：http://localhost:8000
 
 ## 数据管理
+- **数据爬取模块**：独立的`crawler.py`负责数据获取和更新，支持手动运行更新数据
 - 在线模式下，应用会自动从维基获取最新数据并保存到`offline/songs.json`
 - 离线模式下，应用将直接读取本地`offline/songs.json`文件
 - 如需更新离线数据，只需启动在线模式一次即可刷新缓存

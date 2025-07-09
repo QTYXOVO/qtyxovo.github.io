@@ -1,2 +1,4 @@
 Arcaea_Difficulty_Lookup/debug.txt
 vercel.json
+__pycache__/
+.vscode
