@@ -116,7 +116,8 @@ def download_image(url: str, save_path: str, metadata: Dict[str, Dict[str, Any]]
 
         # 更新元数据
         # 存储相对路径而非绝对路径
-        relative_path = os.path.relpath(save_path, os.path.dirname(METADATA_FILE))
+        filename = os.path.basename(save_path)
+        relative_path = filename
         metadata[url] = {
             'local_path': relative_path,
             'last_updated': time.strftime('%Y-%m-%d %H:%M:%S')

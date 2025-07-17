@@ -4,130 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcaea 工具导航</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f0f0f0;
-            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .container {
-            text-align: center;
-            background-color: white;
-            padding: 40px 20px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            width: 100%;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 30px;
-            font-size: 2.2rem;
-            background: linear-gradient(135deg, #4CAF50 0%, #6c5ce7 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            display: inline-block;
-            padding: 10px 20px;
-        }
-        .nav-links {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            justify-content: center;
-            align-items: center;
-        }
-        .nav-button {
-            position: relative;
-            padding: 18px 36px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            text-decoration: none;
-            border-radius: 12px;
-            transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-            overflow: hidden;
-            margin: 10px;
-            max-width: 320px;
-            width: 100%;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white !important;
-            box-sizing: border-box;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .nav-button::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            transition: all 0.6s ease;
-        }
-        .nav-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-        }
-        .nav-button:hover::after {
-            left: 100%;
-        }
-        .nav-button:nth-child(1) {
-            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
-        }
-        .nav-button:nth-child(2) {
-            background: linear-gradient(135deg, #2196F3 0%, #0b7dda 100%);
-        }
-        .nav-button:nth-child(3) {
-            background: linear-gradient(135deg, #6c5ce7 0%, #5d4ccf 100%);
-        }
-        @media (min-width: 768px) {
-            .nav-links {
-                flex-direction: row;
-                flex-wrap: wrap;
-            }
-            .nav-button {
-                margin: 0 10px;
-            }
-        }
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.8rem;
-                padding: 8px 16px;
-            }
-            .nav-button {
-                padding: 12px 15px;
-                font-size: 1rem;
-                max-width: calc(100% - 16px);
-                margin: 8px auto;
-                white-space: normal;
-            }
-            .container {
-                padding: 15px 10px;
-                border-radius: 10px;
-            }
-            body {
-                padding: 8px;
-            }
-        }
-    </style>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Arcaea 工具导航</h1>
         <div class="nav-links">
-            <a href="./Arcaea_Difficulty_Lookup/index.html" class="nav-button">Arcaea 定数查询工具</a>
-            <a href="./Arcaea_Songlist_generator/index.html" class="nav-button">Arcaea Songlist生成器</a>
-            <a href="./Arcaea_ptt_Calculator/index.html" class="nav-button">Arcaea 单曲PTT计算器</a>
+            <a href="./Arcaea_Difficulty_Lookup/index.html" class="nav-button">定数查询</a>
+            <a href="./Arcaea_Songlist_generator/index.html" class="nav-button">Songlist生成器</a>
+            <a href="./Arcaea_ptt_Calculator/index.html" class="nav-button">单曲PTT计算器</a>
+            <a href="https://www.123865.com/s/CUh3jv-J9V0h" class="nav-button" target="_blank">安装包存档</a>
         </div>
     </div>
+
+    <div class="random-songs">
+        <h2>随机曲目</h2>
+        <div class="image-container" id="imageContainer">
+            <!-- 图片将在这里动态加载 -->
+        </div>
+        <button id="refresh-btn">刷新</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const imageContainer = document.getElementById('imageContainer');
+            const refreshBtn = document.getElementById('refresh-btn');
+            let allImages = [];
+
+            // 从元数据文件加载图片列表
+            fetch('Random_Songs/image_metadata.json')
+                .then(response => response.json())
+                .then(data => {
+                    allImages = Object.values(data).map(item => item.local_path.replace(/\\/g, '/'));
+                    displayRandomImages();
+                })
+                .catch(error => {
+                    console.error('加载图片元数据失败:', error);
+                    imageContainer.innerHTML = '<p>无法加载图片数据</p>';
+                });
+
+            // 随机显示四幅图片
+            function displayRandomImages() {
+                if (allImages.length === 0) {
+                    imageContainer.innerHTML = '<p>没有可用图片</p>';
+                    return;
+                }
+
+                // 使用Fisher-Yates算法进行更均匀的随机洗牌
+                const shuffled = [...allImages];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                const selectedImages = shuffled.slice(0, 4);
+
+                // 清空容器并添加新图片
+                imageContainer.innerHTML = '';
+                selectedImages.forEach(filename => {
+                    const img = document.createElement('img');
+                    img.src = `Random_Songs/images/${filename}`;
+                    img.alt = '随机曲目封面';
+                    img.loading = 'lazy';
+                    imageContainer.appendChild(img);
+                });
+            }
+
+            // 绑定刷新按钮事件
+            refreshBtn.addEventListener('click', displayRandomImages);
+        });
+    </script>
 </body>
 </html>
