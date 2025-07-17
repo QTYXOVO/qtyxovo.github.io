@@ -31,6 +31,8 @@
             const imageContainer = document.getElementById('imageContainer');
             const refreshBtn = document.getElementById('refresh-btn');
             let allImages = [];
+            let recentImages = []; // 存储最近显示的图片，避免重复
+            const MAX_HISTORY = 8; // 最大历史记录数量
 
             // 从元数据文件加载图片列表
             fetch('Random_Songs/image_metadata.json')
@@ -51,19 +53,25 @@
                     return;
                 }
 
+                // 过滤掉最近显示的图片
+                const availableImages = allImages.filter(img => !recentImages.includes(img));
+                const shuffled = [...(availableImages.length > 0 ? availableImages : allImages)];
+
                 // 使用Fisher-Yates算法进行更均匀的随机洗牌
-                const shuffled = [...allImages];
                 for (let i = shuffled.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
                     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
                 }
                 const selectedImages = shuffled.slice(0, 4);
 
+                // 更新历史记录
+                recentImages = [...recentImages, ...selectedImages].slice(-MAX_HISTORY);
+
                 // 清空容器并添加新图片
                 imageContainer.innerHTML = '';
                 selectedImages.forEach(filename => {
                     const img = document.createElement('img');
-                    img.src = `Random_Songs/images/${filename}`;
+                    img.src = `Random_Songs/images/${filename}?t=${new Date().getTime()}`; // 添加时间戳防止缓存
                     img.alt = '随机曲目封面';
                     img.loading = 'lazy';
                     imageContainer.appendChild(img);
