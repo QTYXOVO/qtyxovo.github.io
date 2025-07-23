@@ -1,0 +1,3 @@
+# 后端服务器依赖
+flask==2.0.1      # Web框架
+gunicorn==20.1.0  # WSGI服务器

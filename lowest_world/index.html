@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="rdr7jpy.css">
+    <title>&#65279;</title>
+  </head>
+  <style>
+  body {
+    background: #000;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    touch-action: none;
+  }
+  .container .ctr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background: url('background.png') no-repeat center;
+    height: 100px;
+    text-align: center;
+    background-size: cover;
+    max-width: 1680px;
+  }
+  .container .ctr .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 46px;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: 4px 0px 0px rgba(23, 95, 168, 0.80);
+    letter-spacing: 2px;
+    white-space: nowrap;
+  }
+  @media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr .text {
+      font-size: 46px !important;
+    }
+  }
+  @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr .text {
+      font-size: 39px !important;
+    }
+  }
+  @media only screen and (max-width: 650px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr {
+      height: 76px;
+    }
+    .container .ctr .text {
+      font-size: 34px !important;
+    }
+  }
+  @media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr .text {
+      font-size: 30px !important;
+    }
+  }
+  @media only screen and (max-width: 560px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr .text {
+      font-size: 27px !important;
+    }
+  }
+  @media only screen and (max-width: 520px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr .text {
+      font-size: 25px !important;
+    }
+  }
+  @media only screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr {
+      height: 50px;
+    }
+    .container .ctr .text {
+      font-size: 21px !important;
+      letter-spacing: 1.2px;
+    }
+  }
+  @media only screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr {
+      height: 50px;
+    }
+    .container .ctr .text {
+      font-size: 18px !important;
+      letter-spacing: 1.2px;
+    }
+  }
+  @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr {
+      height: 50px;
+    }
+    .container .ctr {
+      height: 50px;
+    }
+    .container .ctr .text {
+      font-size: 16px !important;
+      letter-spacing: 1.2px;
+    }
+  }
+  @media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container .ctr .text {
+      font-size: 13px !important;
+      letter-spacing: 1.2px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .container .ctr .text {
+      font-size: 46px;
+    }
+  }
+  @media only screen and (max-width: 831px) {
+    .container .ctr .text {
+      font-size: 43px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container .ctr .text {
+      font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    .container .ctr .text {
+      font-size: 38px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .container .ctr .text {
+      font-size: 33px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .container .ctr .text {
+      font-size: 33px;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .container .ctr .text {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .container .ctr .text {
+      font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .container .ctr .text {
+      font-size: 18px;
+    }
+  }
+  .blink {
+    animation: blinknoanim 2s linear infinite;
+  }
+  @keyframes blinknoanim {
+    0%     { opacity: 1; }
+    50%    { opacity: 1; }
+    50.01% { opacity: 0; }
+    100%   { opacity: 0; }
+  }
+  </style>
+  <body>
+    <div class="container">
+      <div class="ctr">
+        <div class="text blink" id="randomString">
+        </div>
+        <script>
+          // 从服务器获取密码
+          function getPasswordFromServer() {
+            fetch('https://fast-api-qtyxovo.vercel.app/api/password')
+              .then(response => response.json())
+              .then(data => {
+                document.getElementById('randomString').textContent = data.password;
+              })
+              .catch(error => {
+                console.error('Error fetching password:', error);
+                document.getElementById('randomString').textContent = 'The end is upon us.';
+              });
+          }
+
+          // 页面加载时立即获取密码
+          window.onload = function() {
+            getPasswordFromServer();
+            // 每分钟尝试更新一次密码
+            setInterval(getPasswordFromServer, 60000);
+          }
+        </script>
+      <div>
+    <div>
+  </body>
+</html>

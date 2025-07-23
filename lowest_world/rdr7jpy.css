@@ -1,0 +1,22 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * mr-eaves-sans:
+ *   - http://typekit.com/eulas/00000000000000003b9adbc9
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-04-30 12:17:22 UTC"}*/
+
+@import url("p_s-1-k-rdr7jpy-ht-tk-f-28416-a-6522806-app-typekit-e-css.css");
+
+@font-face {
+font-family:"mr-eaves-sans";
+src:url("https://use.typekit.net/af/b303fd/00000000000000003b9adbc9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/b303fd/00000000000000003b9adbc9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/b303fd/00000000000000003b9adbc9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+.tk-mr-eaves-sans { font-family: "mr-eaves-sans",sans-serif; }
