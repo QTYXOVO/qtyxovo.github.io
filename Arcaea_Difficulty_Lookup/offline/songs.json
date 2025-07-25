@@ -101,6 +101,16 @@
       }
     },
     {
+      "name": "Extradimensional Cosmic Phenomenon",
+      "difficulties": {
+        "PST": "6.5",
+        "PRS": "8.8",
+        "FTR": "10.6",
+        "BYD": "",
+        "ETR": "11.3"
+      }
+    },
+    {
       "name": "Aegleseeker",
       "difficulties": {
         "PST": "5.5",
@@ -436,6 +446,16 @@
         "PST": "4.5",
         "PRS": "7.8",
         "FTR": "9.8",
+        "BYD": "",
+        "ETR": "10.8"
+      }
+    },
+    {
+      "name": "Lilly",
+      "difficulties": {
+        "PST": "5.0",
+        "PRS": "8.4",
+        "FTR": "9.9",
         "BYD": "",
         "ETR": "10.8"
       }
@@ -1068,6 +1088,16 @@
         "FTR": "10.4",
         "BYD": "",
         "ETR": ""
+      }
+    },
+    {
+      "name": "Dual Dependency",
+      "difficulties": {
+        "PST": "4.5",
+        "PRS": "7.8",
+        "FTR": "9.5",
+        "BYD": "",
+        "ETR": "10.4"
       }
     },
     {
@@ -2331,6 +2361,16 @@
       }
     },
     {
+      "name": "Scarlet Lunar Empress",
+      "difficulties": {
+        "PST": "3.5",
+        "PRS": "7.0",
+        "FTR": "9.8",
+        "BYD": "",
+        "ETR": ""
+      }
+    },
+    {
       "name": "Lethaeus",
       "difficulties": {
         "PST": "3.5",
@@ -2835,6 +2875,16 @@
       "difficulties": {
         "PST": "3.0",
         "PRS": "6.0",
+        "FTR": "8.6",
+        "BYD": "",
+        "ETR": "9.6"
+      }
+    },
+    {
+      "name": "See the Lights!",
+      "difficulties": {
+        "PST": "3.5",
+        "PRS": "6.5",
         "FTR": "8.6",
         "BYD": "",
         "ETR": "9.6"
@@ -4411,6 +4461,16 @@
       }
     },
     {
+      "name": "Dematerialized",
+      "difficulties": {
+        "PST": "1.5",
+        "PRS": "4.5",
+        "FTR": "7.5",
+        "BYD": "",
+        "ETR": "8.3"
+      }
+    },
+    {
       "name": "Lucifer",
       "difficulties": {
         "PST": "3.5",
@@ -4691,5 +4751,5 @@
       }
     }
   ],
-  "last_updated": "2025-07-09T21:10:20.933204"
+  "last_updated": "2025-07-25T13:52:52.328015"
 }
