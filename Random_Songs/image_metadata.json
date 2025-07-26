@@ -1,1906 +1,1930 @@
 {
-    "https://arcwiki.mcd.blue/images/f/fd/Songs_sayonarahatsukoi.jpg": {
-        "local_path": "Songs_sayonarahatsukoi.jpg",
-        "last_updated": "2025-07-16 22:23:43"
-    },
-    "https://arcwiki.mcd.blue/images/8/8f/Songs_fairytale.jpg": {
-        "local_path": "Songs_fairytale.jpg",
-        "last_updated": "2025-07-16 22:23:45"
-    },
-    "https://arcwiki.mcd.blue/images/e/ef/Songs_vexaria.jpg": {
-        "local_path": "Songs_vexaria.jpg",
-        "last_updated": "2025-07-16 22:23:47"
-    },
-    "https://arcwiki.mcd.blue/images/a/a4/Songs_rise.jpg": {
-        "local_path": "Songs_rise.jpg",
-        "last_updated": "2025-07-16 22:23:49"
-    },
-    "https://arcwiki.mcd.blue/images/0/04/Songs_lucifer.jpg": {
-        "local_path": "Songs_lucifer.jpg",
-        "last_updated": "2025-07-16 22:23:50"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_snowwhite.jpg": {
-        "local_path": "Songs_snowwhite.jpg",
-        "last_updated": "2025-07-16 22:23:52"
-    },
-    "https://arcwiki.mcd.blue/images/9/9a/Songs_shadesoflight.jpg": {
-        "local_path": "Songs_shadesoflight.jpg",
-        "last_updated": "2025-07-16 22:23:54"
-    },
-    "https://arcwiki.mcd.blue/images/b/b7/Songs_babaroque.jpg": {
-        "local_path": "Songs_babaroque.jpg",
-        "last_updated": "2025-07-16 22:23:56"
-    },
-    "https://arcwiki.mcd.blue/images/b/b4/Songs_lostcivilization.jpg": {
-        "local_path": "Songs_lostcivilization.jpg",
-        "last_updated": "2025-07-16 22:23:57"
-    },
-    "https://arcwiki.mcd.blue/images/5/53/Songs_goodtek.jpg": {
-        "local_path": "Songs_goodtek.jpg",
-        "last_updated": "2025-07-16 22:23:59"
-    },
-    "https://arcwiki.mcd.blue/images/9/97/Songs_qualia.jpg": {
-        "local_path": "Songs_qualia.jpg",
-        "last_updated": "2025-07-16 22:24:01"
-    },
-    "https://arcwiki.mcd.blue/images/5/58/Songs_dement.jpg": {
-        "local_path": "Songs_dement.jpg",
-        "last_updated": "2025-07-16 22:24:03"
-    },
-    "https://arcwiki.mcd.blue/images/9/96/Songs_dandelion.jpg": {
-        "local_path": "Songs_dandelion.jpg",
-        "last_updated": "2025-07-16 22:24:05"
-    },
-    "https://arcwiki.mcd.blue/images/4/41/Songs_infinityheaven.jpg": {
-        "local_path": "Songs_infinityheaven.jpg",
-        "last_updated": "2025-07-16 22:24:06"
-    },
-    "https://arcwiki.mcd.blue/images/b/b6/Songs_anokumene.jpg": {
-        "local_path": "Songs_anokumene.jpg",
-        "last_updated": "2025-07-16 22:24:08"
-    },
-    "https://arcwiki.mcd.blue/images/1/1b/Songs_brandnewworld.jpg": {
-        "local_path": "Songs_brandnewworld.jpg",
-        "last_updated": "2025-07-16 22:24:10"
-    },
-    "https://arcwiki.mcd.blue/images/0/04/Songs_chronostasis.jpg": {
-        "local_path": "Songs_chronostasis.jpg",
-        "last_updated": "2025-07-16 22:24:12"
-    },
-    "https://arcwiki.mcd.blue/images/a/a7/Songs_kanagawa.jpg": {
-        "local_path": "Songs_kanagawa.jpg",
-        "last_updated": "2025-07-16 22:24:14"
-    },
-    "https://arcwiki.mcd.blue/images/5/56/Songs_clotho.jpg": {
-        "local_path": "Songs_clotho.jpg",
-        "last_updated": "2025-07-16 22:24:15"
-    },
-    "https://arcwiki.mcd.blue/images/0/0a/Songs_ignotus.jpg": {
-        "local_path": "Songs_ignotus.jpg",
-        "last_updated": "2025-07-16 22:24:17"
-    },
-    "https://arcwiki.mcd.blue/images/e/ee/Songs_ignotusafterburn.jpg": {
-        "local_path": "Songs_ignotusafterburn.jpg",
-        "last_updated": "2025-07-16 22:24:19"
-    },
-    "https://arcwiki.mcd.blue/images/7/78/Songs_harutopia.jpg": {
-        "local_path": "Songs_harutopia.jpg",
-        "last_updated": "2025-07-16 22:24:21"
-    },
-    "https://arcwiki.mcd.blue/images/1/1c/Songs_rabbitintheblackroom.jpg": {
-        "local_path": "Songs_rabbitintheblackroom.jpg",
-        "last_updated": "2025-07-16 22:24:23"
-    },
-    "https://arcwiki.mcd.blue/images/a/a2/Songs_onelastdrive.jpg": {
-        "local_path": "Songs_onelastdrive.jpg",
-        "last_updated": "2025-07-16 22:24:25"
-    },
-    "https://arcwiki.mcd.blue/images/1/15/Songs_dreaminattraction.jpg": {
-        "local_path": "Songs_dreaminattraction.jpg",
-        "last_updated": "2025-07-16 22:24:26"
-    },
-    "https://arcwiki.mcd.blue/images/a/ac/Songs_redandblue.jpg": {
-        "local_path": "Songs_redandblue.jpg",
-        "last_updated": "2025-07-16 22:24:28"
-    },
-    "https://arcwiki.mcd.blue/images/c/c9/Songs_redandblueandgreen.jpg": {
-        "local_path": "Songs_redandblueandgreen.jpg",
-        "last_updated": "2025-07-16 22:24:30"
-    },
-    "https://arcwiki.mcd.blue/images/8/8b/Songs_reinvent.jpg": {
-        "local_path": "Songs_reinvent.jpg",
-        "last_updated": "2025-07-16 22:24:32"
-    },
-    "https://arcwiki.mcd.blue/images/2/2b/Songs_syro.jpg": {
-        "local_path": "Songs_syro.jpg",
-        "last_updated": "2025-07-16 22:24:34"
-    },
-    "https://arcwiki.mcd.blue/images/5/51/Songs_blaster.jpg": {
-        "local_path": "Songs_blaster.jpg",
-        "last_updated": "2025-07-16 22:24:35"
-    },
-    "https://arcwiki.mcd.blue/images/4/4f/Songs_cyberneciacatharsis.jpg": {
-        "local_path": "Songs_cyberneciacatharsis.jpg",
-        "last_updated": "2025-07-16 22:24:37"
-    },
-    "https://arcwiki.mcd.blue/images/d/d8/Songs_inkarusi.jpg": {
-        "local_path": "Songs_inkarusi.jpg",
-        "last_updated": "2025-07-16 22:24:39"
-    },
-    "https://arcwiki.mcd.blue/images/a/a0/Songs_suomi.jpg": {
-        "local_path": "Songs_suomi.jpg",
-        "last_updated": "2025-07-16 22:24:41"
-    },
-    "https://arcwiki.mcd.blue/images/6/67/Songs_bookmaker.jpg": {
-        "local_path": "Songs_bookmaker.jpg",
-        "last_updated": "2025-07-16 22:24:43"
-    },
-    "https://arcwiki.mcd.blue/images/1/1c/Songs_darakunosono.jpg": {
-        "local_path": "Songs_darakunosono.jpg",
-        "last_updated": "2025-07-16 22:24:45"
-    },
-    "https://arcwiki.mcd.blue/images/2/27/Songs_nhelv.jpg": {
-        "local_path": "Songs_nhelv.jpg",
-        "last_updated": "2025-07-16 22:24:46"
-    },
-    "https://arcwiki.mcd.blue/images/6/6c/Songs_espebranch.jpg": {
-        "local_path": "Songs_espebranch.jpg",
-        "last_updated": "2025-07-16 22:24:48"
-    },
-    "https://arcwiki.mcd.blue/images/c/c2/Songs_purgatorium.jpg": {
-        "local_path": "Songs_purgatorium.jpg",
-        "last_updated": "2025-07-16 22:24:50"
-    },
-    "https://arcwiki.mcd.blue/images/0/01/Songs_rugie.jpg": {
-        "local_path": "Songs_rugie.jpg",
-        "last_updated": "2025-07-16 22:24:52"
-    },
-    "https://arcwiki.mcd.blue/images/b/b6/Songs_grimheart.jpg": {
-        "local_path": "Songs_grimheart.jpg",
-        "last_updated": "2025-07-16 22:24:54"
-    },
-    "https://arcwiki.mcd.blue/images/5/50/Songs_revixy.jpg": {
-        "local_path": "Songs_revixy.jpg",
-        "last_updated": "2025-07-16 22:24:56"
-    },
-    "https://arcwiki.mcd.blue/images/b/b7/Songs_vector.jpg": {
-        "local_path": "Songs_vector.jpg",
-        "last_updated": "2025-07-16 22:24:58"
-    },
-    "https://arcwiki.mcd.blue/images/9/99/Songs_supernova.jpg": {
-        "local_path": "Songs_supernova.jpg",
-        "last_updated": "2025-07-16 22:25:00"
-    },
-    "https://arcwiki.mcd.blue/images/b/b7/Songs_diode.jpg": {
-        "local_path": "Songs_diode.jpg",
-        "last_updated": "2025-07-16 22:25:01"
-    },
-    "https://arcwiki.mcd.blue/images/3/39/Songs_freefall.jpg": {
-        "local_path": "Songs_freefall.jpg",
-        "last_updated": "2025-07-16 22:25:03"
-    },
-    "https://arcwiki.mcd.blue/images/6/65/Songs_monochromeprincess.jpg": {
-        "local_path": "Songs_monochromeprincess.jpg",
-        "last_updated": "2025-07-16 22:25:05"
-    },
-    "https://arcwiki.mcd.blue/images/7/7d/Songs_senkyou.jpg": {
-        "local_path": "Songs_senkyou.jpg",
-        "last_updated": "2025-07-16 22:25:07"
-    },
-    "https://arcwiki.mcd.blue/images/0/06/Songs_worldexecuteme.jpg": {
-        "local_path": "Songs_worldexecuteme.jpg",
-        "last_updated": "2025-07-16 22:25:09"
-    },
-    "https://arcwiki.mcd.blue/images/a/a3/Songs_oblivia.jpg": {
-        "local_path": "Songs_oblivia.jpg",
-        "last_updated": "2025-07-16 22:25:11"
-    },
-    "https://arcwiki.mcd.blue/images/2/2b/Songs_avril.jpg": {
-        "local_path": "Songs_avril.jpg",
-        "last_updated": "2025-07-16 22:25:12"
-    },
-    "https://arcwiki.mcd.blue/images/d/d3/Songs_sakurafubuki.jpg": {
-        "local_path": "Songs_sakurafubuki.jpg",
-        "last_updated": "2025-07-16 22:25:14"
-    },
-    "https://arcwiki.mcd.blue/images/6/66/Songs_nulctrl.jpg": {
-        "local_path": "Songs_nulctrl.jpg",
-        "last_updated": "2025-07-16 22:25:16"
-    },
-    "https://arcwiki.mcd.blue/images/c/ce/Songs_ddd.jpg": {
-        "local_path": "Songs_ddd.jpg",
-        "last_updated": "2025-07-16 22:25:18"
-    },
-    "https://arcwiki.mcd.blue/images/3/37/Songs_nekonote.jpg": {
-        "local_path": "Songs_nekonote.jpg",
-        "last_updated": "2025-07-16 22:25:20"
-    },
-    "https://arcwiki.mcd.blue/images/7/79/Songs_sanskia.jpg": {
-        "local_path": "Songs_sanskia.jpg",
-        "last_updated": "2025-07-16 22:25:22"
-    },
-    "https://arcwiki.mcd.blue/images/d/d2/Songs_altair.jpg": {
-        "local_path": "Songs_altair.jpg",
-        "last_updated": "2025-07-16 22:25:24"
-    },
-    "https://arcwiki.mcd.blue/images/d/d5/Songs_mukishitsu.jpg": {
-        "local_path": "Songs_mukishitsu.jpg",
-        "last_updated": "2025-07-16 22:25:26"
-    },
-    "https://arcwiki.mcd.blue/images/b/bd/Songs_trapcrow.jpg": {
-        "local_path": "Songs_trapcrow.jpg",
-        "last_updated": "2025-07-16 22:25:27"
-    },
-    "https://arcwiki.mcd.blue/images/f/ff/Songs_dialnote.jpg": {
-        "local_path": "Songs_dialnote.jpg",
-        "last_updated": "2025-07-16 22:25:29"
-    },
-    "https://arcwiki.mcd.blue/images/0/00/Songs_remindthesouls.jpg": {
-        "local_path": "Songs_remindthesouls.jpg",
-        "last_updated": "2025-07-16 22:25:31"
-    },
-    "https://arcwiki.mcd.blue/images/0/0a/Songs_theformula.jpg": {
-        "local_path": "Songs_theformula.jpg",
-        "last_updated": "2025-07-16 22:25:33"
-    },
-    "https://arcwiki.mcd.blue/images/4/4f/Songs_jingle.jpg": {
-        "local_path": "Songs_jingle.jpg",
-        "last_updated": "2025-07-16 22:25:35"
-    },
-    "https://arcwiki.mcd.blue/images/c/c1/Songs_epicurus.jpg": {
-        "local_path": "Songs_epicurus.jpg",
-        "last_updated": "2025-07-16 22:25:37"
-    },
-    "https://arcwiki.mcd.blue/images/5/59/Songs_satisfaction.jpg": {
-        "local_path": "Songs_satisfaction.jpg",
-        "last_updated": "2025-07-16 22:25:39"
-    },
-    "https://arcwiki.mcd.blue/images/e/ec/Songs_hellohell.jpg": {
-        "local_path": "Songs_hellohell.jpg",
-        "last_updated": "2025-07-16 22:25:41"
-    },
-    "https://arcwiki.mcd.blue/images/c/c7/Songs_ichirin.jpg": {
-        "local_path": "Songs_ichirin.jpg",
-        "last_updated": "2025-07-16 22:25:43"
-    },
-    "https://arcwiki.mcd.blue/images/4/49/Songs_awakeninruins.jpg": {
-        "local_path": "Songs_awakeninruins.jpg",
-        "last_updated": "2025-07-16 22:25:44"
-    },
-    "https://arcwiki.mcd.blue/images/6/68/Songs_morningloom.jpg": {
-        "local_path": "Songs_morningloom.jpg",
-        "last_updated": "2025-07-16 22:25:46"
-    },
-    "https://arcwiki.mcd.blue/images/3/30/Songs_lethalvoltage.jpg": {
-        "local_path": "Songs_lethalvoltage.jpg",
-        "last_updated": "2025-07-16 22:25:48"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_leaveallbehind.jpg": {
-        "local_path": "Songs_leaveallbehind.jpg",
-        "last_updated": "2025-07-16 22:25:50"
-    },
-    "https://arcwiki.mcd.blue/images/4/45/Songs_oldschoolsalvage.jpg": {
-        "local_path": "Songs_oldschoolsalvage.jpg",
-        "last_updated": "2025-07-16 22:25:52"
-    },
-    "https://arcwiki.mcd.blue/images/0/05/Songs_distortionhuman.jpg": {
-        "local_path": "Songs_distortionhuman.jpg",
-        "last_updated": "2025-07-16 22:25:54"
-    },
-    "https://arcwiki.mcd.blue/images/6/67/Songs_epitaxy.jpg": {
-        "local_path": "Songs_epitaxy.jpg",
-        "last_updated": "2025-07-16 22:25:56"
-    },
-    "https://arcwiki.mcd.blue/images/e/ea/Songs_hailstone.jpg": {
-        "local_path": "Songs_hailstone.jpg",
-        "last_updated": "2025-07-16 22:25:58"
-    },
-    "https://arcwiki.mcd.blue/images/2/2f/Songs_furetemitai.jpg": {
-        "local_path": "Songs_furetemitai.jpg",
-        "last_updated": "2025-07-16 22:26:00"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_prayer.jpg": {
-        "local_path": "Songs_prayer.jpg",
-        "last_updated": "2025-07-16 22:26:02"
-    },
-    "https://arcwiki.mcd.blue/images/1/11/Songs_astralexe.jpg": {
-        "local_path": "Songs_astralexe.jpg",
-        "last_updated": "2025-07-16 22:26:04"
-    },
-    "https://arcwiki.mcd.blue/images/d/d9/Songs_blackmirror.jpg": {
-        "local_path": "Songs_blackmirror.jpg",
-        "last_updated": "2025-07-16 22:26:05"
-    },
-    "https://arcwiki.mcd.blue/images/c/cf/Songs_trpno.jpg": {
-        "local_path": "Songs_trpno.jpg",
-        "last_updated": "2025-07-16 22:26:07"
-    },
-    "https://arcwiki.mcd.blue/images/e/e0/Songs_tau.jpg": {
-        "local_path": "Songs_tau.jpg",
-        "last_updated": "2025-07-16 22:26:09"
-    },
-    "https://arcwiki.mcd.blue/images/7/75/Songs_wontbackdown.jpg": {
-        "local_path": "Songs_wontbackdown.jpg",
-        "last_updated": "2025-07-16 22:26:11"
-    },
-    "https://arcwiki.mcd.blue/images/3/31/Songs_someday.jpg": {
-        "local_path": "Songs_someday.jpg",
-        "last_updated": "2025-07-16 22:26:13"
-    },
-    "https://arcwiki.mcd.blue/images/c/c7/Songs_tsukinimurakumo.jpg": {
-        "local_path": "Songs_tsukinimurakumo.jpg",
-        "last_updated": "2025-07-16 22:26:15"
-    },
-    "https://arcwiki.mcd.blue/images/b/b5/Songs_mantis.jpg": {
-        "local_path": "Songs_mantis.jpg",
-        "last_updated": "2025-07-16 22:26:17"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_worldfragments.jpg": {
-        "local_path": "Songs_worldfragments.jpg",
-        "last_updated": "2025-07-16 22:26:19"
-    },
-    "https://arcwiki.mcd.blue/images/4/4e/Songs_astrawalkthrough.jpg": {
-        "local_path": "Songs_astrawalkthrough.jpg",
-        "last_updated": "2025-07-16 22:26:20"
-    },
-    "https://arcwiki.mcd.blue/images/7/7f/Songs_chronicle.jpg": {
-        "local_path": "Songs_chronicle.jpg",
-        "last_updated": "2025-07-16 22:26:22"
-    },
-    "https://arcwiki.mcd.blue/images/c/c9/Songs_letsrock.jpg": {
-        "local_path": "Songs_letsrock.jpg",
-        "last_updated": "2025-07-16 22:26:24"
-    },
-    "https://arcwiki.mcd.blue/images/a/a1/Songs_lostemotion.jpg": {
-        "local_path": "Songs_lostemotion.jpg",
-        "last_updated": "2025-07-16 22:26:26"
-    },
-    "https://arcwiki.mcd.blue/images/a/a5/Songs_gimmick.jpg": {
-        "local_path": "Songs_gimmick.jpg",
-        "last_updated": "2025-07-16 22:26:28"
-    },
-    "https://arcwiki.mcd.blue/images/7/72/Songs_lawlesspoint.jpg": {
-        "local_path": "Songs_lawlesspoint.jpg",
-        "last_updated": "2025-07-16 22:26:30"
-    },
-    "https://arcwiki.mcd.blue/images/2/2f/Songs_hybris.jpg": {
-        "local_path": "Songs_hybris.jpg",
-        "last_updated": "2025-07-16 22:26:32"
-    },
-    "https://arcwiki.mcd.blue/images/c/c5/Songs_ultimatetaste.jpg": {
-        "local_path": "Songs_ultimatetaste.jpg",
-        "last_updated": "2025-07-16 22:26:34"
-    },
-    "https://arcwiki.mcd.blue/images/0/09/Songs_rgb.jpg": {
-        "local_path": "Songs_rgb.jpg",
-        "last_updated": "2025-07-16 22:26:36"
-    },
-    "https://arcwiki.mcd.blue/images/5/53/Songs_matenrou.jpg": {
-        "local_path": "Songs_matenrou.jpg",
-        "last_updated": "2025-07-16 22:26:37"
-    },
-    "https://arcwiki.mcd.blue/images/f/f8/Songs_dynitikos.jpg": {
-        "local_path": "Songs_dynitikos.jpg",
-        "last_updated": "2025-07-16 22:26:39"
-    },
-    "https://arcwiki.mcd.blue/images/5/5c/Songs_amekagura.jpg": {
-        "local_path": "Songs_amekagura.jpg",
-        "last_updated": "2025-07-16 22:26:41"
-    },
-    "https://arcwiki.mcd.blue/images/0/0e/Songs_fantasy.jpg": {
-        "local_path": "Songs_fantasy.jpg",
-        "last_updated": "2025-07-16 22:26:43"
-    },
-    "https://arcwiki.mcd.blue/images/a/a2/Songs_aloneandlorn.jpg": {
-        "local_path": "Songs_aloneandlorn.jpg",
-        "last_updated": "2025-07-16 22:26:46"
-    },
-    "https://arcwiki.mcd.blue/images/c/cc/Songs_felys.jpg": {
-        "local_path": "Songs_felys.jpg",
-        "last_updated": "2025-07-16 22:26:48"
-    },
-    "https://arcwiki.mcd.blue/images/6/66/Songs_onandon.jpg": {
-        "local_path": "Songs_onandon.jpg",
-        "last_updated": "2025-07-16 22:26:50"
-    },
-    "https://arcwiki.mcd.blue/images/a/a2/Songs_alephzero.jpg": {
-        "local_path": "Songs_alephzero.jpg",
-        "last_updated": "2025-07-16 22:26:51"
-    },
-    "https://arcwiki.mcd.blue/images/3/33/Songs_vividtheory.jpg": {
-        "local_path": "Songs_vividtheory.jpg",
-        "last_updated": "2025-07-16 22:26:53"
-    },
-    "https://arcwiki.mcd.blue/images/d/df/Songs_onefr.jpg": {
-        "local_path": "Songs_onefr.jpg",
-        "last_updated": "2025-07-16 22:26:55"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_gekka.jpg": {
-        "local_path": "Songs_gekka.jpg",
-        "last_updated": "2025-07-16 22:26:57"
-    },
-    "https://arcwiki.mcd.blue/images/4/47/Songs_givemeanightmare.jpg": {
-        "local_path": "Songs_givemeanightmare.jpg",
-        "last_updated": "2025-07-16 22:26:59"
-    },
-    "https://arcwiki.mcd.blue/images/3/3a/Songs_blacklotus.jpg": {
-        "local_path": "Songs_blacklotus.jpg",
-        "last_updated": "2025-07-16 22:27:01"
-    },
-    "https://arcwiki.mcd.blue/images/9/9b/Songs_faintlight.jpg": {
-        "local_path": "Songs_faintlight.jpg",
-        "last_updated": "2025-07-16 22:27:03"
-    },
-    "https://arcwiki.mcd.blue/images/c/c2/Songs_crossover.jpg": {
-        "local_path": "Songs_crossover.jpg",
-        "last_updated": "2025-07-16 22:27:05"
-    },
-    "https://arcwiki.mcd.blue/images/e/ea/Songs_lapis.jpg": {
-        "local_path": "Songs_lapis.jpg",
-        "last_updated": "2025-07-16 22:27:06"
-    },
-    "https://arcwiki.mcd.blue/images/f/f3/Songs_purpleverse.jpg": {
-        "local_path": "Songs_purpleverse.jpg",
-        "last_updated": "2025-07-16 22:27:08"
-    },
-    "https://arcwiki.mcd.blue/images/0/0c/Songs_glow.jpg": {
-        "local_path": "Songs_glow.jpg",
-        "last_updated": "2025-07-16 22:27:10"
-    },
-    "https://arcwiki.mcd.blue/images/a/af/Songs_enchantedlove.jpg": {
-        "local_path": "Songs_enchantedlove.jpg",
-        "last_updated": "2025-07-16 22:27:12"
-    },
-    "https://arcwiki.mcd.blue/images/2/26/Songs_take.jpg": {
-        "local_path": "Songs_take.jpg",
-        "last_updated": "2025-07-16 22:27:14"
-    },
-    "https://arcwiki.mcd.blue/images/f/f4/Songs_lifeispiano.jpg": {
-        "local_path": "Songs_lifeispiano.jpg",
-        "last_updated": "2025-07-16 22:27:16"
-    },
-    "https://arcwiki.mcd.blue/images/a/a6/Songs_vandalism.jpg": {
-        "local_path": "Songs_vandalism.jpg",
-        "last_updated": "2025-07-16 22:27:17"
-    },
-    "https://arcwiki.mcd.blue/images/0/0f/Songs_turbocharger.jpg": {
-        "local_path": "Songs_turbocharger.jpg",
-        "last_updated": "2025-07-16 22:27:19"
-    },
-    "https://arcwiki.mcd.blue/images/2/24/Songs_kyogenkigo.jpg": {
-        "local_path": "Songs_kyogenkigo.jpg",
-        "last_updated": "2025-07-16 22:27:21"
-    },
-    "https://arcwiki.mcd.blue/images/a/a7/Songs_hivemind.jpg": {
-        "local_path": "Songs_hivemind.jpg",
-        "last_updated": "2025-07-16 22:27:23"
-    },
-    "https://arcwiki.mcd.blue/images/7/7a/Songs_bluecomet.jpg": {
-        "local_path": "Songs_bluecomet.jpg",
-        "last_updated": "2025-07-16 22:27:25"
-    },
-    "https://arcwiki.mcd.blue/images/a/a5/Songs_energysynergymatrix.jpg": {
-        "local_path": "Songs_energysynergymatrix.jpg",
-        "last_updated": "2025-07-16 22:27:27"
-    },
-    "https://arcwiki.mcd.blue/images/a/a7/Songs_gengaozo.jpg": {
-        "local_path": "Songs_gengaozo.jpg",
-        "last_updated": "2025-07-16 22:27:29"
-    },
-    "https://arcwiki.mcd.blue/images/1/13/Songs_swansong.jpg": {
-        "local_path": "Songs_swansong.jpg",
-        "last_updated": "2025-07-16 22:27:31"
-    },
-    "https://arcwiki.mcd.blue/images/c/cd/Songs_renegade.jpg": {
-        "local_path": "Songs_renegade.jpg",
-        "last_updated": "2025-07-16 22:27:32"
-    },
-    "https://arcwiki.mcd.blue/images/c/c3/Songs_raysofremnant.jpg": {
-        "local_path": "Songs_raysofremnant.jpg",
-        "last_updated": "2025-07-16 22:27:34"
-    },
-    "https://arcwiki.mcd.blue/images/6/6c/Songs_breachoffaith.jpg": {
-        "local_path": "Songs_breachoffaith.jpg",
-        "last_updated": "2025-07-16 22:27:36"
-    },
-    "https://arcwiki.mcd.blue/images/8/83/Songs_lamentrain.jpg": {
-        "local_path": "Songs_lamentrain.jpg",
-        "last_updated": "2025-07-16 22:27:38"
-    },
-    "https://arcwiki.mcd.blue/images/e/ef/Songs_designant.jpg": {
-        "local_path": "Songs_designant.jpg",
-        "last_updated": "2025-07-16 22:27:40"
-    },
-    "https://arcwiki.mcd.blue/images/3/37/Songs_astralquant.jpg": {
-        "local_path": "Songs_astralquant.jpg",
-        "last_updated": "2025-07-16 22:27:42"
-    },
-    "https://arcwiki.mcd.blue/images/c/c9/Songs_invain.jpg": {
-        "local_path": "Songs_invain.jpg",
-        "last_updated": "2025-07-16 22:27:44"
-    },
-    "https://arcwiki.mcd.blue/images/9/95/Songs_hypnotize.jpg": {
-        "local_path": "Songs_hypnotize.jpg",
-        "last_updated": "2025-07-16 22:27:46"
-    },
-    "https://arcwiki.mcd.blue/images/f/f9/Songs_ashenboundary.jpg": {
-        "local_path": "Songs_ashenboundary.jpg",
-        "last_updated": "2025-07-16 22:27:47"
-    },
-    "https://arcwiki.mcd.blue/images/1/1d/Songs_judgement.jpg": {
-        "local_path": "Songs_judgement.jpg",
-        "last_updated": "2025-07-16 22:27:49"
-    },
-    "https://arcwiki.mcd.blue/images/b/b1/Songs_alterego.jpg": {
-        "local_path": "Songs_alterego.jpg",
-        "last_updated": "2025-07-16 22:27:51"
-    },
-    "https://arcwiki.mcd.blue/images/5/50/Songs_waitfordawn.jpg": {
-        "local_path": "Songs_waitfordawn.jpg",
-        "last_updated": "2025-07-16 22:27:53"
-    },
-    "https://arcwiki.mcd.blue/images/e/e9/Songs_ravenspride.jpg": {
-        "local_path": "Songs_ravenspride.jpg",
-        "last_updated": "2025-07-16 22:27:55"
-    },
-    "https://arcwiki.mcd.blue/images/6/61/Songs_riseoftheworld.jpg": {
-        "local_path": "Songs_riseoftheworld.jpg",
-        "last_updated": "2025-07-16 22:27:57"
-    },
-    "https://arcwiki.mcd.blue/images/e/e6/Songs_unknownlevels.jpg": {
-        "local_path": "Songs_unknownlevels.jpg",
-        "last_updated": "2025-07-16 22:27:58"
-    },
-    "https://arcwiki.mcd.blue/images/5/5a/Songs_abstrusedilemma.jpg": {
-        "local_path": "Songs_abstrusedilemma.jpg",
-        "last_updated": "2025-07-16 22:28:00"
-    },
-    "https://arcwiki.mcd.blue/images/f/f2/Songs_primevaltexture.jpg": {
-        "local_path": "Songs_primevaltexture.jpg",
-        "last_updated": "2025-07-16 22:28:02"
-    },
-    "https://arcwiki.mcd.blue/images/c/c7/Songs_technicolour.jpg": {
-        "local_path": "Songs_technicolour.jpg",
-        "last_updated": "2025-07-16 22:28:04"
-    },
-    "https://arcwiki.mcd.blue/images/6/6e/Songs_logos.jpg": {
-        "local_path": "Songs_logos.jpg",
-        "last_updated": "2025-07-16 22:28:06"
-    },
-    "https://arcwiki.mcd.blue/images/e/e8/Songs_egoeimi.jpg": {
-        "local_path": "Songs_egoeimi.jpg",
-        "last_updated": "2025-07-16 22:28:08"
-    },
-    "https://arcwiki.mcd.blue/images/6/62/Songs_arghena.jpg": {
-        "local_path": "Songs_arghena.jpg",
-        "last_updated": "2025-07-16 22:28:10"
-    },
-    "https://arcwiki.mcd.blue/images/8/8a/Songs_transientspace.jpg": {
-        "local_path": "Songs_transientspace.jpg",
-        "last_updated": "2025-07-16 22:28:11"
-    },
-    "https://arcwiki.mcd.blue/images/f/f7/Songs_namelesspassion.jpg": {
-        "local_path": "Songs_namelesspassion.jpg",
-        "last_updated": "2025-07-16 22:28:13"
-    },
-    "https://arcwiki.mcd.blue/images/4/45/Songs_teravolt.jpg": {
-        "local_path": "Songs_teravolt.jpg",
-        "last_updated": "2025-07-16 22:28:15"
-    },
-    "https://arcwiki.mcd.blue/images/2/2b/Songs_lovelessdress.jpg": {
-        "local_path": "Songs_lovelessdress.jpg",
-        "last_updated": "2025-07-16 22:28:17"
-    },
-    "https://arcwiki.mcd.blue/images/a/a2/Songs_last.jpg": {
-        "local_path": "Songs_last.jpg",
-        "last_updated": "2025-07-16 22:28:19"
-    },
-    "https://arcwiki.mcd.blue/images/b/b3/Songs_callimakarma.jpg": {
-        "local_path": "Songs_callimakarma.jpg",
-        "last_updated": "2025-07-16 22:28:20"
-    },
-    "https://arcwiki.mcd.blue/images/6/6b/Songs_defection.jpg": {
-        "local_path": "Songs_defection.jpg",
-        "last_updated": "2025-07-16 22:28:22"
-    },
-    "https://arcwiki.mcd.blue/images/d/d5/Songs_infinitestrife.jpg": {
-        "local_path": "Songs_infinitestrife.jpg",
-        "last_updated": "2025-07-16 22:28:24"
-    },
-    "https://arcwiki.mcd.blue/images/4/43/Songs_worldender.jpg": {
-        "local_path": "Songs_worldender.jpg",
-        "last_updated": "2025-07-16 22:28:26"
-    },
-    "https://arcwiki.mcd.blue/images/2/2d/Songs_pentiment.jpg": {
-        "local_path": "Songs_pentiment.jpg",
-        "last_updated": "2025-07-16 22:28:28"
-    },
-    "https://arcwiki.mcd.blue/images/5/5a/Songs_arcanaeden.jpg": {
-        "local_path": "Songs_arcanaeden.jpg",
-        "last_updated": "2025-07-16 22:28:30"
-    },
-    "https://arcwiki.mcd.blue/images/2/22/Songs_testify.jpg": {
-        "local_path": "Songs_testify.jpg",
-        "last_updated": "2025-07-16 22:28:31"
-    },
-    "https://arcwiki.mcd.blue/images/b/b9/Songs_equilibrium.jpg": {
-        "local_path": "Songs_equilibrium.jpg",
-        "last_updated": "2025-07-16 22:28:33"
-    },
-    "https://arcwiki.mcd.blue/images/e/e5/Songs_antagonism.jpg": {
-        "local_path": "Songs_antagonism.jpg",
-        "last_updated": "2025-07-16 22:28:35"
-    },
-    "https://arcwiki.mcd.blue/images/5/5b/Songs_lostdesire.jpg": {
-        "local_path": "Songs_lostdesire.jpg",
-        "last_updated": "2025-07-16 22:28:37"
-    },
-    "https://arcwiki.mcd.blue/images/8/89/Songs_dantalion.jpg": {
-        "local_path": "Songs_dantalion.jpg",
-        "last_updated": "2025-07-16 22:28:39"
-    },
-    "https://arcwiki.mcd.blue/images/b/be/Songs_ifi.jpg": {
-        "local_path": "Songs_ifi.jpg",
-        "last_updated": "2025-07-16 22:28:41"
-    },
-    "https://arcwiki.mcd.blue/images/c/c8/Songs_tempestissimo.jpg": {
-        "local_path": "Songs_tempestissimo.jpg",
-        "last_updated": "2025-07-16 22:28:42"
-    },
-    "https://arcwiki.mcd.blue/images/b/b3/Songs_arcahv.jpg": {
-        "local_path": "Songs_arcahv.jpg",
-        "last_updated": "2025-07-16 22:28:44"
-    },
-    "https://arcwiki.mcd.blue/images/4/4d/Songs_vindication.jpg": {
-        "local_path": "Songs_vindication.jpg",
-        "last_updated": "2025-07-16 22:28:46"
-    },
-    "https://arcwiki.mcd.blue/images/7/7e/Songs_heavensdoor.jpg": {
-        "local_path": "Songs_heavensdoor.jpg",
-        "last_updated": "2025-07-16 22:28:48"
-    },
-    "https://arcwiki.mcd.blue/images/b/bd/Songs_ringedgenesis.jpg": {
-        "local_path": "Songs_ringedgenesis.jpg",
-        "last_updated": "2025-07-16 22:28:50"
-    },
-    "https://arcwiki.mcd.blue/images/e/e8/Songs_blrink.jpg": {
-        "local_path": "Songs_blrink.jpg",
-        "last_updated": "2025-07-16 22:28:51"
-    },
-    "https://arcwiki.mcd.blue/images/d/df/Songs_saintorsinner.jpg": {
-        "local_path": "Songs_saintorsinner.jpg",
-        "last_updated": "2025-07-16 22:28:53"
-    },
-    "https://arcwiki.mcd.blue/images/4/44/Songs_mazenine.jpg": {
-        "local_path": "Songs_mazenine.jpg",
-        "last_updated": "2025-07-16 22:28:55"
-    },
-    "https://arcwiki.mcd.blue/images/3/35/Songs_themessage.jpg": {
-        "local_path": "Songs_themessage.jpg",
-        "last_updated": "2025-07-16 22:28:57"
-    },
-    "https://arcwiki.mcd.blue/images/0/00/Songs_sulfur.jpg": {
-        "local_path": "Songs_sulfur.jpg",
-        "last_updated": "2025-07-16 22:28:59"
-    },
-    "https://arcwiki.mcd.blue/images/b/ba/Songs_halcyon.jpg": {
-        "local_path": "Songs_halcyon.jpg",
-        "last_updated": "2025-07-16 22:29:01"
-    },
-    "https://arcwiki.mcd.blue/images/b/b2/Songs_etherstrike.jpg": {
-        "local_path": "Songs_etherstrike.jpg",
-        "last_updated": "2025-07-16 22:29:03"
-    },
-    "https://arcwiki.mcd.blue/images/1/1a/Songs_fractureray.jpg": {
-        "local_path": "Songs_fractureray.jpg",
-        "last_updated": "2025-07-16 22:29:05"
-    },
-    "https://arcwiki.mcd.blue/images/7/76/Songs_iconoclast.jpg": {
-        "local_path": "Songs_iconoclast.jpg",
-        "last_updated": "2025-07-16 22:29:06"
-    },
-    "https://arcwiki.mcd.blue/images/4/4b/Songs_soundwitch.jpg": {
-        "local_path": "Songs_soundwitch.jpg",
-        "last_updated": "2025-07-16 22:29:08"
-    },
-    "https://arcwiki.mcd.blue/images/a/a2/Songs_trappola.jpg": {
-        "local_path": "Songs_trappola.jpg",
-        "last_updated": "2025-07-16 22:29:10"
-    },
-    "https://arcwiki.mcd.blue/images/4/4e/Songs_conflict.jpg": {
-        "local_path": "Songs_conflict.jpg",
-        "last_updated": "2025-07-16 22:29:12"
-    },
-    "https://arcwiki.mcd.blue/images/f/f3/Songs_axiumcrisis.jpg": {
-        "local_path": "Songs_axiumcrisis.jpg",
-        "last_updated": "2025-07-16 22:29:14"
-    },
-    "https://arcwiki.mcd.blue/images/7/7b/Songs_grievouslady.jpg": {
-        "local_path": "Songs_grievouslady.jpg",
-        "last_updated": "2025-07-16 22:29:16"
-    },
-    "https://arcwiki.mcd.blue/images/0/00/Songs_viyella.jpg": {
-        "local_path": "Songs_viyella.jpg",
-        "last_updated": "2025-07-16 22:29:18"
-    },
-    "https://arcwiki.mcd.blue/images/a/a3/Songs_hearditsaid.jpg": {
-        "local_path": "Songs_hearditsaid.jpg",
-        "last_updated": "2025-07-16 22:29:20"
-    },
-    "https://arcwiki.mcd.blue/images/5/59/Songs_memoryfactory.jpg": {
-        "local_path": "Songs_memoryfactory.jpg",
-        "last_updated": "2025-07-16 22:29:22"
-    },
-    "https://arcwiki.mcd.blue/images/f/fe/Songs_relentless.jpg": {
-        "local_path": "Songs_relentless.jpg",
-        "last_updated": "2025-07-16 22:29:23"
-    },
-    "https://arcwiki.mcd.blue/images/c/c9/Songs_lumia.jpg": {
-        "local_path": "Songs_lumia.jpg",
-        "last_updated": "2025-07-16 22:29:25"
-    },
-    "https://arcwiki.mcd.blue/images/7/77/Songs_essenceoftwilight.jpg": {
-        "local_path": "Songs_essenceoftwilight.jpg",
-        "last_updated": "2025-07-16 22:29:27"
-    },
-    "https://arcwiki.mcd.blue/images/2/24/Songs_pragmatism.jpg": {
-        "local_path": "Songs_pragmatism.jpg",
-        "last_updated": "2025-07-16 22:29:29"
-    },
-    "https://arcwiki.mcd.blue/images/4/4e/Songs_pragmatism_byd.jpg": {
-        "local_path": "Songs_pragmatism_byd.jpg",
-        "last_updated": "2025-07-16 22:29:31"
-    },
-    "https://arcwiki.mcd.blue/images/0/0f/Songs_sheriruth.jpg": {
-        "local_path": "Songs_sheriruth.jpg",
-        "last_updated": "2025-07-16 22:29:33"
-    },
-    "https://arcwiki.mcd.blue/images/d/d8/Songs_solitarydream.jpg": {
-        "local_path": "Songs_solitarydream.jpg",
-        "last_updated": "2025-07-16 22:29:35"
-    },
-    "https://arcwiki.mcd.blue/images/5/5c/Songs_paperwitch.jpg": {
-        "local_path": "Songs_paperwitch.jpg",
-        "last_updated": "2025-07-16 22:29:37"
-    },
-    "https://arcwiki.mcd.blue/images/7/71/Songs_crystalgravity.jpg": {
-        "local_path": "Songs_crystalgravity.jpg",
-        "last_updated": "2025-07-16 22:29:39"
-    },
-    "https://arcwiki.mcd.blue/images/0/01/Songs_farawaylight.jpg": {
-        "local_path": "Songs_farawaylight.jpg",
-        "last_updated": "2025-07-16 22:29:55"
-    },
-    "https://arcwiki.mcd.blue/images/0/0b/Songs_loschen.jpg": {
-        "local_path": "Songs_loschen.jpg",
-        "last_updated": "2025-07-16 22:29:57"
-    },
-    "https://arcwiki.mcd.blue/images/5/5a/Songs_aegleseeker.jpg": {
-        "local_path": "Songs_aegleseeker.jpg",
-        "last_updated": "2025-07-16 22:29:59"
-    },
-    "https://arcwiki.mcd.blue/images/7/79/Songs_seclusion.jpg": {
-        "local_path": "Songs_seclusion.jpg",
-        "last_updated": "2025-07-16 22:30:01"
-    },
-    "https://arcwiki.mcd.blue/images/0/04/Songs_coastalhighway.jpg": {
-        "local_path": "Songs_coastalhighway.jpg",
-        "last_updated": "2025-07-16 22:30:03"
-    },
-    "https://arcwiki.mcd.blue/images/b/b1/Songs_odysseia.jpg": {
-        "local_path": "Songs_odysseia.jpg",
-        "last_updated": "2025-07-16 22:30:04"
-    },
-    "https://arcwiki.mcd.blue/images/2/2a/Songs_overwhelm.jpg": {
-        "local_path": "Songs_overwhelm.jpg",
-        "last_updated": "2025-07-16 22:30:06"
-    },
-    "https://arcwiki.mcd.blue/images/d/d3/Songs_smallcloud.jpg": {
-        "local_path": "Songs_smallcloud.jpg",
-        "last_updated": "2025-07-16 22:30:08"
-    },
-    "https://arcwiki.mcd.blue/images/b/b3/Songs_alterale.jpg": {
-        "local_path": "Songs_alterale.jpg",
-        "last_updated": "2025-07-16 22:30:10"
-    },
-    "https://arcwiki.mcd.blue/images/1/17/Songs_divinelight.jpg": {
-        "local_path": "Songs_divinelight.jpg",
-        "last_updated": "2025-07-16 22:30:12"
-    },
-    "https://arcwiki.mcd.blue/images/3/3a/Songs_firstsnow.jpg": {
-        "local_path": "Songs_firstsnow.jpg",
-        "last_updated": "2025-07-16 22:30:14"
-    },
-    "https://arcwiki.mcd.blue/images/8/8c/Songs_bluerose.jpg": {
-        "local_path": "Songs_bluerose.jpg",
-        "last_updated": "2025-07-16 22:30:16"
-    },
-    "https://arcwiki.mcd.blue/images/6/60/Songs_blockedlibrary.jpg": {
-        "local_path": "Songs_blockedlibrary.jpg",
-        "last_updated": "2025-07-16 22:30:18"
-    },
-    "https://arcwiki.mcd.blue/images/c/cf/Songs_neokosmo.jpg": {
-        "local_path": "Songs_neokosmo.jpg",
-        "last_updated": "2025-07-16 22:30:20"
-    },
-    "https://arcwiki.mcd.blue/images/3/31/Songs_lightningscrew.jpg": {
-        "local_path": "Songs_lightningscrew.jpg",
-        "last_updated": "2025-07-16 22:30:22"
-    },
-    "https://arcwiki.mcd.blue/images/2/2b/Songs_alicealamode.jpg": {
-        "local_path": "Songs_alicealamode.jpg",
-        "last_updated": "2025-07-16 22:30:24"
-    },
-    "https://arcwiki.mcd.blue/images/6/69/Songs_eccentrictale.jpg": {
-        "local_path": "Songs_eccentrictale.jpg",
-        "last_updated": "2025-07-16 22:30:25"
-    },
-    "https://arcwiki.mcd.blue/images/a/a8/Songs_alicessuitcase.jpg": {
-        "local_path": "Songs_alicessuitcase.jpg",
-        "last_updated": "2025-07-16 22:30:27"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_jump.jpg": {
-        "local_path": "Songs_jump.jpg",
-        "last_updated": "2025-07-16 22:30:29"
-    },
-    "https://arcwiki.mcd.blue/images/4/4b/Songs_felis.jpg": {
-        "local_path": "Songs_felis.jpg",
-        "last_updated": "2025-07-16 22:30:31"
-    },
-    "https://arcwiki.mcd.blue/images/e/ed/Songs_besideyou.jpg": {
-        "local_path": "Songs_besideyou.jpg",
-        "last_updated": "2025-07-16 22:30:33"
-    },
-    "https://arcwiki.mcd.blue/images/2/22/Songs_heartjackin.jpg": {
-        "local_path": "Songs_heartjackin.jpg",
-        "last_updated": "2025-07-16 22:30:35"
-    },
-    "https://arcwiki.mcd.blue/images/a/a8/Songs_toaliceliddell.jpg": {
-        "local_path": "Songs_toaliceliddell.jpg",
-        "last_updated": "2025-07-16 22:30:36"
-    },
-    "https://arcwiki.mcd.blue/images/f/f4/Songs_chelsea.jpg": {
-        "local_path": "Songs_chelsea.jpg",
-        "last_updated": "2025-07-16 22:30:38"
-    },
-    "https://arcwiki.mcd.blue/images/a/a4/Songs_aiueoon.jpg": {
-        "local_path": "Songs_aiueoon.jpg",
-        "last_updated": "2025-07-16 22:30:40"
-    },
-    "https://arcwiki.mcd.blue/images/b/b4/Songs_melodyoflove.jpg": {
-        "local_path": "Songs_melodyoflove.jpg",
-        "last_updated": "2025-07-16 22:30:42"
-    },
-    "https://arcwiki.mcd.blue/images/f/fa/Songs_tiemedowngently.jpg": {
-        "local_path": "Songs_tiemedowngently.jpg",
-        "last_updated": "2025-07-16 22:30:44"
-    },
-    "https://arcwiki.mcd.blue/images/9/95/Songs_valhallazero.jpg": {
-        "local_path": "Songs_valhallazero.jpg",
-        "last_updated": "2025-07-16 22:30:46"
-    },
-    "https://arcwiki.mcd.blue/images/0/08/Songs_hotarubinoyuki.jpg": {
-        "local_path": "Songs_hotarubinoyuki.jpg",
-        "last_updated": "2025-07-16 22:30:48"
-    },
-    "https://arcwiki.mcd.blue/images/1/18/Songs_antithese.jpg": {
-        "local_path": "Songs_antithese.jpg",
-        "last_updated": "2025-07-16 22:30:49"
-    },
-    "https://arcwiki.mcd.blue/images/9/9d/Songs_blackterritory.jpg": {
-        "local_path": "Songs_blackterritory.jpg",
-        "last_updated": "2025-07-16 22:30:51"
-    },
-    "https://arcwiki.mcd.blue/images/1/18/Songs_corruption.jpg": {
-        "local_path": "Songs_corruption.jpg",
-        "last_updated": "2025-07-16 22:30:53"
-    },
-    "https://arcwiki.mcd.blue/images/e/e9/Songs_viciousheroism.jpg": {
-        "local_path": "Songs_viciousheroism.jpg",
-        "last_updated": "2025-07-16 22:30:55"
-    },
-    "https://arcwiki.mcd.blue/images/a/a8/Songs_viciousheroism_byd.jpg": {
-        "local_path": "Songs_viciousheroism_byd.jpg",
-        "last_updated": "2025-07-16 22:30:57"
-    },
-    "https://arcwiki.mcd.blue/images/9/93/Songs_cyaegha.jpg": {
-        "local_path": "Songs_cyaegha.jpg",
-        "last_updated": "2025-07-16 22:30:59"
-    },
-    "https://arcwiki.mcd.blue/images/f/f4/Songs_nexttoyou.jpg": {
-        "local_path": "Songs_nexttoyou.jpg",
-        "last_updated": "2025-07-16 22:31:01"
-    },
-    "https://arcwiki.mcd.blue/images/c/c0/Songs_silentrush.jpg": {
-        "local_path": "Songs_silentrush.jpg",
-        "last_updated": "2025-07-16 22:31:03"
-    },
-    "https://arcwiki.mcd.blue/images/e/e7/Songs_strongholds.jpg": {
-        "local_path": "Songs_strongholds.jpg",
-        "last_updated": "2025-07-16 22:31:05"
-    },
-    "https://arcwiki.mcd.blue/images/2/21/Songs_memoryforest.jpg": {
-        "local_path": "Songs_memoryforest.jpg",
-        "last_updated": "2025-07-16 22:31:07"
-    },
-    "https://arcwiki.mcd.blue/images/2/29/Songs_singularity.jpg": {
-        "local_path": "Songs_singularity.jpg",
-        "last_updated": "2025-07-16 22:31:09"
-    },
-    "https://arcwiki.mcd.blue/images/7/70/Songs_singularityvvvip.jpg": {
-        "local_path": "Songs_singularityvvvip.jpg",
-        "last_updated": "2025-07-16 22:31:11"
-    },
-    "https://arcwiki.mcd.blue/images/d/dc/Songs_cosmica.jpg": {
-        "local_path": "Songs_cosmica.jpg",
-        "last_updated": "2025-07-16 22:31:13"
-    },
-    "https://arcwiki.mcd.blue/images/7/7b/Songs_ascent.jpg": {
-        "local_path": "Songs_ascent.jpg",
-        "last_updated": "2025-07-16 22:31:15"
-    },
-    "https://arcwiki.mcd.blue/images/b/b1/Songs_livefastdieyoung.jpg": {
-        "local_path": "Songs_livefastdieyoung.jpg",
-        "last_updated": "2025-07-16 22:31:17"
-    },
-    "https://arcwiki.mcd.blue/images/2/23/Songs_blossoms.jpg": {
-        "local_path": "Songs_blossoms.jpg",
-        "last_updated": "2025-07-16 22:31:19"
-    },
-    "https://arcwiki.mcd.blue/images/9/94/Songs_romancewars.jpg": {
-        "local_path": "Songs_romancewars.jpg",
-        "last_updated": "2025-07-16 22:31:21"
-    },
-    "https://arcwiki.mcd.blue/images/1/12/Songs_moonheart.jpg": {
-        "local_path": "Songs_moonheart.jpg",
-        "last_updated": "2025-07-16 22:31:23"
-    },
-    "https://arcwiki.mcd.blue/images/1/19/Songs_genesis.jpg": {
-        "local_path": "Songs_genesis.jpg",
-        "last_updated": "2025-07-16 22:31:25"
-    },
-    "https://arcwiki.mcd.blue/images/9/9e/Songs_lethaeus.jpg": {
-        "local_path": "Songs_lethaeus.jpg",
-        "last_updated": "2025-07-16 22:31:27"
-    },
-    "https://arcwiki.mcd.blue/images/b/b1/Songs_corpssansorganes.jpg": {
-        "local_path": "Songs_corpssansorganes.jpg",
-        "last_updated": "2025-07-16 22:31:29"
-    },
-    "https://arcwiki.mcd.blue/images/b/b7/Songs_paradise.jpg": {
-        "local_path": "Songs_paradise.jpg",
-        "last_updated": "2025-07-16 22:31:31"
-    },
-    "https://arcwiki.mcd.blue/images/e/ee/Songs_flashback.jpg": {
-        "local_path": "Songs_flashback.jpg",
-        "last_updated": "2025-07-16 22:31:33"
-    },
-    "https://arcwiki.mcd.blue/images/c/c0/Songs_flyburg.jpg": {
-        "local_path": "Songs_flyburg.jpg",
-        "last_updated": "2025-07-16 22:31:34"
-    },
-    "https://arcwiki.mcd.blue/images/4/4c/Songs_partyvinyl.jpg": {
-        "local_path": "Songs_partyvinyl.jpg",
-        "last_updated": "2025-07-16 22:31:36"
-    },
-    "https://arcwiki.mcd.blue/images/3/31/Songs_nirvluce.jpg": {
-        "local_path": "Songs_nirvluce.jpg",
-        "last_updated": "2025-07-16 22:31:38"
-    },
-    "https://arcwiki.mcd.blue/images/c/c2/Songs_gloryroad.jpg": {
-        "local_path": "Songs_gloryroad.jpg",
-        "last_updated": "2025-07-16 22:31:40"
-    },
-    "https://arcwiki.mcd.blue/images/7/75/Songs_ladymadestar.jpg": {
-        "local_path": "Songs_ladymadestar.jpg",
-        "last_updated": "2025-07-16 22:31:42"
-    },
-    "https://arcwiki.mcd.blue/images/4/49/Songs_endmoonlight.jpg": {
-        "local_path": "Songs_endmoonlight.jpg",
-        "last_updated": "2025-07-16 22:31:44"
-    },
-    "https://arcwiki.mcd.blue/images/4/4f/Songs_uad.jpg": {
-        "local_path": "Songs_uad.jpg",
-        "last_updated": "2025-07-16 22:31:45"
-    },
-    "https://arcwiki.mcd.blue/images/f/f8/Songs_oblivion.jpg": {
-        "local_path": "Songs_oblivion.jpg",
-        "last_updated": "2025-07-16 22:31:47"
-    },
-    "https://arcwiki.mcd.blue/images/0/02/Songs_nightmare.jpg": {
-        "local_path": "Songs_nightmare.jpg",
-        "last_updated": "2025-07-16 22:31:49"
-    },
-    "https://arcwiki.mcd.blue/images/a/a4/Songs_iwantyou.jpg": {
-        "local_path": "Songs_iwantyou.jpg",
-        "last_updated": "2025-07-16 22:31:51"
-    },
-    "https://arcwiki.mcd.blue/images/3/32/Songs_syriana.jpg": {
-        "local_path": "Songs_syriana.jpg",
-        "last_updated": "2025-07-16 22:31:53"
-    },
-    "https://arcwiki.mcd.blue/images/1/1d/Songs_liar.jpg": {
-        "local_path": "Songs_liar.jpg",
-        "last_updated": "2025-07-16 22:31:54"
-    },
-    "https://arcwiki.mcd.blue/images/9/92/Songs_blythe.jpg": {
-        "local_path": "Songs_blythe.jpg",
-        "last_updated": "2025-07-16 22:31:56"
-    },
-    "https://arcwiki.mcd.blue/images/6/66/Songs_wereallgonnadie.jpg": {
-        "local_path": "Songs_wereallgonnadie.jpg",
-        "last_updated": "2025-07-16 22:31:58"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_heartache.jpg": {
-        "local_path": "Songs_heartache.jpg",
-        "last_updated": "2025-07-16 22:32:00"
-    },
-    "https://arcwiki.mcd.blue/images/a/a4/Songs_deathbyglamour.jpg": {
-        "local_path": "Songs_deathbyglamour.jpg",
-        "last_updated": "2025-07-16 22:32:01"
-    },
-    "https://arcwiki.mcd.blue/images/a/a9/Songs_yourbestnightmare.jpg": {
-        "local_path": "Songs_yourbestnightmare.jpg",
-        "last_updated": "2025-07-16 22:32:03"
-    },
-    "https://arcwiki.mcd.blue/images/9/9a/Songs_lastgoodbye.jpg": {
-        "local_path": "Songs_lastgoodbye.jpg",
-        "last_updated": "2025-07-16 22:32:05"
-    },
-    "https://arcwiki.mcd.blue/images/0/0c/Songs_megalovania.jpg": {
-        "local_path": "Songs_megalovania.jpg",
-        "last_updated": "2025-07-16 22:32:07"
-    },
-    "https://arcwiki.mcd.blue/images/7/72/Songs_waltzforlorelei.jpg": {
-        "local_path": "Songs_waltzforlorelei.jpg",
-        "last_updated": "2025-07-16 22:32:08"
-    },
-    "https://arcwiki.mcd.blue/images/1/11/Songs_dualdoom.jpg": {
-        "local_path": "Songs_dualdoom.jpg",
-        "last_updated": "2025-07-16 22:32:10"
-    },
-    "https://arcwiki.mcd.blue/images/b/bb/Songs_invertedworld.jpg": {
-        "local_path": "Songs_invertedworld.jpg",
-        "last_updated": "2025-07-16 22:32:12"
-    },
-    "https://arcwiki.mcd.blue/images/e/e0/Songs_mvurbd.jpg": {
-        "local_path": "Songs_mvurbd.jpg",
-        "last_updated": "2025-07-16 22:32:14"
-    },
-    "https://arcwiki.mcd.blue/images/0/06/Songs_vulcanus.jpg": {
-        "local_path": "Songs_vulcanus.jpg",
-        "last_updated": "2025-07-16 22:32:31"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_bulletwaiting.jpg": {
-        "local_path": "Songs_bulletwaiting.jpg",
-        "last_updated": "2025-07-16 22:32:33"
-    },
-    "https://arcwiki.mcd.blue/images/3/37/Songs_devillicsphere.jpg": {
-        "local_path": "Songs_devillicsphere.jpg",
-        "last_updated": "2025-07-16 22:32:34"
-    },
-    "https://arcwiki.mcd.blue/images/e/ee/Songs_lucidtraveler.jpg": {
-        "local_path": "Songs_lucidtraveler.jpg",
-        "last_updated": "2025-07-16 22:32:36"
-    },
-    "https://arcwiki.mcd.blue/images/8/88/Songs_chaos.jpg": {
-        "local_path": "Songs_chaos.jpg",
-        "last_updated": "2025-07-16 22:32:38"
-    },
-    "https://arcwiki.mcd.blue/images/0/08/Songs_usedtobe.jpg": {
-        "local_path": "Songs_usedtobe.jpg",
-        "last_updated": "2025-07-16 22:32:40"
-    },
-    "https://arcwiki.mcd.blue/images/5/5d/Songs_syuten.jpg": {
-        "local_path": "Songs_syuten.jpg",
-        "last_updated": "2025-07-16 22:32:41"
-    },
-    "https://arcwiki.mcd.blue/images/5/5c/Songs_drg.jpg": {
-        "local_path": "Songs_drg.jpg",
-        "last_updated": "2025-07-16 22:32:43"
-    },
-    "https://arcwiki.mcd.blue/images/c/c9/Songs_nnglooms.jpg": {
-        "local_path": "Songs_nnglooms.jpg",
-        "last_updated": "2025-07-16 22:32:45"
-    },
-    "https://arcwiki.mcd.blue/images/6/61/Songs_ii.jpg": {
-        "local_path": "Songs_ii.jpg",
-        "last_updated": "2025-07-16 22:32:47"
-    },
-    "https://arcwiki.mcd.blue/images/3/3e/Songs_magnolia.jpg": {
-        "local_path": "Songs_magnolia.jpg",
-        "last_updated": "2025-07-16 22:32:49"
-    },
-    "https://arcwiki.mcd.blue/images/0/0b/Songs_akinokagerou.jpg": {
-        "local_path": "Songs_akinokagerou.jpg",
-        "last_updated": "2025-07-16 22:32:51"
-    },
-    "https://arcwiki.mcd.blue/images/0/00/Songs_lightsofmuse.jpg": {
-        "local_path": "Songs_lightsofmuse.jpg",
-        "last_updated": "2025-07-16 22:32:52"
-    },
-    "https://arcwiki.mcd.blue/images/2/2b/Songs_medusa.jpg": {
-        "local_path": "Songs_medusa.jpg",
-        "last_updated": "2025-07-16 22:32:54"
-    },
-    "https://arcwiki.mcd.blue/images/5/59/Songs_finalstep.jpg": {
-        "local_path": "Songs_finalstep.jpg",
-        "last_updated": "2025-07-16 22:32:56"
-    },
-    "https://arcwiki.mcd.blue/images/6/61/Songs_quonwacca.jpg": {
-        "local_path": "Songs_quonwacca.jpg",
-        "last_updated": "2025-07-16 22:32:58"
-    },
-    "https://arcwiki.mcd.blue/images/b/b0/Songs_withu.jpg": {
-        "local_path": "Songs_withu.jpg",
-        "last_updated": "2025-07-16 22:32:59"
-    },
-    "https://arcwiki.mcd.blue/images/d/d1/Songs_letyoudivermx.jpg": {
-        "local_path": "Songs_letyoudivermx.jpg",
-        "last_updated": "2025-07-16 22:33:01"
-    },
-    "https://arcwiki.mcd.blue/images/a/ac/Songs_mazymetroplex.jpg": {
-        "local_path": "Songs_mazymetroplex.jpg",
-        "last_updated": "2025-07-16 22:33:03"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_genocider.jpg": {
-        "local_path": "Songs_genocider.jpg",
-        "last_updated": "2025-07-16 22:33:05"
-    },
-    "https://arcwiki.mcd.blue/images/b/b1/Songs_stratoliner.jpg": {
-        "local_path": "Songs_stratoliner.jpg",
-        "last_updated": "2025-07-16 22:33:07"
-    },
-    "https://arcwiki.mcd.blue/images/c/cb/Songs_ouverture.jpg": {
-        "local_path": "Songs_ouverture.jpg",
-        "last_updated": "2025-07-16 22:33:09"
-    },
-    "https://arcwiki.mcd.blue/images/d/dc/Songs_xtreme.jpg": {
-        "local_path": "Songs_xtreme.jpg",
-        "last_updated": "2025-07-16 22:33:10"
-    },
-    "https://arcwiki.mcd.blue/images/1/12/Songs_edenwacca.jpg": {
-        "local_path": "Songs_edenwacca.jpg",
-        "last_updated": "2025-07-16 22:33:12"
-    },
-    "https://arcwiki.mcd.blue/images/f/fc/Songs_metamysteria.jpg": {
-        "local_path": "Songs_metamysteria.jpg",
-        "last_updated": "2025-07-16 22:33:14"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_aprilshowers.jpg": {
-        "local_path": "Songs_aprilshowers.jpg",
-        "last_updated": "2025-07-16 22:33:16"
-    },
-    "https://arcwiki.mcd.blue/images/f/fb/Songs_seventhsense.jpg": {
-        "local_path": "Songs_seventhsense.jpg",
-        "last_updated": "2025-07-16 22:33:17"
-    },
-    "https://arcwiki.mcd.blue/images/f/f4/Songs_oshamascramble.jpg": {
-        "local_path": "Songs_oshamascramble.jpg",
-        "last_updated": "2025-07-16 22:33:19"
-    },
-    "https://arcwiki.mcd.blue/images/1/16/Songs_amazingmightyyyy.jpg": {
-        "local_path": "Songs_amazingmightyyyy.jpg",
-        "last_updated": "2025-07-16 22:33:21"
-    },
-    "https://arcwiki.mcd.blue/images/d/d0/Songs_cycles.jpg": {
-        "local_path": "Songs_cycles.jpg",
-        "last_updated": "2025-07-16 22:33:23"
-    },
-    "https://arcwiki.mcd.blue/images/b/b9/Songs_maxrage.jpg": {
-        "local_path": "Songs_maxrage.jpg",
-        "last_updated": "2025-07-16 22:33:25"
-    },
-    "https://arcwiki.mcd.blue/images/9/90/Songs_infinity.jpg": {
-        "local_path": "Songs_infinity.jpg",
-        "last_updated": "2025-07-16 22:33:26"
-    },
-    "https://arcwiki.mcd.blue/images/c/c5/Songs_temptation.jpg": {
-        "local_path": "Songs_temptation.jpg",
-        "last_updated": "2025-07-16 22:33:28"
-    },
-    "https://arcwiki.mcd.blue/images/1/10/Songs_breakbreak.jpg": {
-        "local_path": "Songs_breakbreak.jpg",
-        "last_updated": "2025-07-16 22:33:30"
-    },
-    "https://arcwiki.mcd.blue/images/8/88/Songs_straightintolights.jpg": {
-        "local_path": "Songs_straightintolights.jpg",
-        "last_updated": "2025-07-16 22:33:32"
-    },
-    "https://arcwiki.mcd.blue/images/7/7f/Songs_yomibitoshirazu.jpg": {
-        "local_path": "Songs_yomibitoshirazu.jpg",
-        "last_updated": "2025-07-16 22:33:34"
-    },
-    "https://arcwiki.mcd.blue/images/e/ea/Songs_virtus.jpg": {
-        "local_path": "Songs_virtus.jpg",
-        "last_updated": "2025-07-16 22:33:36"
-    },
-    "https://arcwiki.mcd.blue/images/b/b3/Songs_lazyaddiction.jpg": {
-        "local_path": "Songs_lazyaddiction.jpg",
-        "last_updated": "2025-07-16 22:33:37"
-    },
-    "https://arcwiki.mcd.blue/images/6/61/Songs_dazzlehop.jpg": {
-        "local_path": "Songs_dazzlehop.jpg",
-        "last_updated": "2025-07-16 22:33:39"
-    },
-    "https://arcwiki.mcd.blue/images/8/8e/Songs_viyellastears.jpg": {
-        "local_path": "Songs_viyellastears.jpg",
-        "last_updated": "2025-07-16 22:33:41"
-    },
-    "https://arcwiki.mcd.blue/images/a/af/Songs_omegafour.jpg": {
-        "local_path": "Songs_omegafour.jpg",
-        "last_updated": "2025-07-16 22:33:43"
-    },
-    "https://arcwiki.mcd.blue/images/d/df/Songs_kokoro.jpg": {
-        "local_path": "Songs_kokoro.jpg",
-        "last_updated": "2025-07-16 22:33:44"
-    },
-    "https://arcwiki.mcd.blue/images/e/ee/Songs_aidrew.jpg": {
-        "local_path": "Songs_aidrew.jpg",
-        "last_updated": "2025-07-16 22:33:46"
-    },
-    "https://arcwiki.mcd.blue/images/8/8a/Songs_fluffyflash.jpg": {
-        "local_path": "Songs_fluffyflash.jpg",
-        "last_updated": "2025-07-16 22:33:48"
-    },
-    "https://arcwiki.mcd.blue/images/4/41/Songs_goodbyemerry.jpg": {
-        "local_path": "Songs_goodbyemerry.jpg",
-        "last_updated": "2025-07-16 22:33:50"
-    },
-    "https://arcwiki.mcd.blue/images/8/86/Songs_lamia.jpg": {
-        "local_path": "Songs_lamia.jpg",
-        "last_updated": "2025-07-16 22:33:52"
-    },
-    "https://arcwiki.mcd.blue/images/9/99/Songs_liftoff.jpg": {
-        "local_path": "Songs_liftoff.jpg",
-        "last_updated": "2025-07-16 22:33:54"
-    },
-    "https://arcwiki.mcd.blue/images/4/49/Songs_superambulance.jpg": {
-        "local_path": "Songs_superambulance.jpg",
-        "last_updated": "2025-07-16 22:33:55"
-    },
-    "https://arcwiki.mcd.blue/images/b/bf/Songs_dontfightmusic.jpg": {
-        "local_path": "Songs_dontfightmusic.jpg",
-        "last_updated": "2025-07-16 22:33:57"
-    },
-    "https://arcwiki.mcd.blue/images/e/eb/Songs_andrevivemelody.jpg": {
-        "local_path": "Songs_andrevivemelody.jpg",
-        "last_updated": "2025-07-16 22:33:59"
-    },
-    "https://arcwiki.mcd.blue/images/b/b5/Songs_garakuta.jpg": {
-        "local_path": "Songs_garakuta.jpg",
-        "last_updated": "2025-07-16 22:34:01"
-    },
-    "https://arcwiki.mcd.blue/images/6/6d/Songs_ikazuchi.jpg": {
-        "local_path": "Songs_ikazuchi.jpg",
-        "last_updated": "2025-07-16 22:34:03"
-    },
-    "https://arcwiki.mcd.blue/images/c/c4/Songs_worldvanquisher.jpg": {
-        "local_path": "Songs_worldvanquisher.jpg",
-        "last_updated": "2025-07-16 22:34:05"
-    },
-    "https://arcwiki.mcd.blue/images/b/b5/Songs_climax.jpg": {
-        "local_path": "Songs_climax.jpg",
-        "last_updated": "2025-07-16 22:34:06"
-    },
-    "https://arcwiki.mcd.blue/images/9/92/Songs_lastcelebration.jpg": {
-        "local_path": "Songs_lastcelebration.jpg",
-        "last_updated": "2025-07-16 22:34:08"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_gou.jpg": {
-        "local_path": "Songs_gou.jpg",
-        "last_updated": "2025-07-16 22:34:10"
-    },
-    "https://arcwiki.mcd.blue/images/1/11/Songs_cosmopop.jpg": {
-        "local_path": "Songs_cosmopop.jpg",
-        "last_updated": "2025-07-16 22:34:12"
-    },
-    "https://arcwiki.mcd.blue/images/6/6a/Songs_impact.jpg": {
-        "local_path": "Songs_impact.jpg",
-        "last_updated": "2025-07-16 22:34:14"
-    },
-    "https://arcwiki.mcd.blue/images/c/cc/Songs_genesischunithm.jpg": {
-        "local_path": "Songs_genesischunithm.jpg",
-        "last_updated": "2025-07-16 22:34:16"
-    },
-    "https://arcwiki.mcd.blue/images/1/15/Songs_trrricksters.jpg": {
-        "local_path": "Songs_trrricksters.jpg",
-        "last_updated": "2025-07-16 22:34:17"
-    },
-    "https://arcwiki.mcd.blue/images/3/39/Songs_spidersthread.jpg": {
-        "local_path": "Songs_spidersthread.jpg",
-        "last_updated": "2025-07-16 22:34:19"
-    },
-    "https://arcwiki.mcd.blue/images/4/46/Songs_ignition.jpg": {
-        "local_path": "Songs_ignition.jpg",
-        "last_updated": "2025-07-16 22:34:21"
-    },
-    "https://arcwiki.mcd.blue/images/3/3a/Songs_blazingair.jpg": {
-        "local_path": "Songs_blazingair.jpg",
-        "last_updated": "2025-07-16 22:34:23"
-    },
-    "https://arcwiki.mcd.blue/images/b/b3/Songs_eightem.jpg": {
-        "local_path": "Songs_eightem.jpg",
-        "last_updated": "2025-07-16 22:34:25"
-    },
-    "https://arcwiki.mcd.blue/images/d/dc/Songs_daat.jpg": {
-        "local_path": "Songs_daat.jpg",
-        "last_updated": "2025-07-16 22:34:27"
-    },
-    "https://arcwiki.mcd.blue/images/5/5c/Songs_aethercrest.jpg": {
-        "local_path": "Songs_aethercrest.jpg",
-        "last_updated": "2025-07-16 22:34:29"
-    },
-    "https://arcwiki.mcd.blue/images/c/cb/Songs_merlin.jpg": {
-        "local_path": "Songs_merlin.jpg",
-        "last_updated": "2025-07-16 22:34:30"
-    },
-    "https://arcwiki.mcd.blue/images/f/fb/Songs_dxfullmetal.jpg": {
-        "local_path": "Songs_dxfullmetal.jpg",
-        "last_updated": "2025-07-16 22:34:32"
-    },
-    "https://arcwiki.mcd.blue/images/b/bd/Songs_omakeno.jpg": {
-        "local_path": "Songs_omakeno.jpg",
-        "last_updated": "2025-07-16 22:34:34"
-    },
-    "https://arcwiki.mcd.blue/images/e/e0/Songs_scarletlance.jpg": {
-        "local_path": "Songs_scarletlance.jpg",
-        "last_updated": "2025-07-16 22:34:36"
-    },
-    "https://arcwiki.mcd.blue/images/5/54/Songs_ouroboros.jpg": {
-        "local_path": "Songs_ouroboros.jpg",
-        "last_updated": "2025-07-16 22:34:38"
-    },
-    "https://arcwiki.mcd.blue/images/d/db/Songs_gothiveofra.jpg": {
-        "local_path": "Songs_gothiveofra.jpg",
-        "last_updated": "2025-07-16 22:34:40"
-    },
-    "https://arcwiki.mcd.blue/images/4/42/Songs_signof.jpg": {
-        "local_path": "Songs_signof.jpg",
-        "last_updated": "2025-07-16 22:34:41"
-    },
-    "https://arcwiki.mcd.blue/images/d/d4/Songs_temptationgc.jpg": {
-        "local_path": "Songs_temptationgc.jpg",
-        "last_updated": "2025-07-16 22:34:43"
-    },
-    "https://arcwiki.mcd.blue/images/f/f0/Songs_blackmind.jpg": {
-        "local_path": "Songs_blackmind.jpg",
-        "last_updated": "2025-07-16 22:34:45"
-    },
-    "https://arcwiki.mcd.blue/images/1/17/Songs_hikari.jpg": {
-        "local_path": "Songs_hikari.jpg",
-        "last_updated": "2025-07-16 22:34:47"
-    },
-    "https://arcwiki.mcd.blue/images/e/e3/Songs_hallofmirrors.jpg": {
-        "local_path": "Songs_hallofmirrors.jpg",
-        "last_updated": "2025-07-16 22:34:49"
-    },
-    "https://arcwiki.mcd.blue/images/d/de/Songs_stager.jpg": {
-        "local_path": "Songs_stager.jpg",
-        "last_updated": "2025-07-16 22:34:50"
-    },
-    "https://arcwiki.mcd.blue/images/7/7f/Songs_linearaccelerator.jpg": {
-        "local_path": "Songs_linearaccelerator.jpg",
-        "last_updated": "2025-07-16 22:34:52"
-    },
-    "https://arcwiki.mcd.blue/images/f/f6/Songs_tiferet.jpg": {
-        "local_path": "Songs_tiferet.jpg",
-        "last_updated": "2025-07-16 22:34:54"
-    },
-    "https://arcwiki.mcd.blue/images/9/90/Songs_dreamgoeson.jpg": {
-        "local_path": "Songs_dreamgoeson.jpg",
-        "last_updated": "2025-07-16 22:34:56"
-    },
-    "https://arcwiki.mcd.blue/images/5/5f/Songs_journey.jpg": {
-        "local_path": "Songs_journey.jpg",
-        "last_updated": "2025-07-16 22:34:58"
-    },
-    "https://arcwiki.mcd.blue/images/3/32/Songs_specta.jpg": {
-        "local_path": "Songs_specta.jpg",
-        "last_updated": "2025-07-16 22:34:59"
-    },
-    "https://arcwiki.mcd.blue/images/4/4a/Songs_quon.jpg": {
-        "local_path": "Songs_quon.jpg",
-        "last_updated": "2025-07-16 22:35:01"
-    },
-    "https://arcwiki.mcd.blue/images/3/3c/Songs_cyanine.jpg": {
-        "local_path": "Songs_cyanine.jpg",
-        "last_updated": "2025-07-16 22:35:03"
-    },
-    "https://arcwiki.mcd.blue/images/d/d0/Songs_prism.jpg": {
-        "local_path": "Songs_prism.jpg",
-        "last_updated": "2025-07-16 22:35:05"
-    },
-    "https://arcwiki.mcd.blue/images/8/86/Songs_protoflicker.jpg": {
-        "local_path": "Songs_protoflicker.jpg",
-        "last_updated": "2025-07-16 22:35:07"
-    },
-    "https://arcwiki.mcd.blue/images/d/dd/Songs_stasis.jpg": {
-        "local_path": "Songs_stasis.jpg",
-        "last_updated": "2025-07-16 22:35:09"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_moonlightofsandcastle.jpg": {
-        "local_path": "Songs_moonlightofsandcastle.jpg",
-        "last_updated": "2025-07-16 22:35:10"
-    },
-    "https://arcwiki.mcd.blue/images/8/8d/Songs_reconstruction.jpg": {
-        "local_path": "Songs_reconstruction.jpg",
-        "last_updated": "2025-07-16 22:35:12"
-    },
-    "https://arcwiki.mcd.blue/images/a/ad/Songs_evoltex.jpg": {
-        "local_path": "Songs_evoltex.jpg",
-        "last_updated": "2025-07-16 22:35:14"
-    },
-    "https://arcwiki.mcd.blue/images/6/69/Songs_oracle.jpg": {
-        "local_path": "Songs_oracle.jpg",
-        "last_updated": "2025-07-16 22:35:16"
-    },
-    "https://arcwiki.mcd.blue/images/c/cc/Songs_aterlbus.jpg": {
-        "local_path": "Songs_aterlbus.jpg",
-        "last_updated": "2025-07-16 22:35:18"
-    },
-    "https://arcwiki.mcd.blue/images/7/79/Songs_dataerror.jpg": {
-        "local_path": "Songs_dataerror.jpg",
-        "last_updated": "2025-07-16 22:35:19"
-    },
-    "https://arcwiki.mcd.blue/images/1/1d/Songs_crosssoul.jpg": {
-        "local_path": "Songs_crosssoul.jpg",
-        "last_updated": "2025-07-16 22:35:21"
-    },
-    "https://arcwiki.mcd.blue/images/b/b8/Songs_yourvoiceso.jpg": {
-        "local_path": "Songs_yourvoiceso.jpg",
-        "last_updated": "2025-07-16 22:35:23"
-    },
-    "https://arcwiki.mcd.blue/images/4/48/Songs_impurebird.jpg": {
-        "local_path": "Songs_impurebird.jpg",
-        "last_updated": "2025-07-16 22:35:25"
-    },
-    "https://arcwiki.mcd.blue/images/5/54/Songs_auxesia.jpg": {
-        "local_path": "Songs_auxesia.jpg",
-        "last_updated": "2025-07-16 22:35:27"
-    },
-    "https://arcwiki.mcd.blue/images/7/7c/Songs_modelista.jpg": {
-        "local_path": "Songs_modelista.jpg",
-        "last_updated": "2025-07-16 22:35:29"
-    },
-    "https://arcwiki.mcd.blue/images/2/23/Songs_surrender.jpg": {
-        "local_path": "Songs_surrender.jpg",
-        "last_updated": "2025-07-16 22:35:31"
-    },
-    "https://arcwiki.mcd.blue/images/8/80/Songs_yozakurafubuki.jpg": {
-        "local_path": "Songs_yozakurafubuki.jpg",
-        "last_updated": "2025-07-16 22:35:33"
-    },
-    "https://arcwiki.mcd.blue/images/4/41/Songs_metallicpunisher.jpg": {
-        "local_path": "Songs_metallicpunisher.jpg",
-        "last_updated": "2025-07-16 22:35:35"
-    },
-    "https://arcwiki.mcd.blue/images/1/1d/Songs_carminescythe.jpg": {
-        "local_path": "Songs_carminescythe.jpg",
-        "last_updated": "2025-07-16 22:35:36"
-    },
-    "https://arcwiki.mcd.blue/images/d/d3/Songs_guardina.jpg": {
-        "local_path": "Songs_guardina.jpg",
-        "last_updated": "2025-07-16 22:35:38"
-    },
-    "https://arcwiki.mcd.blue/images/4/4a/Songs_bethere.jpg": {
-        "local_path": "Songs_bethere.jpg",
-        "last_updated": "2025-07-16 22:35:40"
-    },
-    "https://arcwiki.mcd.blue/images/c/cc/Songs_callmyname.jpg": {
-        "local_path": "Songs_callmyname.jpg",
-        "last_updated": "2025-07-16 22:35:42"
-    },
-    "https://arcwiki.mcd.blue/images/d/de/Songs_dropdead.jpg": {
-        "local_path": "Songs_dropdead.jpg",
-        "last_updated": "2025-07-16 22:35:44"
-    },
-    "https://arcwiki.mcd.blue/images/d/d9/Songs_overdead.jpg": {
-        "local_path": "Songs_overdead.jpg",
-        "last_updated": "2025-07-16 22:35:46"
-    },
-    "https://arcwiki.mcd.blue/images/e/e6/Songs_fallensquare.jpg": {
-        "local_path": "Songs_fallensquare.jpg",
-        "last_updated": "2025-07-16 22:35:48"
-    },
-    "https://arcwiki.mcd.blue/images/7/7f/Songs_alexandrite.jpg": {
-        "local_path": "Songs_alexandrite.jpg",
-        "last_updated": "2025-07-16 22:35:50"
-    },
-    "https://arcwiki.mcd.blue/images/2/27/Songs_astraltale.jpg": {
-        "local_path": "Songs_astraltale.jpg",
-        "last_updated": "2025-07-16 22:35:51"
-    },
-    "https://arcwiki.mcd.blue/images/7/79/Songs_phantasia.jpg": {
-        "local_path": "Songs_phantasia.jpg",
-        "last_updated": "2025-07-16 22:35:53"
-    },
-    "https://arcwiki.mcd.blue/images/6/66/Songs_empireofwinter.jpg": {
-        "local_path": "Songs_empireofwinter.jpg",
-        "last_updated": "2025-07-16 22:35:55"
-    },
-    "https://arcwiki.mcd.blue/images/a/ad/Songs_libertas.jpg": {
-        "local_path": "Songs_libertas.jpg",
-        "last_updated": "2025-07-16 22:35:57"
-    },
-    "https://arcwiki.mcd.blue/images/2/2e/Songs_dottodot.jpg": {
-        "local_path": "Songs_dottodot.jpg",
-        "last_updated": "2025-07-16 22:35:59"
-    },
-    "https://arcwiki.mcd.blue/images/1/18/Songs_dreadnought.jpg": {
-        "local_path": "Songs_dreadnought.jpg",
-        "last_updated": "2025-07-16 22:36:00"
-    },
-    "https://arcwiki.mcd.blue/images/a/a4/Songs_mirzam.jpg": {
-        "local_path": "Songs_mirzam.jpg",
-        "last_updated": "2025-07-16 22:36:02"
-    },
-    "https://arcwiki.mcd.blue/images/9/94/Songs_heavenlycaress.jpg": {
-        "local_path": "Songs_heavenlycaress.jpg",
-        "last_updated": "2025-07-16 22:36:04"
-    },
-    "https://arcwiki.mcd.blue/images/2/2e/Songs_filament.jpg": {
-        "local_path": "Songs_filament.jpg",
-        "last_updated": "2025-07-16 22:36:06"
-    },
-    "https://arcwiki.mcd.blue/images/1/19/Songs_avantraze.jpg": {
-        "local_path": "Songs_avantraze.jpg",
-        "last_updated": "2025-07-16 22:36:08"
-    },
-    "https://arcwiki.mcd.blue/images/7/76/Songs_battlenoone.jpg": {
-        "local_path": "Songs_battlenoone.jpg",
-        "last_updated": "2025-07-16 22:36:10"
-    },
-    "https://arcwiki.mcd.blue/images/4/43/Songs_laqryma.jpg": {
-        "local_path": "Songs_laqryma.jpg",
-        "last_updated": "2025-07-16 22:36:11"
-    },
-    "https://arcwiki.mcd.blue/images/e/ef/Songs_einherjar.jpg": {
-        "local_path": "Songs_einherjar.jpg",
-        "last_updated": "2025-07-16 22:36:13"
-    },
-    "https://arcwiki.mcd.blue/images/4/41/Songs_izana.jpg": {
-        "local_path": "Songs_izana.jpg",
-        "last_updated": "2025-07-16 22:36:15"
-    },
-    "https://arcwiki.mcd.blue/images/7/7b/Songs_saikyostronger.jpg": {
-        "local_path": "Songs_saikyostronger.jpg",
-        "last_updated": "2025-07-16 22:36:17"
-    },
-    "https://arcwiki.mcd.blue/images/1/15/Songs_amygdata.jpg": {
-        "local_path": "Songs_amygdata.jpg",
-        "last_updated": "2025-07-16 22:36:19"
-    },
-    "https://arcwiki.mcd.blue/images/7/73/Songs_altale.jpg": {
-        "local_path": "Songs_altale.jpg",
-        "last_updated": "2025-07-16 22:36:20"
-    },
-    "https://arcwiki.mcd.blue/images/5/52/Songs_feelssoright.jpg": {
-        "local_path": "Songs_feelssoright.jpg",
-        "last_updated": "2025-07-16 22:36:22"
-    },
-    "https://arcwiki.mcd.blue/images/1/15/Songs_scarletcage.jpg": {
-        "local_path": "Songs_scarletcage.jpg",
-        "last_updated": "2025-07-16 22:36:24"
-    },
-    "https://arcwiki.mcd.blue/images/f/fc/Songs_teriqma.jpg": {
-        "local_path": "Songs_teriqma.jpg",
-        "last_updated": "2025-07-16 22:36:26"
-    },
-    "https://arcwiki.mcd.blue/images/d/d1/Songs_mahoroba.jpg": {
-        "local_path": "Songs_mahoroba.jpg",
-        "last_updated": "2025-07-16 22:36:28"
-    },
-    "https://arcwiki.mcd.blue/images/9/95/Songs_badtek.jpg": {
-        "local_path": "Songs_badtek.jpg",
-        "last_updated": "2025-07-16 22:36:30"
-    },
-    "https://arcwiki.mcd.blue/images/d/d6/Songs_maliciousmischance.jpg": {
-        "local_path": "Songs_maliciousmischance.jpg",
-        "last_updated": "2025-07-16 22:36:32"
-    },
-    "https://arcwiki.mcd.blue/images/d/d7/Songs_buchigireberserker.jpg": {
-        "local_path": "Songs_buchigireberserker.jpg",
-        "last_updated": "2025-07-16 22:36:34"
-    },
-    "https://arcwiki.mcd.blue/images/5/59/Songs_galaxyfriends.jpg": {
-        "local_path": "Songs_galaxyfriends.jpg",
-        "last_updated": "2025-07-16 22:36:35"
-    },
-    "https://arcwiki.mcd.blue/images/e/e9/Songs_xeraphinite.jpg": {
-        "local_path": "Songs_xeraphinite.jpg",
-        "last_updated": "2025-07-16 22:36:37"
-    },
-    "https://arcwiki.mcd.blue/images/f/f2/Songs_xanatos.jpg": {
-        "local_path": "Songs_xanatos.jpg",
-        "last_updated": "2025-07-16 22:36:39"
-    },
-    "https://arcwiki.mcd.blue/images/0/02/Songs_attraqtia.jpg": {
-        "local_path": "Songs_attraqtia.jpg",
-        "last_updated": "2025-07-16 22:36:41"
-    },
-    "https://arcwiki.mcd.blue/images/c/c9/Songs_gimmedablood.jpg": {
-        "local_path": "Songs_gimmedablood.jpg",
-        "last_updated": "2025-07-16 22:36:43"
-    },
-    "https://arcwiki.mcd.blue/images/3/36/Songs_bassline.jpg": {
-        "local_path": "Songs_bassline.jpg",
-        "last_updated": "2025-07-16 22:36:44"
-    },
-    "https://arcwiki.mcd.blue/images/9/9f/Songs_theultimacy.jpg": {
-        "local_path": "Songs_theultimacy.jpg",
-        "last_updated": "2025-07-16 22:36:46"
-    },
-    "https://arcwiki.mcd.blue/images/c/cd/Songs_rekkaresonance.jpg": {
-        "local_path": "Songs_rekkaresonance.jpg",
-        "last_updated": "2025-07-16 22:36:48"
-    },
-    "https://arcwiki.mcd.blue/images/9/9b/Songs_sheriruthrmx.jpg": {
-        "local_path": "Songs_sheriruthrmx.jpg",
-        "last_updated": "2025-07-16 22:36:50"
-    },
-    "https://arcwiki.mcd.blue/images/1/19/Songs_eveninginscarlet.jpg": {
-        "local_path": "Songs_eveninginscarlet.jpg",
-        "last_updated": "2025-07-16 22:36:52"
-    },
-    "https://arcwiki.mcd.blue/images/7/75/Songs_goldenslaughterer.jpg": {
-        "local_path": "Songs_goldenslaughterer.jpg",
-        "last_updated": "2025-07-16 22:36:54"
-    },
-    "https://arcwiki.mcd.blue/images/2/25/Songs_lastendconductor.jpg": {
-        "local_path": "Songs_lastendconductor.jpg",
-        "last_updated": "2025-07-16 22:36:55"
-    },
-    "https://arcwiki.mcd.blue/images/4/46/Songs_redolentshape.jpg": {
-        "local_path": "Songs_redolentshape.jpg",
-        "last_updated": "2025-07-16 22:36:57"
-    },
-    "https://arcwiki.mcd.blue/images/1/19/Songs_summerfireworks.jpg": {
-        "local_path": "Songs_summerfireworks.jpg",
-        "last_updated": "2025-07-16 22:36:59"
-    },
-    "https://arcwiki.mcd.blue/images/e/e6/Songs_init.jpg": {
-        "local_path": "Songs_init.jpg",
-        "last_updated": "2025-07-16 22:37:01"
-    },
-    "https://arcwiki.mcd.blue/images/b/bb/Songs_internetoverdose.jpg": {
-        "local_path": "Songs_internetoverdose.jpg",
-        "last_updated": "2025-07-16 22:37:03"
-    },
-    "https://arcwiki.mcd.blue/images/3/3c/Songs_macromod.jpg": {
-        "local_path": "Songs_macromod.jpg",
-        "last_updated": "2025-07-16 22:37:05"
-    },
-    "https://arcwiki.mcd.blue/images/4/41/Songs_kissinglucifer.jpg": {
-        "local_path": "Songs_kissinglucifer.jpg",
-        "last_updated": "2025-07-16 22:37:06"
-    },
-    "https://arcwiki.mcd.blue/images/3/34/Songs_neowings.jpg": {
-        "local_path": "Songs_neowings.jpg",
-        "last_updated": "2025-07-16 22:37:08"
-    },
-    "https://arcwiki.mcd.blue/images/d/df/Songs_aurgelmir.jpg": {
-        "local_path": "Songs_aurgelmir.jpg",
-        "last_updated": "2025-07-16 22:37:10"
-    },
-    "https://arcwiki.mcd.blue/images/8/84/Songs_headbonkache.jpg": {
-        "local_path": "Songs_headbonkache.jpg",
-        "last_updated": "2025-07-16 22:37:12"
-    },
-    "https://arcwiki.mcd.blue/images/2/23/Songs_picopicotranslation.jpg": {
-        "local_path": "Songs_picopicotranslation.jpg",
-        "last_updated": "2025-07-16 22:37:14"
-    },
-    "https://arcwiki.mcd.blue/images/0/02/Songs_mu.jpg": {
-        "local_path": "Songs_mu.jpg",
-        "last_updated": "2025-07-16 22:37:16"
-    },
-    "https://arcwiki.mcd.blue/images/e/e2/Songs_pupa.jpg": {
-        "local_path": "Songs_pupa.jpg",
-        "last_updated": "2025-07-16 22:37:17"
-    },
-    "https://arcwiki.mcd.blue/images/d/dc/Songs_cocorocosmetic.jpg": {
-        "local_path": "Songs_cocorocosmetic.jpg",
-        "last_updated": "2025-07-16 22:37:19"
-    },
-    "https://arcwiki.mcd.blue/images/b/ba/Songs_freemyself.jpg": {
-        "local_path": "Songs_freemyself.jpg",
-        "last_updated": "2025-07-16 22:37:21"
-    },
-    "https://arcwiki.mcd.blue/images/1/14/Songs_capella.jpg": {
-        "local_path": "Songs_capella.jpg",
-        "last_updated": "2025-07-16 22:37:23"
-    },
-    "https://arcwiki.mcd.blue/images/d/db/Songs_nullapophenia.jpg": {
-        "local_path": "Songs_nullapophenia.jpg",
-        "last_updated": "2025-07-16 22:37:25"
-    },
-    "https://arcwiki.mcd.blue/images/b/bf/Songs_crimsonthrone.jpg": {
-        "local_path": "Songs_crimsonthrone.jpg",
-        "last_updated": "2025-07-16 22:37:27"
-    },
-    "https://arcwiki.mcd.blue/images/2/2b/Songs_manicjeer.jpg": {
-        "local_path": "Songs_manicjeer.jpg",
-        "last_updated": "2025-07-16 22:37:28"
-    },
-    "https://arcwiki.mcd.blue/images/2/2c/Songs_hiirogekka.jpg": {
-        "local_path": "Songs_hiirogekka.jpg",
-        "last_updated": "2025-07-16 22:37:30"
-    },
-    "https://arcwiki.mcd.blue/images/c/c2/Songs_primitivelights.jpg": {
-        "local_path": "Songs_primitivelights.jpg",
-        "last_updated": "2025-07-16 22:37:32"
-    },
-    "https://arcwiki.mcd.blue/images/1/1c/Songs_thesurvivor.jpg": {
-        "local_path": "Songs_thesurvivor.jpg",
-        "last_updated": "2025-07-16 22:37:34"
-    },
-    "https://arcwiki.mcd.blue/images/a/a3/Songs_newyorkbackraise.jpg": {
-        "local_path": "Songs_newyorkbackraise.jpg",
-        "last_updated": "2025-07-16 22:37:36"
-    },
-    "https://arcwiki.mcd.blue/images/4/4b/Songs_galacticlove.jpg": {
-        "local_path": "Songs_galacticlove.jpg",
-        "last_updated": "2025-07-16 22:37:38"
-    },
-    "https://arcwiki.mcd.blue/images/6/69/Songs_lostintheabyss.jpg": {
-        "local_path": "Songs_lostintheabyss.jpg",
-        "last_updated": "2025-07-16 22:37:39"
-    },
-    "https://arcwiki.mcd.blue/images/5/5d/Songs_tothemilkyway.jpg": {
-        "local_path": "Songs_tothemilkyway.jpg",
-        "last_updated": "2025-07-16 22:37:41"
-    },
-    "https://arcwiki.mcd.blue/images/5/50/Songs_internetyamero.jpg": {
-        "local_path": "Songs_internetyamero.jpg",
-        "last_updated": "2025-07-16 22:37:43"
-    },
-    "https://arcwiki.mcd.blue/images/d/da/Songs_sacrifice.jpg": {
-        "local_path": "Songs_sacrifice.jpg",
-        "last_updated": "2025-07-16 22:37:45"
-    },
-    "https://arcwiki.mcd.blue/images/7/75/Songs_tothefurthestdream.jpg": {
-        "local_path": "Songs_tothefurthestdream.jpg",
-        "last_updated": "2025-07-16 22:37:47"
-    },
-    "https://arcwiki.mcd.blue/images/5/5f/Songs_bbkkbkk.jpg": {
-        "local_path": "Songs_bbkkbkk.jpg",
-        "last_updated": "2025-07-16 22:37:48"
-    },
-    "https://arcwiki.mcd.blue/images/5/5b/Songs_wishuponasnow.jpg": {
-        "local_path": "Songs_wishuponasnow.jpg",
-        "last_updated": "2025-07-16 22:37:50"
-    },
-    "https://arcwiki.mcd.blue/images/d/da/Songs_overdrive.jpg": {
-        "local_path": "Songs_overdrive.jpg",
-        "last_updated": "2025-07-16 22:37:52"
-    },
-    "https://arcwiki.mcd.blue/images/d/d5/Songs_lightmyway.jpg": {
-        "local_path": "Songs_lightmyway.jpg",
-        "last_updated": "2025-07-16 22:37:54"
-    },
-    "https://arcwiki.mcd.blue/images/e/e8/Songs_lunarossa.jpg": {
-        "local_path": "Songs_lunarossa.jpg",
-        "last_updated": "2025-07-16 22:38:11"
-    },
-    "https://arcwiki.mcd.blue/images/f/fb/Songs_innocence.jpg": {
-        "local_path": "Songs_innocence.jpg",
-        "last_updated": "2025-07-16 22:38:13"
-    },
-    "https://arcwiki.mcd.blue/images/1/16/Songs_ionostream.jpg": {
-        "local_path": "Songs_ionostream.jpg",
-        "last_updated": "2025-07-16 22:38:14"
-    },
-    "https://arcwiki.mcd.blue/images/7/75/Songs_masqueradelegion.jpg": {
-        "local_path": "Songs_masqueradelegion.jpg",
-        "last_updated": "2025-07-16 22:38:16"
-    },
-    "https://arcwiki.mcd.blue/images/5/50/Songs_kyorenromance.jpg": {
-        "local_path": "Songs_kyorenromance.jpg",
-        "last_updated": "2025-07-16 22:38:18"
-    },
-    "https://arcwiki.mcd.blue/images/7/7c/Songs_qovat.jpg": {
-        "local_path": "Songs_qovat.jpg",
-        "last_updated": "2025-07-16 22:38:20"
-    },
-    "https://arcwiki.mcd.blue/images/1/1d/Songs_mirinae.jpg": {
-        "local_path": "Songs_mirinae.jpg",
-        "last_updated": "2025-07-16 22:38:22"
-    },
-    "https://arcwiki.mcd.blue/images/c/cc/Songs_ultradiaxon.jpg": {
-        "local_path": "Songs_ultradiaxon.jpg",
-        "last_updated": "2025-07-16 22:38:23"
-    },
-    "https://arcwiki.mcd.blue/images/0/0e/Songs_distortedfate.jpg": {
-        "local_path": "Songs_distortedfate.jpg",
-        "last_updated": "2025-07-16 22:38:25"
-    },
-    "https://arcwiki.mcd.blue/images/e/e0/Songs_floatingworld.jpg": {
-        "local_path": "Songs_floatingworld.jpg",
-        "last_updated": "2025-07-16 22:38:27"
-    },
-    "https://arcwiki.mcd.blue/images/8/87/Songs_chromafill.jpg": {
-        "local_path": "Songs_chromafill.jpg",
-        "last_updated": "2025-07-16 22:38:29"
-    },
-    "https://arcwiki.mcd.blue/images/e/e4/Songs_desive.jpg": {
-        "local_path": "Songs_desive.jpg",
-        "last_updated": "2025-07-16 22:38:31"
-    },
-    "https://arcwiki.mcd.blue/images/0/06/Songs_tasogare.jpg": {
-        "local_path": "Songs_tasogare.jpg",
-        "last_updated": "2025-07-16 22:38:33"
-    },
-    "https://arcwiki.mcd.blue/images/8/8c/Songs_beautifuldreamer.jpg": {
-        "local_path": "Songs_beautifuldreamer.jpg",
-        "last_updated": "2025-07-16 22:38:34"
-    },
-    "https://arcwiki.mcd.blue/images/f/fe/Songs_backtobasics.jpg": {
-        "local_path": "Songs_backtobasics.jpg",
-        "last_updated": "2025-07-16 22:38:36"
-    },
-    "https://arcwiki.mcd.blue/images/3/3b/Songs_stargateextreme.jpg": {
-        "local_path": "Songs_stargateextreme.jpg",
-        "last_updated": "2025-07-16 22:38:38"
-    },
-    "https://arcwiki.mcd.blue/images/c/ca/Songs_hypervision.jpg": {
-        "local_path": "Songs_hypervision.jpg",
-        "last_updated": "2025-07-16 22:38:40"
-    },
-    "https://arcwiki.mcd.blue/images/2/28/Songs_shrink.jpg": {
-        "local_path": "Songs_shrink.jpg",
-        "last_updated": "2025-07-16 22:38:42"
-    },
-    "https://arcwiki.mcd.blue/images/9/9b/Songs_rainofconflict.jpg": {
-        "local_path": "Songs_rainofconflict.jpg",
-        "last_updated": "2025-07-16 22:38:44"
-    },
-    "https://arcwiki.mcd.blue/images/0/0e/Songs_gensounosatellite.jpg": {
-        "local_path": "Songs_gensounosatellite.jpg",
-        "last_updated": "2025-07-16 22:38:46"
-    },
-    "https://arcwiki.mcd.blue/images/3/3b/Songs_crimsonquartz.jpg": {
-        "local_path": "Songs_crimsonquartz.jpg",
-        "last_updated": "2025-07-16 22:38:47"
-    },
-    "https://arcwiki.mcd.blue/images/8/8b/Songs_thirdsun.jpg": {
-        "local_path": "Songs_thirdsun.jpg",
-        "last_updated": "2025-07-16 22:38:49"
-    },
-    "https://arcwiki.mcd.blue/images/d/d7/Songs_spiritdauntless.jpg": {
-        "local_path": "Songs_spiritdauntless.jpg",
-        "last_updated": "2025-07-16 22:38:51"
-    },
-    "https://arcwiki.mcd.blue/images/f/f7/Songs_diesirae.jpg": {
-        "local_path": "Songs_diesirae.jpg",
-        "last_updated": "2025-07-16 22:38:53"
-    },
-    "https://arcwiki.mcd.blue/images/4/4a/Songs_megalovaniarmx.jpg": {
-        "local_path": "Songs_megalovaniarmx.jpg",
-        "last_updated": "2025-07-16 22:38:55"
-    },
-    "https://arcwiki.mcd.blue/images/3/32/Songs_placebobattler.jpg": {
-        "local_path": "Songs_placebobattler.jpg",
-        "last_updated": "2025-07-16 22:38:57"
-    },
-    "https://arcwiki.mcd.blue/images/4/4c/Songs_shinchoku.jpg": {
-        "local_path": "Songs_shinchoku.jpg",
-        "last_updated": "2025-07-16 22:38:59"
-    },
-    "https://arcwiki.mcd.blue/images/2/21/Songs_dullblade.jpg": {
-        "local_path": "Songs_dullblade.jpg",
-        "last_updated": "2025-07-16 22:39:01"
-    },
-    "https://arcwiki.mcd.blue/images/e/ef/Songs_dontdie.jpg": {
-        "local_path": "Songs_dontdie.jpg",
-        "last_updated": "2025-07-16 22:39:03"
-    },
-    "https://arcwiki.mcd.blue/images/d/d9/Songs_tictactoe.jpg": {
-        "local_path": "Songs_tictactoe.jpg",
-        "last_updated": "2025-07-16 22:39:05"
-    },
-    "https://arcwiki.mcd.blue/images/b/bd/Songs_miles.jpg": {
-        "local_path": "Songs_miles.jpg",
-        "last_updated": "2025-07-16 22:39:06"
-    }
+  "https://arcwiki.mcd.blue/images/f/fd/Songs_sayonarahatsukoi.jpg": {
+    "local_path": "Songs_sayonarahatsukoi.jpg",
+    "last_updated": "2025-07-16 22:23:43"
+  },
+  "https://arcwiki.mcd.blue/images/8/8f/Songs_fairytale.jpg": {
+    "local_path": "Songs_fairytale.jpg",
+    "last_updated": "2025-07-16 22:23:45"
+  },
+  "https://arcwiki.mcd.blue/images/e/ef/Songs_vexaria.jpg": {
+    "local_path": "Songs_vexaria.jpg",
+    "last_updated": "2025-07-16 22:23:47"
+  },
+  "https://arcwiki.mcd.blue/images/a/a4/Songs_rise.jpg": {
+    "local_path": "Songs_rise.jpg",
+    "last_updated": "2025-07-16 22:23:49"
+  },
+  "https://arcwiki.mcd.blue/images/0/04/Songs_lucifer.jpg": {
+    "local_path": "Songs_lucifer.jpg",
+    "last_updated": "2025-07-16 22:23:50"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_snowwhite.jpg": {
+    "local_path": "Songs_snowwhite.jpg",
+    "last_updated": "2025-07-16 22:23:52"
+  },
+  "https://arcwiki.mcd.blue/images/9/9a/Songs_shadesoflight.jpg": {
+    "local_path": "Songs_shadesoflight.jpg",
+    "last_updated": "2025-07-16 22:23:54"
+  },
+  "https://arcwiki.mcd.blue/images/b/b7/Songs_babaroque.jpg": {
+    "local_path": "Songs_babaroque.jpg",
+    "last_updated": "2025-07-16 22:23:56"
+  },
+  "https://arcwiki.mcd.blue/images/b/b4/Songs_lostcivilization.jpg": {
+    "local_path": "Songs_lostcivilization.jpg",
+    "last_updated": "2025-07-16 22:23:57"
+  },
+  "https://arcwiki.mcd.blue/images/5/53/Songs_goodtek.jpg": {
+    "local_path": "Songs_goodtek.jpg",
+    "last_updated": "2025-07-16 22:23:59"
+  },
+  "https://arcwiki.mcd.blue/images/9/97/Songs_qualia.jpg": {
+    "local_path": "Songs_qualia.jpg",
+    "last_updated": "2025-07-16 22:24:01"
+  },
+  "https://arcwiki.mcd.blue/images/5/58/Songs_dement.jpg": {
+    "local_path": "Songs_dement.jpg",
+    "last_updated": "2025-07-16 22:24:03"
+  },
+  "https://arcwiki.mcd.blue/images/9/96/Songs_dandelion.jpg": {
+    "local_path": "Songs_dandelion.jpg",
+    "last_updated": "2025-07-16 22:24:05"
+  },
+  "https://arcwiki.mcd.blue/images/4/41/Songs_infinityheaven.jpg": {
+    "local_path": "Songs_infinityheaven.jpg",
+    "last_updated": "2025-07-16 22:24:06"
+  },
+  "https://arcwiki.mcd.blue/images/b/b6/Songs_anokumene.jpg": {
+    "local_path": "Songs_anokumene.jpg",
+    "last_updated": "2025-07-16 22:24:08"
+  },
+  "https://arcwiki.mcd.blue/images/1/1b/Songs_brandnewworld.jpg": {
+    "local_path": "Songs_brandnewworld.jpg",
+    "last_updated": "2025-07-16 22:24:10"
+  },
+  "https://arcwiki.mcd.blue/images/0/04/Songs_chronostasis.jpg": {
+    "local_path": "Songs_chronostasis.jpg",
+    "last_updated": "2025-07-16 22:24:12"
+  },
+  "https://arcwiki.mcd.blue/images/a/a7/Songs_kanagawa.jpg": {
+    "local_path": "Songs_kanagawa.jpg",
+    "last_updated": "2025-07-16 22:24:14"
+  },
+  "https://arcwiki.mcd.blue/images/5/56/Songs_clotho.jpg": {
+    "local_path": "Songs_clotho.jpg",
+    "last_updated": "2025-07-16 22:24:15"
+  },
+  "https://arcwiki.mcd.blue/images/0/0a/Songs_ignotus.jpg": {
+    "local_path": "Songs_ignotus.jpg",
+    "last_updated": "2025-07-16 22:24:17"
+  },
+  "https://arcwiki.mcd.blue/images/e/ee/Songs_ignotusafterburn.jpg": {
+    "local_path": "Songs_ignotusafterburn.jpg",
+    "last_updated": "2025-07-16 22:24:19"
+  },
+  "https://arcwiki.mcd.blue/images/7/78/Songs_harutopia.jpg": {
+    "local_path": "Songs_harutopia.jpg",
+    "last_updated": "2025-07-16 22:24:21"
+  },
+  "https://arcwiki.mcd.blue/images/1/1c/Songs_rabbitintheblackroom.jpg": {
+    "local_path": "Songs_rabbitintheblackroom.jpg",
+    "last_updated": "2025-07-16 22:24:23"
+  },
+  "https://arcwiki.mcd.blue/images/a/a2/Songs_onelastdrive.jpg": {
+    "local_path": "Songs_onelastdrive.jpg",
+    "last_updated": "2025-07-16 22:24:25"
+  },
+  "https://arcwiki.mcd.blue/images/1/15/Songs_dreaminattraction.jpg": {
+    "local_path": "Songs_dreaminattraction.jpg",
+    "last_updated": "2025-07-16 22:24:26"
+  },
+  "https://arcwiki.mcd.blue/images/a/ac/Songs_redandblue.jpg": {
+    "local_path": "Songs_redandblue.jpg",
+    "last_updated": "2025-07-16 22:24:28"
+  },
+  "https://arcwiki.mcd.blue/images/c/c9/Songs_redandblueandgreen.jpg": {
+    "local_path": "Songs_redandblueandgreen.jpg",
+    "last_updated": "2025-07-16 22:24:30"
+  },
+  "https://arcwiki.mcd.blue/images/8/8b/Songs_reinvent.jpg": {
+    "local_path": "Songs_reinvent.jpg",
+    "last_updated": "2025-07-16 22:24:32"
+  },
+  "https://arcwiki.mcd.blue/images/2/2b/Songs_syro.jpg": {
+    "local_path": "Songs_syro.jpg",
+    "last_updated": "2025-07-16 22:24:34"
+  },
+  "https://arcwiki.mcd.blue/images/5/51/Songs_blaster.jpg": {
+    "local_path": "Songs_blaster.jpg",
+    "last_updated": "2025-07-16 22:24:35"
+  },
+  "https://arcwiki.mcd.blue/images/4/4f/Songs_cyberneciacatharsis.jpg": {
+    "local_path": "Songs_cyberneciacatharsis.jpg",
+    "last_updated": "2025-07-16 22:24:37"
+  },
+  "https://arcwiki.mcd.blue/images/d/d8/Songs_inkarusi.jpg": {
+    "local_path": "Songs_inkarusi.jpg",
+    "last_updated": "2025-07-16 22:24:39"
+  },
+  "https://arcwiki.mcd.blue/images/a/a0/Songs_suomi.jpg": {
+    "local_path": "Songs_suomi.jpg",
+    "last_updated": "2025-07-16 22:24:41"
+  },
+  "https://arcwiki.mcd.blue/images/6/67/Songs_bookmaker.jpg": {
+    "local_path": "Songs_bookmaker.jpg",
+    "last_updated": "2025-07-16 22:24:43"
+  },
+  "https://arcwiki.mcd.blue/images/1/1c/Songs_darakunosono.jpg": {
+    "local_path": "Songs_darakunosono.jpg",
+    "last_updated": "2025-07-16 22:24:45"
+  },
+  "https://arcwiki.mcd.blue/images/2/27/Songs_nhelv.jpg": {
+    "local_path": "Songs_nhelv.jpg",
+    "last_updated": "2025-07-16 22:24:46"
+  },
+  "https://arcwiki.mcd.blue/images/6/6c/Songs_espebranch.jpg": {
+    "local_path": "Songs_espebranch.jpg",
+    "last_updated": "2025-07-16 22:24:48"
+  },
+  "https://arcwiki.mcd.blue/images/c/c2/Songs_purgatorium.jpg": {
+    "local_path": "Songs_purgatorium.jpg",
+    "last_updated": "2025-07-16 22:24:50"
+  },
+  "https://arcwiki.mcd.blue/images/0/01/Songs_rugie.jpg": {
+    "local_path": "Songs_rugie.jpg",
+    "last_updated": "2025-07-16 22:24:52"
+  },
+  "https://arcwiki.mcd.blue/images/b/b6/Songs_grimheart.jpg": {
+    "local_path": "Songs_grimheart.jpg",
+    "last_updated": "2025-07-16 22:24:54"
+  },
+  "https://arcwiki.mcd.blue/images/5/50/Songs_revixy.jpg": {
+    "local_path": "Songs_revixy.jpg",
+    "last_updated": "2025-07-16 22:24:56"
+  },
+  "https://arcwiki.mcd.blue/images/b/b7/Songs_vector.jpg": {
+    "local_path": "Songs_vector.jpg",
+    "last_updated": "2025-07-16 22:24:58"
+  },
+  "https://arcwiki.mcd.blue/images/9/99/Songs_supernova.jpg": {
+    "local_path": "Songs_supernova.jpg",
+    "last_updated": "2025-07-16 22:25:00"
+  },
+  "https://arcwiki.mcd.blue/images/b/b7/Songs_diode.jpg": {
+    "local_path": "Songs_diode.jpg",
+    "last_updated": "2025-07-16 22:25:01"
+  },
+  "https://arcwiki.mcd.blue/images/3/39/Songs_freefall.jpg": {
+    "local_path": "Songs_freefall.jpg",
+    "last_updated": "2025-07-16 22:25:03"
+  },
+  "https://arcwiki.mcd.blue/images/6/65/Songs_monochromeprincess.jpg": {
+    "local_path": "Songs_monochromeprincess.jpg",
+    "last_updated": "2025-07-16 22:25:05"
+  },
+  "https://arcwiki.mcd.blue/images/7/7d/Songs_senkyou.jpg": {
+    "local_path": "Songs_senkyou.jpg",
+    "last_updated": "2025-07-16 22:25:07"
+  },
+  "https://arcwiki.mcd.blue/images/0/06/Songs_worldexecuteme.jpg": {
+    "local_path": "Songs_worldexecuteme.jpg",
+    "last_updated": "2025-07-16 22:25:09"
+  },
+  "https://arcwiki.mcd.blue/images/a/a3/Songs_oblivia.jpg": {
+    "local_path": "Songs_oblivia.jpg",
+    "last_updated": "2025-07-16 22:25:11"
+  },
+  "https://arcwiki.mcd.blue/images/2/2b/Songs_avril.jpg": {
+    "local_path": "Songs_avril.jpg",
+    "last_updated": "2025-07-16 22:25:12"
+  },
+  "https://arcwiki.mcd.blue/images/d/d3/Songs_sakurafubuki.jpg": {
+    "local_path": "Songs_sakurafubuki.jpg",
+    "last_updated": "2025-07-16 22:25:14"
+  },
+  "https://arcwiki.mcd.blue/images/6/66/Songs_nulctrl.jpg": {
+    "local_path": "Songs_nulctrl.jpg",
+    "last_updated": "2025-07-16 22:25:16"
+  },
+  "https://arcwiki.mcd.blue/images/c/ce/Songs_ddd.jpg": {
+    "local_path": "Songs_ddd.jpg",
+    "last_updated": "2025-07-16 22:25:18"
+  },
+  "https://arcwiki.mcd.blue/images/3/37/Songs_nekonote.jpg": {
+    "local_path": "Songs_nekonote.jpg",
+    "last_updated": "2025-07-16 22:25:20"
+  },
+  "https://arcwiki.mcd.blue/images/7/79/Songs_sanskia.jpg": {
+    "local_path": "Songs_sanskia.jpg",
+    "last_updated": "2025-07-16 22:25:22"
+  },
+  "https://arcwiki.mcd.blue/images/d/d2/Songs_altair.jpg": {
+    "local_path": "Songs_altair.jpg",
+    "last_updated": "2025-07-16 22:25:24"
+  },
+  "https://arcwiki.mcd.blue/images/d/d5/Songs_mukishitsu.jpg": {
+    "local_path": "Songs_mukishitsu.jpg",
+    "last_updated": "2025-07-16 22:25:26"
+  },
+  "https://arcwiki.mcd.blue/images/b/bd/Songs_trapcrow.jpg": {
+    "local_path": "Songs_trapcrow.jpg",
+    "last_updated": "2025-07-16 22:25:27"
+  },
+  "https://arcwiki.mcd.blue/images/f/ff/Songs_dialnote.jpg": {
+    "local_path": "Songs_dialnote.jpg",
+    "last_updated": "2025-07-16 22:25:29"
+  },
+  "https://arcwiki.mcd.blue/images/0/00/Songs_remindthesouls.jpg": {
+    "local_path": "Songs_remindthesouls.jpg",
+    "last_updated": "2025-07-16 22:25:31"
+  },
+  "https://arcwiki.mcd.blue/images/0/0a/Songs_theformula.jpg": {
+    "local_path": "Songs_theformula.jpg",
+    "last_updated": "2025-07-16 22:25:33"
+  },
+  "https://arcwiki.mcd.blue/images/4/4f/Songs_jingle.jpg": {
+    "local_path": "Songs_jingle.jpg",
+    "last_updated": "2025-07-16 22:25:35"
+  },
+  "https://arcwiki.mcd.blue/images/c/c1/Songs_epicurus.jpg": {
+    "local_path": "Songs_epicurus.jpg",
+    "last_updated": "2025-07-16 22:25:37"
+  },
+  "https://arcwiki.mcd.blue/images/5/59/Songs_satisfaction.jpg": {
+    "local_path": "Songs_satisfaction.jpg",
+    "last_updated": "2025-07-16 22:25:39"
+  },
+  "https://arcwiki.mcd.blue/images/e/ec/Songs_hellohell.jpg": {
+    "local_path": "Songs_hellohell.jpg",
+    "last_updated": "2025-07-16 22:25:41"
+  },
+  "https://arcwiki.mcd.blue/images/c/c7/Songs_ichirin.jpg": {
+    "local_path": "Songs_ichirin.jpg",
+    "last_updated": "2025-07-16 22:25:43"
+  },
+  "https://arcwiki.mcd.blue/images/4/49/Songs_awakeninruins.jpg": {
+    "local_path": "Songs_awakeninruins.jpg",
+    "last_updated": "2025-07-16 22:25:44"
+  },
+  "https://arcwiki.mcd.blue/images/6/68/Songs_morningloom.jpg": {
+    "local_path": "Songs_morningloom.jpg",
+    "last_updated": "2025-07-16 22:25:46"
+  },
+  "https://arcwiki.mcd.blue/images/3/30/Songs_lethalvoltage.jpg": {
+    "local_path": "Songs_lethalvoltage.jpg",
+    "last_updated": "2025-07-16 22:25:48"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_leaveallbehind.jpg": {
+    "local_path": "Songs_leaveallbehind.jpg",
+    "last_updated": "2025-07-16 22:25:50"
+  },
+  "https://arcwiki.mcd.blue/images/4/45/Songs_oldschoolsalvage.jpg": {
+    "local_path": "Songs_oldschoolsalvage.jpg",
+    "last_updated": "2025-07-16 22:25:52"
+  },
+  "https://arcwiki.mcd.blue/images/0/05/Songs_distortionhuman.jpg": {
+    "local_path": "Songs_distortionhuman.jpg",
+    "last_updated": "2025-07-16 22:25:54"
+  },
+  "https://arcwiki.mcd.blue/images/6/67/Songs_epitaxy.jpg": {
+    "local_path": "Songs_epitaxy.jpg",
+    "last_updated": "2025-07-16 22:25:56"
+  },
+  "https://arcwiki.mcd.blue/images/e/ea/Songs_hailstone.jpg": {
+    "local_path": "Songs_hailstone.jpg",
+    "last_updated": "2025-07-16 22:25:58"
+  },
+  "https://arcwiki.mcd.blue/images/2/2f/Songs_furetemitai.jpg": {
+    "local_path": "Songs_furetemitai.jpg",
+    "last_updated": "2025-07-16 22:26:00"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_prayer.jpg": {
+    "local_path": "Songs_prayer.jpg",
+    "last_updated": "2025-07-16 22:26:02"
+  },
+  "https://arcwiki.mcd.blue/images/1/11/Songs_astralexe.jpg": {
+    "local_path": "Songs_astralexe.jpg",
+    "last_updated": "2025-07-16 22:26:04"
+  },
+  "https://arcwiki.mcd.blue/images/d/d9/Songs_blackmirror.jpg": {
+    "local_path": "Songs_blackmirror.jpg",
+    "last_updated": "2025-07-16 22:26:05"
+  },
+  "https://arcwiki.mcd.blue/images/c/cf/Songs_trpno.jpg": {
+    "local_path": "Songs_trpno.jpg",
+    "last_updated": "2025-07-16 22:26:07"
+  },
+  "https://arcwiki.mcd.blue/images/e/e0/Songs_tau.jpg": {
+    "local_path": "Songs_tau.jpg",
+    "last_updated": "2025-07-16 22:26:09"
+  },
+  "https://arcwiki.mcd.blue/images/7/75/Songs_wontbackdown.jpg": {
+    "local_path": "Songs_wontbackdown.jpg",
+    "last_updated": "2025-07-16 22:26:11"
+  },
+  "https://arcwiki.mcd.blue/images/3/31/Songs_someday.jpg": {
+    "local_path": "Songs_someday.jpg",
+    "last_updated": "2025-07-16 22:26:13"
+  },
+  "https://arcwiki.mcd.blue/images/c/c7/Songs_tsukinimurakumo.jpg": {
+    "local_path": "Songs_tsukinimurakumo.jpg",
+    "last_updated": "2025-07-16 22:26:15"
+  },
+  "https://arcwiki.mcd.blue/images/b/b5/Songs_mantis.jpg": {
+    "local_path": "Songs_mantis.jpg",
+    "last_updated": "2025-07-16 22:26:17"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_worldfragments.jpg": {
+    "local_path": "Songs_worldfragments.jpg",
+    "last_updated": "2025-07-16 22:26:19"
+  },
+  "https://arcwiki.mcd.blue/images/4/4e/Songs_astrawalkthrough.jpg": {
+    "local_path": "Songs_astrawalkthrough.jpg",
+    "last_updated": "2025-07-16 22:26:20"
+  },
+  "https://arcwiki.mcd.blue/images/7/7f/Songs_chronicle.jpg": {
+    "local_path": "Songs_chronicle.jpg",
+    "last_updated": "2025-07-16 22:26:22"
+  },
+  "https://arcwiki.mcd.blue/images/c/c9/Songs_letsrock.jpg": {
+    "local_path": "Songs_letsrock.jpg",
+    "last_updated": "2025-07-16 22:26:24"
+  },
+  "https://arcwiki.mcd.blue/images/a/a1/Songs_lostemotion.jpg": {
+    "local_path": "Songs_lostemotion.jpg",
+    "last_updated": "2025-07-16 22:26:26"
+  },
+  "https://arcwiki.mcd.blue/images/a/a5/Songs_gimmick.jpg": {
+    "local_path": "Songs_gimmick.jpg",
+    "last_updated": "2025-07-16 22:26:28"
+  },
+  "https://arcwiki.mcd.blue/images/7/72/Songs_lawlesspoint.jpg": {
+    "local_path": "Songs_lawlesspoint.jpg",
+    "last_updated": "2025-07-16 22:26:30"
+  },
+  "https://arcwiki.mcd.blue/images/2/2f/Songs_hybris.jpg": {
+    "local_path": "Songs_hybris.jpg",
+    "last_updated": "2025-07-16 22:26:32"
+  },
+  "https://arcwiki.mcd.blue/images/c/c5/Songs_ultimatetaste.jpg": {
+    "local_path": "Songs_ultimatetaste.jpg",
+    "last_updated": "2025-07-16 22:26:34"
+  },
+  "https://arcwiki.mcd.blue/images/0/09/Songs_rgb.jpg": {
+    "local_path": "Songs_rgb.jpg",
+    "last_updated": "2025-07-16 22:26:36"
+  },
+  "https://arcwiki.mcd.blue/images/5/53/Songs_matenrou.jpg": {
+    "local_path": "Songs_matenrou.jpg",
+    "last_updated": "2025-07-16 22:26:37"
+  },
+  "https://arcwiki.mcd.blue/images/f/f8/Songs_dynitikos.jpg": {
+    "local_path": "Songs_dynitikos.jpg",
+    "last_updated": "2025-07-16 22:26:39"
+  },
+  "https://arcwiki.mcd.blue/images/5/5c/Songs_amekagura.jpg": {
+    "local_path": "Songs_amekagura.jpg",
+    "last_updated": "2025-07-16 22:26:41"
+  },
+  "https://arcwiki.mcd.blue/images/0/0e/Songs_fantasy.jpg": {
+    "local_path": "Songs_fantasy.jpg",
+    "last_updated": "2025-07-16 22:26:43"
+  },
+  "https://arcwiki.mcd.blue/images/a/a2/Songs_aloneandlorn.jpg": {
+    "local_path": "Songs_aloneandlorn.jpg",
+    "last_updated": "2025-07-16 22:26:46"
+  },
+  "https://arcwiki.mcd.blue/images/c/cc/Songs_felys.jpg": {
+    "local_path": "Songs_felys.jpg",
+    "last_updated": "2025-07-16 22:26:48"
+  },
+  "https://arcwiki.mcd.blue/images/6/66/Songs_onandon.jpg": {
+    "local_path": "Songs_onandon.jpg",
+    "last_updated": "2025-07-16 22:26:50"
+  },
+  "https://arcwiki.mcd.blue/images/a/a2/Songs_alephzero.jpg": {
+    "local_path": "Songs_alephzero.jpg",
+    "last_updated": "2025-07-16 22:26:51"
+  },
+  "https://arcwiki.mcd.blue/images/3/33/Songs_vividtheory.jpg": {
+    "local_path": "Songs_vividtheory.jpg",
+    "last_updated": "2025-07-16 22:26:53"
+  },
+  "https://arcwiki.mcd.blue/images/d/df/Songs_onefr.jpg": {
+    "local_path": "Songs_onefr.jpg",
+    "last_updated": "2025-07-16 22:26:55"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_gekka.jpg": {
+    "local_path": "Songs_gekka.jpg",
+    "last_updated": "2025-07-16 22:26:57"
+  },
+  "https://arcwiki.mcd.blue/images/4/47/Songs_givemeanightmare.jpg": {
+    "local_path": "Songs_givemeanightmare.jpg",
+    "last_updated": "2025-07-16 22:26:59"
+  },
+  "https://arcwiki.mcd.blue/images/3/3a/Songs_blacklotus.jpg": {
+    "local_path": "Songs_blacklotus.jpg",
+    "last_updated": "2025-07-16 22:27:01"
+  },
+  "https://arcwiki.mcd.blue/images/9/9b/Songs_faintlight.jpg": {
+    "local_path": "Songs_faintlight.jpg",
+    "last_updated": "2025-07-16 22:27:03"
+  },
+  "https://arcwiki.mcd.blue/images/c/c2/Songs_crossover.jpg": {
+    "local_path": "Songs_crossover.jpg",
+    "last_updated": "2025-07-16 22:27:05"
+  },
+  "https://arcwiki.mcd.blue/images/e/ea/Songs_lapis.jpg": {
+    "local_path": "Songs_lapis.jpg",
+    "last_updated": "2025-07-16 22:27:06"
+  },
+  "https://arcwiki.mcd.blue/images/f/f3/Songs_purpleverse.jpg": {
+    "local_path": "Songs_purpleverse.jpg",
+    "last_updated": "2025-07-16 22:27:08"
+  },
+  "https://arcwiki.mcd.blue/images/0/0c/Songs_glow.jpg": {
+    "local_path": "Songs_glow.jpg",
+    "last_updated": "2025-07-16 22:27:10"
+  },
+  "https://arcwiki.mcd.blue/images/a/af/Songs_enchantedlove.jpg": {
+    "local_path": "Songs_enchantedlove.jpg",
+    "last_updated": "2025-07-16 22:27:12"
+  },
+  "https://arcwiki.mcd.blue/images/2/26/Songs_take.jpg": {
+    "local_path": "Songs_take.jpg",
+    "last_updated": "2025-07-16 22:27:14"
+  },
+  "https://arcwiki.mcd.blue/images/f/f4/Songs_lifeispiano.jpg": {
+    "local_path": "Songs_lifeispiano.jpg",
+    "last_updated": "2025-07-16 22:27:16"
+  },
+  "https://arcwiki.mcd.blue/images/a/a6/Songs_vandalism.jpg": {
+    "local_path": "Songs_vandalism.jpg",
+    "last_updated": "2025-07-16 22:27:17"
+  },
+  "https://arcwiki.mcd.blue/images/0/0f/Songs_turbocharger.jpg": {
+    "local_path": "Songs_turbocharger.jpg",
+    "last_updated": "2025-07-16 22:27:19"
+  },
+  "https://arcwiki.mcd.blue/images/2/24/Songs_kyogenkigo.jpg": {
+    "local_path": "Songs_kyogenkigo.jpg",
+    "last_updated": "2025-07-16 22:27:21"
+  },
+  "https://arcwiki.mcd.blue/images/a/a7/Songs_hivemind.jpg": {
+    "local_path": "Songs_hivemind.jpg",
+    "last_updated": "2025-07-16 22:27:23"
+  },
+  "https://arcwiki.mcd.blue/images/7/7a/Songs_bluecomet.jpg": {
+    "local_path": "Songs_bluecomet.jpg",
+    "last_updated": "2025-07-16 22:27:25"
+  },
+  "https://arcwiki.mcd.blue/images/a/a5/Songs_energysynergymatrix.jpg": {
+    "local_path": "Songs_energysynergymatrix.jpg",
+    "last_updated": "2025-07-16 22:27:27"
+  },
+  "https://arcwiki.mcd.blue/images/a/a7/Songs_gengaozo.jpg": {
+    "local_path": "Songs_gengaozo.jpg",
+    "last_updated": "2025-07-16 22:27:29"
+  },
+  "https://arcwiki.mcd.blue/images/1/13/Songs_swansong.jpg": {
+    "local_path": "Songs_swansong.jpg",
+    "last_updated": "2025-07-16 22:27:31"
+  },
+  "https://arcwiki.mcd.blue/images/c/cd/Songs_renegade.jpg": {
+    "local_path": "Songs_renegade.jpg",
+    "last_updated": "2025-07-16 22:27:32"
+  },
+  "https://arcwiki.mcd.blue/images/c/c3/Songs_raysofremnant.jpg": {
+    "local_path": "Songs_raysofremnant.jpg",
+    "last_updated": "2025-07-16 22:27:34"
+  },
+  "https://arcwiki.mcd.blue/images/6/6c/Songs_breachoffaith.jpg": {
+    "local_path": "Songs_breachoffaith.jpg",
+    "last_updated": "2025-07-16 22:27:36"
+  },
+  "https://arcwiki.mcd.blue/images/8/83/Songs_lamentrain.jpg": {
+    "local_path": "Songs_lamentrain.jpg",
+    "last_updated": "2025-07-16 22:27:38"
+  },
+  "https://arcwiki.mcd.blue/images/e/ef/Songs_designant.jpg": {
+    "local_path": "Songs_designant.jpg",
+    "last_updated": "2025-07-16 22:27:40"
+  },
+  "https://arcwiki.mcd.blue/images/3/37/Songs_astralquant.jpg": {
+    "local_path": "Songs_astralquant.jpg",
+    "last_updated": "2025-07-16 22:27:42"
+  },
+  "https://arcwiki.mcd.blue/images/c/c9/Songs_invain.jpg": {
+    "local_path": "Songs_invain.jpg",
+    "last_updated": "2025-07-16 22:27:44"
+  },
+  "https://arcwiki.mcd.blue/images/9/95/Songs_hypnotize.jpg": {
+    "local_path": "Songs_hypnotize.jpg",
+    "last_updated": "2025-07-16 22:27:46"
+  },
+  "https://arcwiki.mcd.blue/images/f/f9/Songs_ashenboundary.jpg": {
+    "local_path": "Songs_ashenboundary.jpg",
+    "last_updated": "2025-07-16 22:27:47"
+  },
+  "https://arcwiki.mcd.blue/images/1/1d/Songs_judgement.jpg": {
+    "local_path": "Songs_judgement.jpg",
+    "last_updated": "2025-07-16 22:27:49"
+  },
+  "https://arcwiki.mcd.blue/images/b/b1/Songs_alterego.jpg": {
+    "local_path": "Songs_alterego.jpg",
+    "last_updated": "2025-07-16 22:27:51"
+  },
+  "https://arcwiki.mcd.blue/images/5/50/Songs_waitfordawn.jpg": {
+    "local_path": "Songs_waitfordawn.jpg",
+    "last_updated": "2025-07-16 22:27:53"
+  },
+  "https://arcwiki.mcd.blue/images/e/e9/Songs_ravenspride.jpg": {
+    "local_path": "Songs_ravenspride.jpg",
+    "last_updated": "2025-07-16 22:27:55"
+  },
+  "https://arcwiki.mcd.blue/images/6/61/Songs_riseoftheworld.jpg": {
+    "local_path": "Songs_riseoftheworld.jpg",
+    "last_updated": "2025-07-16 22:27:57"
+  },
+  "https://arcwiki.mcd.blue/images/e/e6/Songs_unknownlevels.jpg": {
+    "local_path": "Songs_unknownlevels.jpg",
+    "last_updated": "2025-07-16 22:27:58"
+  },
+  "https://arcwiki.mcd.blue/images/5/5a/Songs_abstrusedilemma.jpg": {
+    "local_path": "Songs_abstrusedilemma.jpg",
+    "last_updated": "2025-07-16 22:28:00"
+  },
+  "https://arcwiki.mcd.blue/images/f/f2/Songs_primevaltexture.jpg": {
+    "local_path": "Songs_primevaltexture.jpg",
+    "last_updated": "2025-07-16 22:28:02"
+  },
+  "https://arcwiki.mcd.blue/images/c/c7/Songs_technicolour.jpg": {
+    "local_path": "Songs_technicolour.jpg",
+    "last_updated": "2025-07-16 22:28:04"
+  },
+  "https://arcwiki.mcd.blue/images/6/6e/Songs_logos.jpg": {
+    "local_path": "Songs_logos.jpg",
+    "last_updated": "2025-07-16 22:28:06"
+  },
+  "https://arcwiki.mcd.blue/images/e/e8/Songs_egoeimi.jpg": {
+    "local_path": "Songs_egoeimi.jpg",
+    "last_updated": "2025-07-16 22:28:08"
+  },
+  "https://arcwiki.mcd.blue/images/6/62/Songs_arghena.jpg": {
+    "local_path": "Songs_arghena.jpg",
+    "last_updated": "2025-07-16 22:28:10"
+  },
+  "https://arcwiki.mcd.blue/images/8/8a/Songs_transientspace.jpg": {
+    "local_path": "Songs_transientspace.jpg",
+    "last_updated": "2025-07-16 22:28:11"
+  },
+  "https://arcwiki.mcd.blue/images/f/f7/Songs_namelesspassion.jpg": {
+    "local_path": "Songs_namelesspassion.jpg",
+    "last_updated": "2025-07-16 22:28:13"
+  },
+  "https://arcwiki.mcd.blue/images/4/45/Songs_teravolt.jpg": {
+    "local_path": "Songs_teravolt.jpg",
+    "last_updated": "2025-07-16 22:28:15"
+  },
+  "https://arcwiki.mcd.blue/images/2/2b/Songs_lovelessdress.jpg": {
+    "local_path": "Songs_lovelessdress.jpg",
+    "last_updated": "2025-07-16 22:28:17"
+  },
+  "https://arcwiki.mcd.blue/images/a/a2/Songs_last.jpg": {
+    "local_path": "Songs_last.jpg",
+    "last_updated": "2025-07-16 22:28:19"
+  },
+  "https://arcwiki.mcd.blue/images/b/b3/Songs_callimakarma.jpg": {
+    "local_path": "Songs_callimakarma.jpg",
+    "last_updated": "2025-07-16 22:28:20"
+  },
+  "https://arcwiki.mcd.blue/images/6/6b/Songs_defection.jpg": {
+    "local_path": "Songs_defection.jpg",
+    "last_updated": "2025-07-16 22:28:22"
+  },
+  "https://arcwiki.mcd.blue/images/d/d5/Songs_infinitestrife.jpg": {
+    "local_path": "Songs_infinitestrife.jpg",
+    "last_updated": "2025-07-16 22:28:24"
+  },
+  "https://arcwiki.mcd.blue/images/4/43/Songs_worldender.jpg": {
+    "local_path": "Songs_worldender.jpg",
+    "last_updated": "2025-07-16 22:28:26"
+  },
+  "https://arcwiki.mcd.blue/images/2/2d/Songs_pentiment.jpg": {
+    "local_path": "Songs_pentiment.jpg",
+    "last_updated": "2025-07-16 22:28:28"
+  },
+  "https://arcwiki.mcd.blue/images/5/5a/Songs_arcanaeden.jpg": {
+    "local_path": "Songs_arcanaeden.jpg",
+    "last_updated": "2025-07-16 22:28:30"
+  },
+  "https://arcwiki.mcd.blue/images/2/22/Songs_testify.jpg": {
+    "local_path": "Songs_testify.jpg",
+    "last_updated": "2025-07-16 22:28:31"
+  },
+  "https://arcwiki.mcd.blue/images/b/b9/Songs_equilibrium.jpg": {
+    "local_path": "Songs_equilibrium.jpg",
+    "last_updated": "2025-07-16 22:28:33"
+  },
+  "https://arcwiki.mcd.blue/images/e/e5/Songs_antagonism.jpg": {
+    "local_path": "Songs_antagonism.jpg",
+    "last_updated": "2025-07-16 22:28:35"
+  },
+  "https://arcwiki.mcd.blue/images/5/5b/Songs_lostdesire.jpg": {
+    "local_path": "Songs_lostdesire.jpg",
+    "last_updated": "2025-07-16 22:28:37"
+  },
+  "https://arcwiki.mcd.blue/images/8/89/Songs_dantalion.jpg": {
+    "local_path": "Songs_dantalion.jpg",
+    "last_updated": "2025-07-16 22:28:39"
+  },
+  "https://arcwiki.mcd.blue/images/b/be/Songs_ifi.jpg": {
+    "local_path": "Songs_ifi.jpg",
+    "last_updated": "2025-07-16 22:28:41"
+  },
+  "https://arcwiki.mcd.blue/images/c/c8/Songs_tempestissimo.jpg": {
+    "local_path": "Songs_tempestissimo.jpg",
+    "last_updated": "2025-07-16 22:28:42"
+  },
+  "https://arcwiki.mcd.blue/images/b/b3/Songs_arcahv.jpg": {
+    "local_path": "Songs_arcahv.jpg",
+    "last_updated": "2025-07-16 22:28:44"
+  },
+  "https://arcwiki.mcd.blue/images/4/4d/Songs_vindication.jpg": {
+    "local_path": "Songs_vindication.jpg",
+    "last_updated": "2025-07-16 22:28:46"
+  },
+  "https://arcwiki.mcd.blue/images/7/7e/Songs_heavensdoor.jpg": {
+    "local_path": "Songs_heavensdoor.jpg",
+    "last_updated": "2025-07-16 22:28:48"
+  },
+  "https://arcwiki.mcd.blue/images/b/bd/Songs_ringedgenesis.jpg": {
+    "local_path": "Songs_ringedgenesis.jpg",
+    "last_updated": "2025-07-16 22:28:50"
+  },
+  "https://arcwiki.mcd.blue/images/e/e8/Songs_blrink.jpg": {
+    "local_path": "Songs_blrink.jpg",
+    "last_updated": "2025-07-16 22:28:51"
+  },
+  "https://arcwiki.mcd.blue/images/d/df/Songs_saintorsinner.jpg": {
+    "local_path": "Songs_saintorsinner.jpg",
+    "last_updated": "2025-07-16 22:28:53"
+  },
+  "https://arcwiki.mcd.blue/images/4/44/Songs_mazenine.jpg": {
+    "local_path": "Songs_mazenine.jpg",
+    "last_updated": "2025-07-16 22:28:55"
+  },
+  "https://arcwiki.mcd.blue/images/3/35/Songs_themessage.jpg": {
+    "local_path": "Songs_themessage.jpg",
+    "last_updated": "2025-07-16 22:28:57"
+  },
+  "https://arcwiki.mcd.blue/images/0/00/Songs_sulfur.jpg": {
+    "local_path": "Songs_sulfur.jpg",
+    "last_updated": "2025-07-16 22:28:59"
+  },
+  "https://arcwiki.mcd.blue/images/b/ba/Songs_halcyon.jpg": {
+    "local_path": "Songs_halcyon.jpg",
+    "last_updated": "2025-07-16 22:29:01"
+  },
+  "https://arcwiki.mcd.blue/images/b/b2/Songs_etherstrike.jpg": {
+    "local_path": "Songs_etherstrike.jpg",
+    "last_updated": "2025-07-16 22:29:03"
+  },
+  "https://arcwiki.mcd.blue/images/1/1a/Songs_fractureray.jpg": {
+    "local_path": "Songs_fractureray.jpg",
+    "last_updated": "2025-07-16 22:29:05"
+  },
+  "https://arcwiki.mcd.blue/images/7/76/Songs_iconoclast.jpg": {
+    "local_path": "Songs_iconoclast.jpg",
+    "last_updated": "2025-07-16 22:29:06"
+  },
+  "https://arcwiki.mcd.blue/images/4/4b/Songs_soundwitch.jpg": {
+    "local_path": "Songs_soundwitch.jpg",
+    "last_updated": "2025-07-16 22:29:08"
+  },
+  "https://arcwiki.mcd.blue/images/a/a2/Songs_trappola.jpg": {
+    "local_path": "Songs_trappola.jpg",
+    "last_updated": "2025-07-16 22:29:10"
+  },
+  "https://arcwiki.mcd.blue/images/4/4e/Songs_conflict.jpg": {
+    "local_path": "Songs_conflict.jpg",
+    "last_updated": "2025-07-16 22:29:12"
+  },
+  "https://arcwiki.mcd.blue/images/f/f3/Songs_axiumcrisis.jpg": {
+    "local_path": "Songs_axiumcrisis.jpg",
+    "last_updated": "2025-07-16 22:29:14"
+  },
+  "https://arcwiki.mcd.blue/images/7/7b/Songs_grievouslady.jpg": {
+    "local_path": "Songs_grievouslady.jpg",
+    "last_updated": "2025-07-16 22:29:16"
+  },
+  "https://arcwiki.mcd.blue/images/0/00/Songs_viyella.jpg": {
+    "local_path": "Songs_viyella.jpg",
+    "last_updated": "2025-07-16 22:29:18"
+  },
+  "https://arcwiki.mcd.blue/images/a/a3/Songs_hearditsaid.jpg": {
+    "local_path": "Songs_hearditsaid.jpg",
+    "last_updated": "2025-07-16 22:29:20"
+  },
+  "https://arcwiki.mcd.blue/images/5/59/Songs_memoryfactory.jpg": {
+    "local_path": "Songs_memoryfactory.jpg",
+    "last_updated": "2025-07-16 22:29:22"
+  },
+  "https://arcwiki.mcd.blue/images/f/fe/Songs_relentless.jpg": {
+    "local_path": "Songs_relentless.jpg",
+    "last_updated": "2025-07-16 22:29:23"
+  },
+  "https://arcwiki.mcd.blue/images/c/c9/Songs_lumia.jpg": {
+    "local_path": "Songs_lumia.jpg",
+    "last_updated": "2025-07-16 22:29:25"
+  },
+  "https://arcwiki.mcd.blue/images/7/77/Songs_essenceoftwilight.jpg": {
+    "local_path": "Songs_essenceoftwilight.jpg",
+    "last_updated": "2025-07-16 22:29:27"
+  },
+  "https://arcwiki.mcd.blue/images/2/24/Songs_pragmatism.jpg": {
+    "local_path": "Songs_pragmatism.jpg",
+    "last_updated": "2025-07-16 22:29:29"
+  },
+  "https://arcwiki.mcd.blue/images/4/4e/Songs_pragmatism_byd.jpg": {
+    "local_path": "Songs_pragmatism_byd.jpg",
+    "last_updated": "2025-07-16 22:29:31"
+  },
+  "https://arcwiki.mcd.blue/images/0/0f/Songs_sheriruth.jpg": {
+    "local_path": "Songs_sheriruth.jpg",
+    "last_updated": "2025-07-16 22:29:33"
+  },
+  "https://arcwiki.mcd.blue/images/d/d8/Songs_solitarydream.jpg": {
+    "local_path": "Songs_solitarydream.jpg",
+    "last_updated": "2025-07-16 22:29:35"
+  },
+  "https://arcwiki.mcd.blue/images/5/5c/Songs_paperwitch.jpg": {
+    "local_path": "Songs_paperwitch.jpg",
+    "last_updated": "2025-07-16 22:29:37"
+  },
+  "https://arcwiki.mcd.blue/images/7/71/Songs_crystalgravity.jpg": {
+    "local_path": "Songs_crystalgravity.jpg",
+    "last_updated": "2025-07-16 22:29:39"
+  },
+  "https://arcwiki.mcd.blue/images/0/01/Songs_farawaylight.jpg": {
+    "local_path": "Songs_farawaylight.jpg",
+    "last_updated": "2025-07-16 22:29:55"
+  },
+  "https://arcwiki.mcd.blue/images/0/0b/Songs_loschen.jpg": {
+    "local_path": "Songs_loschen.jpg",
+    "last_updated": "2025-07-16 22:29:57"
+  },
+  "https://arcwiki.mcd.blue/images/5/5a/Songs_aegleseeker.jpg": {
+    "local_path": "Songs_aegleseeker.jpg",
+    "last_updated": "2025-07-16 22:29:59"
+  },
+  "https://arcwiki.mcd.blue/images/7/79/Songs_seclusion.jpg": {
+    "local_path": "Songs_seclusion.jpg",
+    "last_updated": "2025-07-16 22:30:01"
+  },
+  "https://arcwiki.mcd.blue/images/0/04/Songs_coastalhighway.jpg": {
+    "local_path": "Songs_coastalhighway.jpg",
+    "last_updated": "2025-07-16 22:30:03"
+  },
+  "https://arcwiki.mcd.blue/images/b/b1/Songs_odysseia.jpg": {
+    "local_path": "Songs_odysseia.jpg",
+    "last_updated": "2025-07-16 22:30:04"
+  },
+  "https://arcwiki.mcd.blue/images/2/2a/Songs_overwhelm.jpg": {
+    "local_path": "Songs_overwhelm.jpg",
+    "last_updated": "2025-07-16 22:30:06"
+  },
+  "https://arcwiki.mcd.blue/images/d/d3/Songs_smallcloud.jpg": {
+    "local_path": "Songs_smallcloud.jpg",
+    "last_updated": "2025-07-16 22:30:08"
+  },
+  "https://arcwiki.mcd.blue/images/b/b3/Songs_alterale.jpg": {
+    "local_path": "Songs_alterale.jpg",
+    "last_updated": "2025-07-16 22:30:10"
+  },
+  "https://arcwiki.mcd.blue/images/1/17/Songs_divinelight.jpg": {
+    "local_path": "Songs_divinelight.jpg",
+    "last_updated": "2025-07-16 22:30:12"
+  },
+  "https://arcwiki.mcd.blue/images/3/3a/Songs_firstsnow.jpg": {
+    "local_path": "Songs_firstsnow.jpg",
+    "last_updated": "2025-07-16 22:30:14"
+  },
+  "https://arcwiki.mcd.blue/images/8/8c/Songs_bluerose.jpg": {
+    "local_path": "Songs_bluerose.jpg",
+    "last_updated": "2025-07-16 22:30:16"
+  },
+  "https://arcwiki.mcd.blue/images/6/60/Songs_blockedlibrary.jpg": {
+    "local_path": "Songs_blockedlibrary.jpg",
+    "last_updated": "2025-07-16 22:30:18"
+  },
+  "https://arcwiki.mcd.blue/images/c/cf/Songs_neokosmo.jpg": {
+    "local_path": "Songs_neokosmo.jpg",
+    "last_updated": "2025-07-16 22:30:20"
+  },
+  "https://arcwiki.mcd.blue/images/3/31/Songs_lightningscrew.jpg": {
+    "local_path": "Songs_lightningscrew.jpg",
+    "last_updated": "2025-07-16 22:30:22"
+  },
+  "https://arcwiki.mcd.blue/images/2/2b/Songs_alicealamode.jpg": {
+    "local_path": "Songs_alicealamode.jpg",
+    "last_updated": "2025-07-16 22:30:24"
+  },
+  "https://arcwiki.mcd.blue/images/6/69/Songs_eccentrictale.jpg": {
+    "local_path": "Songs_eccentrictale.jpg",
+    "last_updated": "2025-07-16 22:30:25"
+  },
+  "https://arcwiki.mcd.blue/images/a/a8/Songs_alicessuitcase.jpg": {
+    "local_path": "Songs_alicessuitcase.jpg",
+    "last_updated": "2025-07-16 22:30:27"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_jump.jpg": {
+    "local_path": "Songs_jump.jpg",
+    "last_updated": "2025-07-16 22:30:29"
+  },
+  "https://arcwiki.mcd.blue/images/4/4b/Songs_felis.jpg": {
+    "local_path": "Songs_felis.jpg",
+    "last_updated": "2025-07-16 22:30:31"
+  },
+  "https://arcwiki.mcd.blue/images/e/ed/Songs_besideyou.jpg": {
+    "local_path": "Songs_besideyou.jpg",
+    "last_updated": "2025-07-16 22:30:33"
+  },
+  "https://arcwiki.mcd.blue/images/2/22/Songs_heartjackin.jpg": {
+    "local_path": "Songs_heartjackin.jpg",
+    "last_updated": "2025-07-16 22:30:35"
+  },
+  "https://arcwiki.mcd.blue/images/a/a8/Songs_toaliceliddell.jpg": {
+    "local_path": "Songs_toaliceliddell.jpg",
+    "last_updated": "2025-07-16 22:30:36"
+  },
+  "https://arcwiki.mcd.blue/images/f/f4/Songs_chelsea.jpg": {
+    "local_path": "Songs_chelsea.jpg",
+    "last_updated": "2025-07-16 22:30:38"
+  },
+  "https://arcwiki.mcd.blue/images/a/a4/Songs_aiueoon.jpg": {
+    "local_path": "Songs_aiueoon.jpg",
+    "last_updated": "2025-07-16 22:30:40"
+  },
+  "https://arcwiki.mcd.blue/images/b/b4/Songs_melodyoflove.jpg": {
+    "local_path": "Songs_melodyoflove.jpg",
+    "last_updated": "2025-07-16 22:30:42"
+  },
+  "https://arcwiki.mcd.blue/images/f/fa/Songs_tiemedowngently.jpg": {
+    "local_path": "Songs_tiemedowngently.jpg",
+    "last_updated": "2025-07-16 22:30:44"
+  },
+  "https://arcwiki.mcd.blue/images/9/95/Songs_valhallazero.jpg": {
+    "local_path": "Songs_valhallazero.jpg",
+    "last_updated": "2025-07-16 22:30:46"
+  },
+  "https://arcwiki.mcd.blue/images/0/08/Songs_hotarubinoyuki.jpg": {
+    "local_path": "Songs_hotarubinoyuki.jpg",
+    "last_updated": "2025-07-16 22:30:48"
+  },
+  "https://arcwiki.mcd.blue/images/1/18/Songs_antithese.jpg": {
+    "local_path": "Songs_antithese.jpg",
+    "last_updated": "2025-07-16 22:30:49"
+  },
+  "https://arcwiki.mcd.blue/images/9/9d/Songs_blackterritory.jpg": {
+    "local_path": "Songs_blackterritory.jpg",
+    "last_updated": "2025-07-16 22:30:51"
+  },
+  "https://arcwiki.mcd.blue/images/1/18/Songs_corruption.jpg": {
+    "local_path": "Songs_corruption.jpg",
+    "last_updated": "2025-07-16 22:30:53"
+  },
+  "https://arcwiki.mcd.blue/images/e/e9/Songs_viciousheroism.jpg": {
+    "local_path": "Songs_viciousheroism.jpg",
+    "last_updated": "2025-07-16 22:30:55"
+  },
+  "https://arcwiki.mcd.blue/images/a/a8/Songs_viciousheroism_byd.jpg": {
+    "local_path": "Songs_viciousheroism_byd.jpg",
+    "last_updated": "2025-07-16 22:30:57"
+  },
+  "https://arcwiki.mcd.blue/images/9/93/Songs_cyaegha.jpg": {
+    "local_path": "Songs_cyaegha.jpg",
+    "last_updated": "2025-07-16 22:30:59"
+  },
+  "https://arcwiki.mcd.blue/images/f/f4/Songs_nexttoyou.jpg": {
+    "local_path": "Songs_nexttoyou.jpg",
+    "last_updated": "2025-07-16 22:31:01"
+  },
+  "https://arcwiki.mcd.blue/images/c/c0/Songs_silentrush.jpg": {
+    "local_path": "Songs_silentrush.jpg",
+    "last_updated": "2025-07-16 22:31:03"
+  },
+  "https://arcwiki.mcd.blue/images/e/e7/Songs_strongholds.jpg": {
+    "local_path": "Songs_strongholds.jpg",
+    "last_updated": "2025-07-16 22:31:05"
+  },
+  "https://arcwiki.mcd.blue/images/2/21/Songs_memoryforest.jpg": {
+    "local_path": "Songs_memoryforest.jpg",
+    "last_updated": "2025-07-16 22:31:07"
+  },
+  "https://arcwiki.mcd.blue/images/2/29/Songs_singularity.jpg": {
+    "local_path": "Songs_singularity.jpg",
+    "last_updated": "2025-07-16 22:31:09"
+  },
+  "https://arcwiki.mcd.blue/images/7/70/Songs_singularityvvvip.jpg": {
+    "local_path": "Songs_singularityvvvip.jpg",
+    "last_updated": "2025-07-16 22:31:11"
+  },
+  "https://arcwiki.mcd.blue/images/d/dc/Songs_cosmica.jpg": {
+    "local_path": "Songs_cosmica.jpg",
+    "last_updated": "2025-07-16 22:31:13"
+  },
+  "https://arcwiki.mcd.blue/images/7/7b/Songs_ascent.jpg": {
+    "local_path": "Songs_ascent.jpg",
+    "last_updated": "2025-07-16 22:31:15"
+  },
+  "https://arcwiki.mcd.blue/images/b/b1/Songs_livefastdieyoung.jpg": {
+    "local_path": "Songs_livefastdieyoung.jpg",
+    "last_updated": "2025-07-16 22:31:17"
+  },
+  "https://arcwiki.mcd.blue/images/2/23/Songs_blossoms.jpg": {
+    "local_path": "Songs_blossoms.jpg",
+    "last_updated": "2025-07-16 22:31:19"
+  },
+  "https://arcwiki.mcd.blue/images/9/94/Songs_romancewars.jpg": {
+    "local_path": "Songs_romancewars.jpg",
+    "last_updated": "2025-07-16 22:31:21"
+  },
+  "https://arcwiki.mcd.blue/images/1/12/Songs_moonheart.jpg": {
+    "local_path": "Songs_moonheart.jpg",
+    "last_updated": "2025-07-16 22:31:23"
+  },
+  "https://arcwiki.mcd.blue/images/1/19/Songs_genesis.jpg": {
+    "local_path": "Songs_genesis.jpg",
+    "last_updated": "2025-07-16 22:31:25"
+  },
+  "https://arcwiki.mcd.blue/images/9/9e/Songs_lethaeus.jpg": {
+    "local_path": "Songs_lethaeus.jpg",
+    "last_updated": "2025-07-16 22:31:27"
+  },
+  "https://arcwiki.mcd.blue/images/b/b1/Songs_corpssansorganes.jpg": {
+    "local_path": "Songs_corpssansorganes.jpg",
+    "last_updated": "2025-07-16 22:31:29"
+  },
+  "https://arcwiki.mcd.blue/images/b/b7/Songs_paradise.jpg": {
+    "local_path": "Songs_paradise.jpg",
+    "last_updated": "2025-07-16 22:31:31"
+  },
+  "https://arcwiki.mcd.blue/images/e/ee/Songs_flashback.jpg": {
+    "local_path": "Songs_flashback.jpg",
+    "last_updated": "2025-07-16 22:31:33"
+  },
+  "https://arcwiki.mcd.blue/images/c/c0/Songs_flyburg.jpg": {
+    "local_path": "Songs_flyburg.jpg",
+    "last_updated": "2025-07-16 22:31:34"
+  },
+  "https://arcwiki.mcd.blue/images/4/4c/Songs_partyvinyl.jpg": {
+    "local_path": "Songs_partyvinyl.jpg",
+    "last_updated": "2025-07-16 22:31:36"
+  },
+  "https://arcwiki.mcd.blue/images/3/31/Songs_nirvluce.jpg": {
+    "local_path": "Songs_nirvluce.jpg",
+    "last_updated": "2025-07-16 22:31:38"
+  },
+  "https://arcwiki.mcd.blue/images/c/c2/Songs_gloryroad.jpg": {
+    "local_path": "Songs_gloryroad.jpg",
+    "last_updated": "2025-07-16 22:31:40"
+  },
+  "https://arcwiki.mcd.blue/images/7/75/Songs_ladymadestar.jpg": {
+    "local_path": "Songs_ladymadestar.jpg",
+    "last_updated": "2025-07-16 22:31:42"
+  },
+  "https://arcwiki.mcd.blue/images/4/49/Songs_endmoonlight.jpg": {
+    "local_path": "Songs_endmoonlight.jpg",
+    "last_updated": "2025-07-16 22:31:44"
+  },
+  "https://arcwiki.mcd.blue/images/4/4f/Songs_uad.jpg": {
+    "local_path": "Songs_uad.jpg",
+    "last_updated": "2025-07-16 22:31:45"
+  },
+  "https://arcwiki.mcd.blue/images/f/f8/Songs_oblivion.jpg": {
+    "local_path": "Songs_oblivion.jpg",
+    "last_updated": "2025-07-16 22:31:47"
+  },
+  "https://arcwiki.mcd.blue/images/0/02/Songs_nightmare.jpg": {
+    "local_path": "Songs_nightmare.jpg",
+    "last_updated": "2025-07-16 22:31:49"
+  },
+  "https://arcwiki.mcd.blue/images/a/a4/Songs_iwantyou.jpg": {
+    "local_path": "Songs_iwantyou.jpg",
+    "last_updated": "2025-07-16 22:31:51"
+  },
+  "https://arcwiki.mcd.blue/images/3/32/Songs_syriana.jpg": {
+    "local_path": "Songs_syriana.jpg",
+    "last_updated": "2025-07-16 22:31:53"
+  },
+  "https://arcwiki.mcd.blue/images/1/1d/Songs_liar.jpg": {
+    "local_path": "Songs_liar.jpg",
+    "last_updated": "2025-07-16 22:31:54"
+  },
+  "https://arcwiki.mcd.blue/images/9/92/Songs_blythe.jpg": {
+    "local_path": "Songs_blythe.jpg",
+    "last_updated": "2025-07-16 22:31:56"
+  },
+  "https://arcwiki.mcd.blue/images/6/66/Songs_wereallgonnadie.jpg": {
+    "local_path": "Songs_wereallgonnadie.jpg",
+    "last_updated": "2025-07-16 22:31:58"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_heartache.jpg": {
+    "local_path": "Songs_heartache.jpg",
+    "last_updated": "2025-07-16 22:32:00"
+  },
+  "https://arcwiki.mcd.blue/images/a/a4/Songs_deathbyglamour.jpg": {
+    "local_path": "Songs_deathbyglamour.jpg",
+    "last_updated": "2025-07-16 22:32:01"
+  },
+  "https://arcwiki.mcd.blue/images/a/a9/Songs_yourbestnightmare.jpg": {
+    "local_path": "Songs_yourbestnightmare.jpg",
+    "last_updated": "2025-07-16 22:32:03"
+  },
+  "https://arcwiki.mcd.blue/images/9/9a/Songs_lastgoodbye.jpg": {
+    "local_path": "Songs_lastgoodbye.jpg",
+    "last_updated": "2025-07-16 22:32:05"
+  },
+  "https://arcwiki.mcd.blue/images/0/0c/Songs_megalovania.jpg": {
+    "local_path": "Songs_megalovania.jpg",
+    "last_updated": "2025-07-16 22:32:07"
+  },
+  "https://arcwiki.mcd.blue/images/7/72/Songs_waltzforlorelei.jpg": {
+    "local_path": "Songs_waltzforlorelei.jpg",
+    "last_updated": "2025-07-16 22:32:08"
+  },
+  "https://arcwiki.mcd.blue/images/1/11/Songs_dualdoom.jpg": {
+    "local_path": "Songs_dualdoom.jpg",
+    "last_updated": "2025-07-16 22:32:10"
+  },
+  "https://arcwiki.mcd.blue/images/b/bb/Songs_invertedworld.jpg": {
+    "local_path": "Songs_invertedworld.jpg",
+    "last_updated": "2025-07-16 22:32:12"
+  },
+  "https://arcwiki.mcd.blue/images/e/e0/Songs_mvurbd.jpg": {
+    "local_path": "Songs_mvurbd.jpg",
+    "last_updated": "2025-07-16 22:32:14"
+  },
+  "https://arcwiki.mcd.blue/images/0/06/Songs_vulcanus.jpg": {
+    "local_path": "Songs_vulcanus.jpg",
+    "last_updated": "2025-07-16 22:32:31"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_bulletwaiting.jpg": {
+    "local_path": "Songs_bulletwaiting.jpg",
+    "last_updated": "2025-07-16 22:32:33"
+  },
+  "https://arcwiki.mcd.blue/images/3/37/Songs_devillicsphere.jpg": {
+    "local_path": "Songs_devillicsphere.jpg",
+    "last_updated": "2025-07-16 22:32:34"
+  },
+  "https://arcwiki.mcd.blue/images/e/ee/Songs_lucidtraveler.jpg": {
+    "local_path": "Songs_lucidtraveler.jpg",
+    "last_updated": "2025-07-16 22:32:36"
+  },
+  "https://arcwiki.mcd.blue/images/8/88/Songs_chaos.jpg": {
+    "local_path": "Songs_chaos.jpg",
+    "last_updated": "2025-07-16 22:32:38"
+  },
+  "https://arcwiki.mcd.blue/images/0/08/Songs_usedtobe.jpg": {
+    "local_path": "Songs_usedtobe.jpg",
+    "last_updated": "2025-07-16 22:32:40"
+  },
+  "https://arcwiki.mcd.blue/images/5/5d/Songs_syuten.jpg": {
+    "local_path": "Songs_syuten.jpg",
+    "last_updated": "2025-07-16 22:32:41"
+  },
+  "https://arcwiki.mcd.blue/images/5/5c/Songs_drg.jpg": {
+    "local_path": "Songs_drg.jpg",
+    "last_updated": "2025-07-16 22:32:43"
+  },
+  "https://arcwiki.mcd.blue/images/c/c9/Songs_nnglooms.jpg": {
+    "local_path": "Songs_nnglooms.jpg",
+    "last_updated": "2025-07-16 22:32:45"
+  },
+  "https://arcwiki.mcd.blue/images/6/61/Songs_ii.jpg": {
+    "local_path": "Songs_ii.jpg",
+    "last_updated": "2025-07-16 22:32:47"
+  },
+  "https://arcwiki.mcd.blue/images/3/3e/Songs_magnolia.jpg": {
+    "local_path": "Songs_magnolia.jpg",
+    "last_updated": "2025-07-16 22:32:49"
+  },
+  "https://arcwiki.mcd.blue/images/0/0b/Songs_akinokagerou.jpg": {
+    "local_path": "Songs_akinokagerou.jpg",
+    "last_updated": "2025-07-16 22:32:51"
+  },
+  "https://arcwiki.mcd.blue/images/0/00/Songs_lightsofmuse.jpg": {
+    "local_path": "Songs_lightsofmuse.jpg",
+    "last_updated": "2025-07-16 22:32:52"
+  },
+  "https://arcwiki.mcd.blue/images/2/2b/Songs_medusa.jpg": {
+    "local_path": "Songs_medusa.jpg",
+    "last_updated": "2025-07-16 22:32:54"
+  },
+  "https://arcwiki.mcd.blue/images/5/59/Songs_finalstep.jpg": {
+    "local_path": "Songs_finalstep.jpg",
+    "last_updated": "2025-07-16 22:32:56"
+  },
+  "https://arcwiki.mcd.blue/images/6/61/Songs_quonwacca.jpg": {
+    "local_path": "Songs_quonwacca.jpg",
+    "last_updated": "2025-07-16 22:32:58"
+  },
+  "https://arcwiki.mcd.blue/images/b/b0/Songs_withu.jpg": {
+    "local_path": "Songs_withu.jpg",
+    "last_updated": "2025-07-16 22:32:59"
+  },
+  "https://arcwiki.mcd.blue/images/d/d1/Songs_letyoudivermx.jpg": {
+    "local_path": "Songs_letyoudivermx.jpg",
+    "last_updated": "2025-07-16 22:33:01"
+  },
+  "https://arcwiki.mcd.blue/images/a/ac/Songs_mazymetroplex.jpg": {
+    "local_path": "Songs_mazymetroplex.jpg",
+    "last_updated": "2025-07-16 22:33:03"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_genocider.jpg": {
+    "local_path": "Songs_genocider.jpg",
+    "last_updated": "2025-07-16 22:33:05"
+  },
+  "https://arcwiki.mcd.blue/images/b/b1/Songs_stratoliner.jpg": {
+    "local_path": "Songs_stratoliner.jpg",
+    "last_updated": "2025-07-16 22:33:07"
+  },
+  "https://arcwiki.mcd.blue/images/c/cb/Songs_ouverture.jpg": {
+    "local_path": "Songs_ouverture.jpg",
+    "last_updated": "2025-07-16 22:33:09"
+  },
+  "https://arcwiki.mcd.blue/images/d/dc/Songs_xtreme.jpg": {
+    "local_path": "Songs_xtreme.jpg",
+    "last_updated": "2025-07-16 22:33:10"
+  },
+  "https://arcwiki.mcd.blue/images/1/12/Songs_edenwacca.jpg": {
+    "local_path": "Songs_edenwacca.jpg",
+    "last_updated": "2025-07-16 22:33:12"
+  },
+  "https://arcwiki.mcd.blue/images/f/fc/Songs_metamysteria.jpg": {
+    "local_path": "Songs_metamysteria.jpg",
+    "last_updated": "2025-07-16 22:33:14"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_aprilshowers.jpg": {
+    "local_path": "Songs_aprilshowers.jpg",
+    "last_updated": "2025-07-16 22:33:16"
+  },
+  "https://arcwiki.mcd.blue/images/f/fb/Songs_seventhsense.jpg": {
+    "local_path": "Songs_seventhsense.jpg",
+    "last_updated": "2025-07-16 22:33:17"
+  },
+  "https://arcwiki.mcd.blue/images/f/f4/Songs_oshamascramble.jpg": {
+    "local_path": "Songs_oshamascramble.jpg",
+    "last_updated": "2025-07-16 22:33:19"
+  },
+  "https://arcwiki.mcd.blue/images/1/16/Songs_amazingmightyyyy.jpg": {
+    "local_path": "Songs_amazingmightyyyy.jpg",
+    "last_updated": "2025-07-16 22:33:21"
+  },
+  "https://arcwiki.mcd.blue/images/d/d0/Songs_cycles.jpg": {
+    "local_path": "Songs_cycles.jpg",
+    "last_updated": "2025-07-16 22:33:23"
+  },
+  "https://arcwiki.mcd.blue/images/b/b9/Songs_maxrage.jpg": {
+    "local_path": "Songs_maxrage.jpg",
+    "last_updated": "2025-07-16 22:33:25"
+  },
+  "https://arcwiki.mcd.blue/images/9/90/Songs_infinity.jpg": {
+    "local_path": "Songs_infinity.jpg",
+    "last_updated": "2025-07-16 22:33:26"
+  },
+  "https://arcwiki.mcd.blue/images/c/c5/Songs_temptation.jpg": {
+    "local_path": "Songs_temptation.jpg",
+    "last_updated": "2025-07-16 22:33:28"
+  },
+  "https://arcwiki.mcd.blue/images/1/10/Songs_breakbreak.jpg": {
+    "local_path": "Songs_breakbreak.jpg",
+    "last_updated": "2025-07-16 22:33:30"
+  },
+  "https://arcwiki.mcd.blue/images/8/88/Songs_straightintolights.jpg": {
+    "local_path": "Songs_straightintolights.jpg",
+    "last_updated": "2025-07-16 22:33:32"
+  },
+  "https://arcwiki.mcd.blue/images/7/7f/Songs_yomibitoshirazu.jpg": {
+    "local_path": "Songs_yomibitoshirazu.jpg",
+    "last_updated": "2025-07-16 22:33:34"
+  },
+  "https://arcwiki.mcd.blue/images/e/ea/Songs_virtus.jpg": {
+    "local_path": "Songs_virtus.jpg",
+    "last_updated": "2025-07-16 22:33:36"
+  },
+  "https://arcwiki.mcd.blue/images/b/b3/Songs_lazyaddiction.jpg": {
+    "local_path": "Songs_lazyaddiction.jpg",
+    "last_updated": "2025-07-16 22:33:37"
+  },
+  "https://arcwiki.mcd.blue/images/6/61/Songs_dazzlehop.jpg": {
+    "local_path": "Songs_dazzlehop.jpg",
+    "last_updated": "2025-07-16 22:33:39"
+  },
+  "https://arcwiki.mcd.blue/images/8/8e/Songs_viyellastears.jpg": {
+    "local_path": "Songs_viyellastears.jpg",
+    "last_updated": "2025-07-16 22:33:41"
+  },
+  "https://arcwiki.mcd.blue/images/a/af/Songs_omegafour.jpg": {
+    "local_path": "Songs_omegafour.jpg",
+    "last_updated": "2025-07-16 22:33:43"
+  },
+  "https://arcwiki.mcd.blue/images/d/df/Songs_kokoro.jpg": {
+    "local_path": "Songs_kokoro.jpg",
+    "last_updated": "2025-07-16 22:33:44"
+  },
+  "https://arcwiki.mcd.blue/images/e/ee/Songs_aidrew.jpg": {
+    "local_path": "Songs_aidrew.jpg",
+    "last_updated": "2025-07-16 22:33:46"
+  },
+  "https://arcwiki.mcd.blue/images/8/8a/Songs_fluffyflash.jpg": {
+    "local_path": "Songs_fluffyflash.jpg",
+    "last_updated": "2025-07-16 22:33:48"
+  },
+  "https://arcwiki.mcd.blue/images/4/41/Songs_goodbyemerry.jpg": {
+    "local_path": "Songs_goodbyemerry.jpg",
+    "last_updated": "2025-07-16 22:33:50"
+  },
+  "https://arcwiki.mcd.blue/images/8/86/Songs_lamia.jpg": {
+    "local_path": "Songs_lamia.jpg",
+    "last_updated": "2025-07-16 22:33:52"
+  },
+  "https://arcwiki.mcd.blue/images/9/99/Songs_liftoff.jpg": {
+    "local_path": "Songs_liftoff.jpg",
+    "last_updated": "2025-07-16 22:33:54"
+  },
+  "https://arcwiki.mcd.blue/images/4/49/Songs_superambulance.jpg": {
+    "local_path": "Songs_superambulance.jpg",
+    "last_updated": "2025-07-16 22:33:55"
+  },
+  "https://arcwiki.mcd.blue/images/b/bf/Songs_dontfightmusic.jpg": {
+    "local_path": "Songs_dontfightmusic.jpg",
+    "last_updated": "2025-07-16 22:33:57"
+  },
+  "https://arcwiki.mcd.blue/images/e/eb/Songs_andrevivemelody.jpg": {
+    "local_path": "Songs_andrevivemelody.jpg",
+    "last_updated": "2025-07-16 22:33:59"
+  },
+  "https://arcwiki.mcd.blue/images/b/b5/Songs_garakuta.jpg": {
+    "local_path": "Songs_garakuta.jpg",
+    "last_updated": "2025-07-16 22:34:01"
+  },
+  "https://arcwiki.mcd.blue/images/6/6d/Songs_ikazuchi.jpg": {
+    "local_path": "Songs_ikazuchi.jpg",
+    "last_updated": "2025-07-16 22:34:03"
+  },
+  "https://arcwiki.mcd.blue/images/c/c4/Songs_worldvanquisher.jpg": {
+    "local_path": "Songs_worldvanquisher.jpg",
+    "last_updated": "2025-07-16 22:34:05"
+  },
+  "https://arcwiki.mcd.blue/images/b/b5/Songs_climax.jpg": {
+    "local_path": "Songs_climax.jpg",
+    "last_updated": "2025-07-16 22:34:06"
+  },
+  "https://arcwiki.mcd.blue/images/9/92/Songs_lastcelebration.jpg": {
+    "local_path": "Songs_lastcelebration.jpg",
+    "last_updated": "2025-07-16 22:34:08"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_gou.jpg": {
+    "local_path": "Songs_gou.jpg",
+    "last_updated": "2025-07-16 22:34:10"
+  },
+  "https://arcwiki.mcd.blue/images/1/11/Songs_cosmopop.jpg": {
+    "local_path": "Songs_cosmopop.jpg",
+    "last_updated": "2025-07-16 22:34:12"
+  },
+  "https://arcwiki.mcd.blue/images/6/6a/Songs_impact.jpg": {
+    "local_path": "Songs_impact.jpg",
+    "last_updated": "2025-07-16 22:34:14"
+  },
+  "https://arcwiki.mcd.blue/images/c/cc/Songs_genesischunithm.jpg": {
+    "local_path": "Songs_genesischunithm.jpg",
+    "last_updated": "2025-07-16 22:34:16"
+  },
+  "https://arcwiki.mcd.blue/images/1/15/Songs_trrricksters.jpg": {
+    "local_path": "Songs_trrricksters.jpg",
+    "last_updated": "2025-07-16 22:34:17"
+  },
+  "https://arcwiki.mcd.blue/images/3/39/Songs_spidersthread.jpg": {
+    "local_path": "Songs_spidersthread.jpg",
+    "last_updated": "2025-07-16 22:34:19"
+  },
+  "https://arcwiki.mcd.blue/images/4/46/Songs_ignition.jpg": {
+    "local_path": "Songs_ignition.jpg",
+    "last_updated": "2025-07-16 22:34:21"
+  },
+  "https://arcwiki.mcd.blue/images/3/3a/Songs_blazingair.jpg": {
+    "local_path": "Songs_blazingair.jpg",
+    "last_updated": "2025-07-16 22:34:23"
+  },
+  "https://arcwiki.mcd.blue/images/b/b3/Songs_eightem.jpg": {
+    "local_path": "Songs_eightem.jpg",
+    "last_updated": "2025-07-16 22:34:25"
+  },
+  "https://arcwiki.mcd.blue/images/d/dc/Songs_daat.jpg": {
+    "local_path": "Songs_daat.jpg",
+    "last_updated": "2025-07-16 22:34:27"
+  },
+  "https://arcwiki.mcd.blue/images/5/5c/Songs_aethercrest.jpg": {
+    "local_path": "Songs_aethercrest.jpg",
+    "last_updated": "2025-07-16 22:34:29"
+  },
+  "https://arcwiki.mcd.blue/images/c/cb/Songs_merlin.jpg": {
+    "local_path": "Songs_merlin.jpg",
+    "last_updated": "2025-07-16 22:34:30"
+  },
+  "https://arcwiki.mcd.blue/images/f/fb/Songs_dxfullmetal.jpg": {
+    "local_path": "Songs_dxfullmetal.jpg",
+    "last_updated": "2025-07-16 22:34:32"
+  },
+  "https://arcwiki.mcd.blue/images/b/bd/Songs_omakeno.jpg": {
+    "local_path": "Songs_omakeno.jpg",
+    "last_updated": "2025-07-16 22:34:34"
+  },
+  "https://arcwiki.mcd.blue/images/e/e0/Songs_scarletlance.jpg": {
+    "local_path": "Songs_scarletlance.jpg",
+    "last_updated": "2025-07-16 22:34:36"
+  },
+  "https://arcwiki.mcd.blue/images/5/54/Songs_ouroboros.jpg": {
+    "local_path": "Songs_ouroboros.jpg",
+    "last_updated": "2025-07-16 22:34:38"
+  },
+  "https://arcwiki.mcd.blue/images/d/db/Songs_gothiveofra.jpg": {
+    "local_path": "Songs_gothiveofra.jpg",
+    "last_updated": "2025-07-16 22:34:40"
+  },
+  "https://arcwiki.mcd.blue/images/4/42/Songs_signof.jpg": {
+    "local_path": "Songs_signof.jpg",
+    "last_updated": "2025-07-16 22:34:41"
+  },
+  "https://arcwiki.mcd.blue/images/d/d4/Songs_temptationgc.jpg": {
+    "local_path": "Songs_temptationgc.jpg",
+    "last_updated": "2025-07-16 22:34:43"
+  },
+  "https://arcwiki.mcd.blue/images/f/f0/Songs_blackmind.jpg": {
+    "local_path": "Songs_blackmind.jpg",
+    "last_updated": "2025-07-16 22:34:45"
+  },
+  "https://arcwiki.mcd.blue/images/1/17/Songs_hikari.jpg": {
+    "local_path": "Songs_hikari.jpg",
+    "last_updated": "2025-07-16 22:34:47"
+  },
+  "https://arcwiki.mcd.blue/images/e/e3/Songs_hallofmirrors.jpg": {
+    "local_path": "Songs_hallofmirrors.jpg",
+    "last_updated": "2025-07-16 22:34:49"
+  },
+  "https://arcwiki.mcd.blue/images/d/de/Songs_stager.jpg": {
+    "local_path": "Songs_stager.jpg",
+    "last_updated": "2025-07-16 22:34:50"
+  },
+  "https://arcwiki.mcd.blue/images/7/7f/Songs_linearaccelerator.jpg": {
+    "local_path": "Songs_linearaccelerator.jpg",
+    "last_updated": "2025-07-16 22:34:52"
+  },
+  "https://arcwiki.mcd.blue/images/f/f6/Songs_tiferet.jpg": {
+    "local_path": "Songs_tiferet.jpg",
+    "last_updated": "2025-07-16 22:34:54"
+  },
+  "https://arcwiki.mcd.blue/images/9/90/Songs_dreamgoeson.jpg": {
+    "local_path": "Songs_dreamgoeson.jpg",
+    "last_updated": "2025-07-16 22:34:56"
+  },
+  "https://arcwiki.mcd.blue/images/5/5f/Songs_journey.jpg": {
+    "local_path": "Songs_journey.jpg",
+    "last_updated": "2025-07-16 22:34:58"
+  },
+  "https://arcwiki.mcd.blue/images/3/32/Songs_specta.jpg": {
+    "local_path": "Songs_specta.jpg",
+    "last_updated": "2025-07-16 22:34:59"
+  },
+  "https://arcwiki.mcd.blue/images/4/4a/Songs_quon.jpg": {
+    "local_path": "Songs_quon.jpg",
+    "last_updated": "2025-07-16 22:35:01"
+  },
+  "https://arcwiki.mcd.blue/images/3/3c/Songs_cyanine.jpg": {
+    "local_path": "Songs_cyanine.jpg",
+    "last_updated": "2025-07-16 22:35:03"
+  },
+  "https://arcwiki.mcd.blue/images/d/d0/Songs_prism.jpg": {
+    "local_path": "Songs_prism.jpg",
+    "last_updated": "2025-07-16 22:35:05"
+  },
+  "https://arcwiki.mcd.blue/images/8/86/Songs_protoflicker.jpg": {
+    "local_path": "Songs_protoflicker.jpg",
+    "last_updated": "2025-07-16 22:35:07"
+  },
+  "https://arcwiki.mcd.blue/images/d/dd/Songs_stasis.jpg": {
+    "local_path": "Songs_stasis.jpg",
+    "last_updated": "2025-07-16 22:35:09"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_moonlightofsandcastle.jpg": {
+    "local_path": "Songs_moonlightofsandcastle.jpg",
+    "last_updated": "2025-07-16 22:35:10"
+  },
+  "https://arcwiki.mcd.blue/images/8/8d/Songs_reconstruction.jpg": {
+    "local_path": "Songs_reconstruction.jpg",
+    "last_updated": "2025-07-16 22:35:12"
+  },
+  "https://arcwiki.mcd.blue/images/a/ad/Songs_evoltex.jpg": {
+    "local_path": "Songs_evoltex.jpg",
+    "last_updated": "2025-07-16 22:35:14"
+  },
+  "https://arcwiki.mcd.blue/images/6/69/Songs_oracle.jpg": {
+    "local_path": "Songs_oracle.jpg",
+    "last_updated": "2025-07-16 22:35:16"
+  },
+  "https://arcwiki.mcd.blue/images/c/cc/Songs_aterlbus.jpg": {
+    "local_path": "Songs_aterlbus.jpg",
+    "last_updated": "2025-07-16 22:35:18"
+  },
+  "https://arcwiki.mcd.blue/images/7/79/Songs_dataerror.jpg": {
+    "local_path": "Songs_dataerror.jpg",
+    "last_updated": "2025-07-16 22:35:19"
+  },
+  "https://arcwiki.mcd.blue/images/1/1d/Songs_crosssoul.jpg": {
+    "local_path": "Songs_crosssoul.jpg",
+    "last_updated": "2025-07-16 22:35:21"
+  },
+  "https://arcwiki.mcd.blue/images/b/b8/Songs_yourvoiceso.jpg": {
+    "local_path": "Songs_yourvoiceso.jpg",
+    "last_updated": "2025-07-16 22:35:23"
+  },
+  "https://arcwiki.mcd.blue/images/4/48/Songs_impurebird.jpg": {
+    "local_path": "Songs_impurebird.jpg",
+    "last_updated": "2025-07-16 22:35:25"
+  },
+  "https://arcwiki.mcd.blue/images/5/54/Songs_auxesia.jpg": {
+    "local_path": "Songs_auxesia.jpg",
+    "last_updated": "2025-07-16 22:35:27"
+  },
+  "https://arcwiki.mcd.blue/images/7/7c/Songs_modelista.jpg": {
+    "local_path": "Songs_modelista.jpg",
+    "last_updated": "2025-07-16 22:35:29"
+  },
+  "https://arcwiki.mcd.blue/images/2/23/Songs_surrender.jpg": {
+    "local_path": "Songs_surrender.jpg",
+    "last_updated": "2025-07-16 22:35:31"
+  },
+  "https://arcwiki.mcd.blue/images/8/80/Songs_yozakurafubuki.jpg": {
+    "local_path": "Songs_yozakurafubuki.jpg",
+    "last_updated": "2025-07-16 22:35:33"
+  },
+  "https://arcwiki.mcd.blue/images/4/41/Songs_metallicpunisher.jpg": {
+    "local_path": "Songs_metallicpunisher.jpg",
+    "last_updated": "2025-07-16 22:35:35"
+  },
+  "https://arcwiki.mcd.blue/images/1/1d/Songs_carminescythe.jpg": {
+    "local_path": "Songs_carminescythe.jpg",
+    "last_updated": "2025-07-16 22:35:36"
+  },
+  "https://arcwiki.mcd.blue/images/d/d3/Songs_guardina.jpg": {
+    "local_path": "Songs_guardina.jpg",
+    "last_updated": "2025-07-16 22:35:38"
+  },
+  "https://arcwiki.mcd.blue/images/4/4a/Songs_bethere.jpg": {
+    "local_path": "Songs_bethere.jpg",
+    "last_updated": "2025-07-16 22:35:40"
+  },
+  "https://arcwiki.mcd.blue/images/c/cc/Songs_callmyname.jpg": {
+    "local_path": "Songs_callmyname.jpg",
+    "last_updated": "2025-07-16 22:35:42"
+  },
+  "https://arcwiki.mcd.blue/images/d/de/Songs_dropdead.jpg": {
+    "local_path": "Songs_dropdead.jpg",
+    "last_updated": "2025-07-16 22:35:44"
+  },
+  "https://arcwiki.mcd.blue/images/d/d9/Songs_overdead.jpg": {
+    "local_path": "Songs_overdead.jpg",
+    "last_updated": "2025-07-16 22:35:46"
+  },
+  "https://arcwiki.mcd.blue/images/e/e6/Songs_fallensquare.jpg": {
+    "local_path": "Songs_fallensquare.jpg",
+    "last_updated": "2025-07-16 22:35:48"
+  },
+  "https://arcwiki.mcd.blue/images/7/7f/Songs_alexandrite.jpg": {
+    "local_path": "Songs_alexandrite.jpg",
+    "last_updated": "2025-07-16 22:35:50"
+  },
+  "https://arcwiki.mcd.blue/images/2/27/Songs_astraltale.jpg": {
+    "local_path": "Songs_astraltale.jpg",
+    "last_updated": "2025-07-16 22:35:51"
+  },
+  "https://arcwiki.mcd.blue/images/7/79/Songs_phantasia.jpg": {
+    "local_path": "Songs_phantasia.jpg",
+    "last_updated": "2025-07-16 22:35:53"
+  },
+  "https://arcwiki.mcd.blue/images/6/66/Songs_empireofwinter.jpg": {
+    "local_path": "Songs_empireofwinter.jpg",
+    "last_updated": "2025-07-16 22:35:55"
+  },
+  "https://arcwiki.mcd.blue/images/a/ad/Songs_libertas.jpg": {
+    "local_path": "Songs_libertas.jpg",
+    "last_updated": "2025-07-16 22:35:57"
+  },
+  "https://arcwiki.mcd.blue/images/2/2e/Songs_dottodot.jpg": {
+    "local_path": "Songs_dottodot.jpg",
+    "last_updated": "2025-07-16 22:35:59"
+  },
+  "https://arcwiki.mcd.blue/images/1/18/Songs_dreadnought.jpg": {
+    "local_path": "Songs_dreadnought.jpg",
+    "last_updated": "2025-07-16 22:36:00"
+  },
+  "https://arcwiki.mcd.blue/images/a/a4/Songs_mirzam.jpg": {
+    "local_path": "Songs_mirzam.jpg",
+    "last_updated": "2025-07-16 22:36:02"
+  },
+  "https://arcwiki.mcd.blue/images/9/94/Songs_heavenlycaress.jpg": {
+    "local_path": "Songs_heavenlycaress.jpg",
+    "last_updated": "2025-07-16 22:36:04"
+  },
+  "https://arcwiki.mcd.blue/images/2/2e/Songs_filament.jpg": {
+    "local_path": "Songs_filament.jpg",
+    "last_updated": "2025-07-16 22:36:06"
+  },
+  "https://arcwiki.mcd.blue/images/1/19/Songs_avantraze.jpg": {
+    "local_path": "Songs_avantraze.jpg",
+    "last_updated": "2025-07-16 22:36:08"
+  },
+  "https://arcwiki.mcd.blue/images/7/76/Songs_battlenoone.jpg": {
+    "local_path": "Songs_battlenoone.jpg",
+    "last_updated": "2025-07-16 22:36:10"
+  },
+  "https://arcwiki.mcd.blue/images/4/43/Songs_laqryma.jpg": {
+    "local_path": "Songs_laqryma.jpg",
+    "last_updated": "2025-07-16 22:36:11"
+  },
+  "https://arcwiki.mcd.blue/images/e/ef/Songs_einherjar.jpg": {
+    "local_path": "Songs_einherjar.jpg",
+    "last_updated": "2025-07-16 22:36:13"
+  },
+  "https://arcwiki.mcd.blue/images/4/41/Songs_izana.jpg": {
+    "local_path": "Songs_izana.jpg",
+    "last_updated": "2025-07-16 22:36:15"
+  },
+  "https://arcwiki.mcd.blue/images/7/7b/Songs_saikyostronger.jpg": {
+    "local_path": "Songs_saikyostronger.jpg",
+    "last_updated": "2025-07-16 22:36:17"
+  },
+  "https://arcwiki.mcd.blue/images/1/15/Songs_amygdata.jpg": {
+    "local_path": "Songs_amygdata.jpg",
+    "last_updated": "2025-07-16 22:36:19"
+  },
+  "https://arcwiki.mcd.blue/images/7/73/Songs_altale.jpg": {
+    "local_path": "Songs_altale.jpg",
+    "last_updated": "2025-07-16 22:36:20"
+  },
+  "https://arcwiki.mcd.blue/images/5/52/Songs_feelssoright.jpg": {
+    "local_path": "Songs_feelssoright.jpg",
+    "last_updated": "2025-07-16 22:36:22"
+  },
+  "https://arcwiki.mcd.blue/images/1/15/Songs_scarletcage.jpg": {
+    "local_path": "Songs_scarletcage.jpg",
+    "last_updated": "2025-07-16 22:36:24"
+  },
+  "https://arcwiki.mcd.blue/images/f/fc/Songs_teriqma.jpg": {
+    "local_path": "Songs_teriqma.jpg",
+    "last_updated": "2025-07-16 22:36:26"
+  },
+  "https://arcwiki.mcd.blue/images/d/d1/Songs_mahoroba.jpg": {
+    "local_path": "Songs_mahoroba.jpg",
+    "last_updated": "2025-07-16 22:36:28"
+  },
+  "https://arcwiki.mcd.blue/images/9/95/Songs_badtek.jpg": {
+    "local_path": "Songs_badtek.jpg",
+    "last_updated": "2025-07-16 22:36:30"
+  },
+  "https://arcwiki.mcd.blue/images/d/d6/Songs_maliciousmischance.jpg": {
+    "local_path": "Songs_maliciousmischance.jpg",
+    "last_updated": "2025-07-16 22:36:32"
+  },
+  "https://arcwiki.mcd.blue/images/d/d7/Songs_buchigireberserker.jpg": {
+    "local_path": "Songs_buchigireberserker.jpg",
+    "last_updated": "2025-07-16 22:36:34"
+  },
+  "https://arcwiki.mcd.blue/images/5/59/Songs_galaxyfriends.jpg": {
+    "local_path": "Songs_galaxyfriends.jpg",
+    "last_updated": "2025-07-16 22:36:35"
+  },
+  "https://arcwiki.mcd.blue/images/e/e9/Songs_xeraphinite.jpg": {
+    "local_path": "Songs_xeraphinite.jpg",
+    "last_updated": "2025-07-16 22:36:37"
+  },
+  "https://arcwiki.mcd.blue/images/f/f2/Songs_xanatos.jpg": {
+    "local_path": "Songs_xanatos.jpg",
+    "last_updated": "2025-07-16 22:36:39"
+  },
+  "https://arcwiki.mcd.blue/images/0/02/Songs_attraqtia.jpg": {
+    "local_path": "Songs_attraqtia.jpg",
+    "last_updated": "2025-07-16 22:36:41"
+  },
+  "https://arcwiki.mcd.blue/images/c/c9/Songs_gimmedablood.jpg": {
+    "local_path": "Songs_gimmedablood.jpg",
+    "last_updated": "2025-07-16 22:36:43"
+  },
+  "https://arcwiki.mcd.blue/images/3/36/Songs_bassline.jpg": {
+    "local_path": "Songs_bassline.jpg",
+    "last_updated": "2025-07-16 22:36:44"
+  },
+  "https://arcwiki.mcd.blue/images/9/9f/Songs_theultimacy.jpg": {
+    "local_path": "Songs_theultimacy.jpg",
+    "last_updated": "2025-07-16 22:36:46"
+  },
+  "https://arcwiki.mcd.blue/images/c/cd/Songs_rekkaresonance.jpg": {
+    "local_path": "Songs_rekkaresonance.jpg",
+    "last_updated": "2025-07-16 22:36:48"
+  },
+  "https://arcwiki.mcd.blue/images/9/9b/Songs_sheriruthrmx.jpg": {
+    "local_path": "Songs_sheriruthrmx.jpg",
+    "last_updated": "2025-07-16 22:36:50"
+  },
+  "https://arcwiki.mcd.blue/images/1/19/Songs_eveninginscarlet.jpg": {
+    "local_path": "Songs_eveninginscarlet.jpg",
+    "last_updated": "2025-07-16 22:36:52"
+  },
+  "https://arcwiki.mcd.blue/images/7/75/Songs_goldenslaughterer.jpg": {
+    "local_path": "Songs_goldenslaughterer.jpg",
+    "last_updated": "2025-07-16 22:36:54"
+  },
+  "https://arcwiki.mcd.blue/images/2/25/Songs_lastendconductor.jpg": {
+    "local_path": "Songs_lastendconductor.jpg",
+    "last_updated": "2025-07-16 22:36:55"
+  },
+  "https://arcwiki.mcd.blue/images/4/46/Songs_redolentshape.jpg": {
+    "local_path": "Songs_redolentshape.jpg",
+    "last_updated": "2025-07-16 22:36:57"
+  },
+  "https://arcwiki.mcd.blue/images/1/19/Songs_summerfireworks.jpg": {
+    "local_path": "Songs_summerfireworks.jpg",
+    "last_updated": "2025-07-16 22:36:59"
+  },
+  "https://arcwiki.mcd.blue/images/e/e6/Songs_init.jpg": {
+    "local_path": "Songs_init.jpg",
+    "last_updated": "2025-07-16 22:37:01"
+  },
+  "https://arcwiki.mcd.blue/images/b/bb/Songs_internetoverdose.jpg": {
+    "local_path": "Songs_internetoverdose.jpg",
+    "last_updated": "2025-07-16 22:37:03"
+  },
+  "https://arcwiki.mcd.blue/images/3/3c/Songs_macromod.jpg": {
+    "local_path": "Songs_macromod.jpg",
+    "last_updated": "2025-07-16 22:37:05"
+  },
+  "https://arcwiki.mcd.blue/images/4/41/Songs_kissinglucifer.jpg": {
+    "local_path": "Songs_kissinglucifer.jpg",
+    "last_updated": "2025-07-16 22:37:06"
+  },
+  "https://arcwiki.mcd.blue/images/3/34/Songs_neowings.jpg": {
+    "local_path": "Songs_neowings.jpg",
+    "last_updated": "2025-07-16 22:37:08"
+  },
+  "https://arcwiki.mcd.blue/images/d/df/Songs_aurgelmir.jpg": {
+    "local_path": "Songs_aurgelmir.jpg",
+    "last_updated": "2025-07-16 22:37:10"
+  },
+  "https://arcwiki.mcd.blue/images/8/84/Songs_headbonkache.jpg": {
+    "local_path": "Songs_headbonkache.jpg",
+    "last_updated": "2025-07-16 22:37:12"
+  },
+  "https://arcwiki.mcd.blue/images/2/23/Songs_picopicotranslation.jpg": {
+    "local_path": "Songs_picopicotranslation.jpg",
+    "last_updated": "2025-07-16 22:37:14"
+  },
+  "https://arcwiki.mcd.blue/images/0/02/Songs_mu.jpg": {
+    "local_path": "Songs_mu.jpg",
+    "last_updated": "2025-07-16 22:37:16"
+  },
+  "https://arcwiki.mcd.blue/images/e/e2/Songs_pupa.jpg": {
+    "local_path": "Songs_pupa.jpg",
+    "last_updated": "2025-07-16 22:37:17"
+  },
+  "https://arcwiki.mcd.blue/images/d/dc/Songs_cocorocosmetic.jpg": {
+    "local_path": "Songs_cocorocosmetic.jpg",
+    "last_updated": "2025-07-16 22:37:19"
+  },
+  "https://arcwiki.mcd.blue/images/b/ba/Songs_freemyself.jpg": {
+    "local_path": "Songs_freemyself.jpg",
+    "last_updated": "2025-07-16 22:37:21"
+  },
+  "https://arcwiki.mcd.blue/images/1/14/Songs_capella.jpg": {
+    "local_path": "Songs_capella.jpg",
+    "last_updated": "2025-07-16 22:37:23"
+  },
+  "https://arcwiki.mcd.blue/images/d/db/Songs_nullapophenia.jpg": {
+    "local_path": "Songs_nullapophenia.jpg",
+    "last_updated": "2025-07-16 22:37:25"
+  },
+  "https://arcwiki.mcd.blue/images/b/bf/Songs_crimsonthrone.jpg": {
+    "local_path": "Songs_crimsonthrone.jpg",
+    "last_updated": "2025-07-16 22:37:27"
+  },
+  "https://arcwiki.mcd.blue/images/2/2b/Songs_manicjeer.jpg": {
+    "local_path": "Songs_manicjeer.jpg",
+    "last_updated": "2025-07-16 22:37:28"
+  },
+  "https://arcwiki.mcd.blue/images/2/2c/Songs_hiirogekka.jpg": {
+    "local_path": "Songs_hiirogekka.jpg",
+    "last_updated": "2025-07-16 22:37:30"
+  },
+  "https://arcwiki.mcd.blue/images/c/c2/Songs_primitivelights.jpg": {
+    "local_path": "Songs_primitivelights.jpg",
+    "last_updated": "2025-07-16 22:37:32"
+  },
+  "https://arcwiki.mcd.blue/images/1/1c/Songs_thesurvivor.jpg": {
+    "local_path": "Songs_thesurvivor.jpg",
+    "last_updated": "2025-07-16 22:37:34"
+  },
+  "https://arcwiki.mcd.blue/images/a/a3/Songs_newyorkbackraise.jpg": {
+    "local_path": "Songs_newyorkbackraise.jpg",
+    "last_updated": "2025-07-16 22:37:36"
+  },
+  "https://arcwiki.mcd.blue/images/4/4b/Songs_galacticlove.jpg": {
+    "local_path": "Songs_galacticlove.jpg",
+    "last_updated": "2025-07-16 22:37:38"
+  },
+  "https://arcwiki.mcd.blue/images/6/69/Songs_lostintheabyss.jpg": {
+    "local_path": "Songs_lostintheabyss.jpg",
+    "last_updated": "2025-07-16 22:37:39"
+  },
+  "https://arcwiki.mcd.blue/images/5/5d/Songs_tothemilkyway.jpg": {
+    "local_path": "Songs_tothemilkyway.jpg",
+    "last_updated": "2025-07-16 22:37:41"
+  },
+  "https://arcwiki.mcd.blue/images/5/50/Songs_internetyamero.jpg": {
+    "local_path": "Songs_internetyamero.jpg",
+    "last_updated": "2025-07-16 22:37:43"
+  },
+  "https://arcwiki.mcd.blue/images/d/da/Songs_sacrifice.jpg": {
+    "local_path": "Songs_sacrifice.jpg",
+    "last_updated": "2025-07-16 22:37:45"
+  },
+  "https://arcwiki.mcd.blue/images/7/75/Songs_tothefurthestdream.jpg": {
+    "local_path": "Songs_tothefurthestdream.jpg",
+    "last_updated": "2025-07-16 22:37:47"
+  },
+  "https://arcwiki.mcd.blue/images/5/5f/Songs_bbkkbkk.jpg": {
+    "local_path": "Songs_bbkkbkk.jpg",
+    "last_updated": "2025-07-16 22:37:48"
+  },
+  "https://arcwiki.mcd.blue/images/5/5b/Songs_wishuponasnow.jpg": {
+    "local_path": "Songs_wishuponasnow.jpg",
+    "last_updated": "2025-07-16 22:37:50"
+  },
+  "https://arcwiki.mcd.blue/images/d/da/Songs_overdrive.jpg": {
+    "local_path": "Songs_overdrive.jpg",
+    "last_updated": "2025-07-16 22:37:52"
+  },
+  "https://arcwiki.mcd.blue/images/d/d5/Songs_lightmyway.jpg": {
+    "local_path": "Songs_lightmyway.jpg",
+    "last_updated": "2025-07-16 22:37:54"
+  },
+  "https://arcwiki.mcd.blue/images/e/e8/Songs_lunarossa.jpg": {
+    "local_path": "Songs_lunarossa.jpg",
+    "last_updated": "2025-07-16 22:38:11"
+  },
+  "https://arcwiki.mcd.blue/images/f/fb/Songs_innocence.jpg": {
+    "local_path": "Songs_innocence.jpg",
+    "last_updated": "2025-07-16 22:38:13"
+  },
+  "https://arcwiki.mcd.blue/images/1/16/Songs_ionostream.jpg": {
+    "local_path": "Songs_ionostream.jpg",
+    "last_updated": "2025-07-16 22:38:14"
+  },
+  "https://arcwiki.mcd.blue/images/7/75/Songs_masqueradelegion.jpg": {
+    "local_path": "Songs_masqueradelegion.jpg",
+    "last_updated": "2025-07-16 22:38:16"
+  },
+  "https://arcwiki.mcd.blue/images/5/50/Songs_kyorenromance.jpg": {
+    "local_path": "Songs_kyorenromance.jpg",
+    "last_updated": "2025-07-16 22:38:18"
+  },
+  "https://arcwiki.mcd.blue/images/7/7c/Songs_qovat.jpg": {
+    "local_path": "Songs_qovat.jpg",
+    "last_updated": "2025-07-16 22:38:20"
+  },
+  "https://arcwiki.mcd.blue/images/1/1d/Songs_mirinae.jpg": {
+    "local_path": "Songs_mirinae.jpg",
+    "last_updated": "2025-07-16 22:38:22"
+  },
+  "https://arcwiki.mcd.blue/images/c/cc/Songs_ultradiaxon.jpg": {
+    "local_path": "Songs_ultradiaxon.jpg",
+    "last_updated": "2025-07-16 22:38:23"
+  },
+  "https://arcwiki.mcd.blue/images/0/0e/Songs_distortedfate.jpg": {
+    "local_path": "Songs_distortedfate.jpg",
+    "last_updated": "2025-07-16 22:38:25"
+  },
+  "https://arcwiki.mcd.blue/images/e/e0/Songs_floatingworld.jpg": {
+    "local_path": "Songs_floatingworld.jpg",
+    "last_updated": "2025-07-16 22:38:27"
+  },
+  "https://arcwiki.mcd.blue/images/8/87/Songs_chromafill.jpg": {
+    "local_path": "Songs_chromafill.jpg",
+    "last_updated": "2025-07-16 22:38:29"
+  },
+  "https://arcwiki.mcd.blue/images/e/e4/Songs_desive.jpg": {
+    "local_path": "Songs_desive.jpg",
+    "last_updated": "2025-07-16 22:38:31"
+  },
+  "https://arcwiki.mcd.blue/images/0/06/Songs_tasogare.jpg": {
+    "local_path": "Songs_tasogare.jpg",
+    "last_updated": "2025-07-16 22:38:33"
+  },
+  "https://arcwiki.mcd.blue/images/8/8c/Songs_beautifuldreamer.jpg": {
+    "local_path": "Songs_beautifuldreamer.jpg",
+    "last_updated": "2025-07-16 22:38:34"
+  },
+  "https://arcwiki.mcd.blue/images/f/fe/Songs_backtobasics.jpg": {
+    "local_path": "Songs_backtobasics.jpg",
+    "last_updated": "2025-07-16 22:38:36"
+  },
+  "https://arcwiki.mcd.blue/images/3/3b/Songs_stargateextreme.jpg": {
+    "local_path": "Songs_stargateextreme.jpg",
+    "last_updated": "2025-07-16 22:38:38"
+  },
+  "https://arcwiki.mcd.blue/images/c/ca/Songs_hypervision.jpg": {
+    "local_path": "Songs_hypervision.jpg",
+    "last_updated": "2025-07-16 22:38:40"
+  },
+  "https://arcwiki.mcd.blue/images/2/28/Songs_shrink.jpg": {
+    "local_path": "Songs_shrink.jpg",
+    "last_updated": "2025-07-16 22:38:42"
+  },
+  "https://arcwiki.mcd.blue/images/9/9b/Songs_rainofconflict.jpg": {
+    "local_path": "Songs_rainofconflict.jpg",
+    "last_updated": "2025-07-16 22:38:44"
+  },
+  "https://arcwiki.mcd.blue/images/0/0e/Songs_gensounosatellite.jpg": {
+    "local_path": "Songs_gensounosatellite.jpg",
+    "last_updated": "2025-07-16 22:38:46"
+  },
+  "https://arcwiki.mcd.blue/images/3/3b/Songs_crimsonquartz.jpg": {
+    "local_path": "Songs_crimsonquartz.jpg",
+    "last_updated": "2025-07-16 22:38:47"
+  },
+  "https://arcwiki.mcd.blue/images/8/8b/Songs_thirdsun.jpg": {
+    "local_path": "Songs_thirdsun.jpg",
+    "last_updated": "2025-07-16 22:38:49"
+  },
+  "https://arcwiki.mcd.blue/images/d/d7/Songs_spiritdauntless.jpg": {
+    "local_path": "Songs_spiritdauntless.jpg",
+    "last_updated": "2025-07-16 22:38:51"
+  },
+  "https://arcwiki.mcd.blue/images/f/f7/Songs_diesirae.jpg": {
+    "local_path": "Songs_diesirae.jpg",
+    "last_updated": "2025-07-16 22:38:53"
+  },
+  "https://arcwiki.mcd.blue/images/4/4a/Songs_megalovaniarmx.jpg": {
+    "local_path": "Songs_megalovaniarmx.jpg",
+    "last_updated": "2025-07-16 22:38:55"
+  },
+  "https://arcwiki.mcd.blue/images/3/32/Songs_placebobattler.jpg": {
+    "local_path": "Songs_placebobattler.jpg",
+    "last_updated": "2025-07-16 22:38:57"
+  },
+  "https://arcwiki.mcd.blue/images/4/4c/Songs_shinchoku.jpg": {
+    "local_path": "Songs_shinchoku.jpg",
+    "last_updated": "2025-07-16 22:38:59"
+  },
+  "https://arcwiki.mcd.blue/images/2/21/Songs_dullblade.jpg": {
+    "local_path": "Songs_dullblade.jpg",
+    "last_updated": "2025-07-16 22:39:01"
+  },
+  "https://arcwiki.mcd.blue/images/e/ef/Songs_dontdie.jpg": {
+    "local_path": "Songs_dontdie.jpg",
+    "last_updated": "2025-07-16 22:39:03"
+  },
+  "https://arcwiki.mcd.blue/images/d/d9/Songs_tictactoe.jpg": {
+    "local_path": "Songs_tictactoe.jpg",
+    "last_updated": "2025-07-16 22:39:05"
+  },
+  "https://arcwiki.mcd.blue/images/b/bd/Songs_miles.jpg": {
+    "local_path": "Songs_miles.jpg",
+    "last_updated": "2025-07-16 22:39:06"
+  },
+  "https://arcwiki.mcd.blue/images/a/ae/Songs_dematerialized.jpg": {
+    "local_path": "Songs_dematerialized.jpg",
+    "last_updated": "2025-07-26 22:00:13"
+  },
+  "https://arcwiki.mcd.blue/images/6/62/Songs_seethelights.jpg": {
+    "local_path": "Songs_seethelights.jpg",
+    "last_updated": "2025-07-26 22:00:15"
+  },
+  "https://arcwiki.mcd.blue/images/3/33/Songs_scarletlunar.jpg": {
+    "local_path": "Songs_scarletlunar.jpg",
+    "last_updated": "2025-07-26 22:00:17"
+  },
+  "https://arcwiki.mcd.blue/images/8/89/Songs_dualdependency.jpg": {
+    "local_path": "Songs_dualdependency.jpg",
+    "last_updated": "2025-07-26 22:00:19"
+  },
+  "https://arcwiki.mcd.blue/images/1/15/Songs_lilly.jpg": {
+    "local_path": "Songs_lilly.jpg",
+    "last_updated": "2025-07-26 22:00:21"
+  },
+  "https://arcwiki.mcd.blue/images/8/89/Songs_extradimensional.jpg": {
+    "local_path": "Songs_extradimensional.jpg",
+    "last_updated": "2025-07-26 22:00:23"
+  }
 }
