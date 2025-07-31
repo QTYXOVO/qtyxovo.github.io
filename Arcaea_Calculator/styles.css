@@ -6,6 +6,17 @@
     --light-gray: #dfe6e9;
     --medium-gray: #b2bec3;
     --dark-gray: #636e72;
+
+    /* 莫奈风格暗黑模式颜色变量 */
+    @media (prefers-color-scheme: dark) {
+        --primary-color: #8a78d1; /* 莫奈紫色 */
+        --secondary-color: #b8a9f0; /* 浅紫 */
+        --background-color: #1a1a2e; /* 深蓝黑色背景 */
+        --text-color: #e2e8f0; /* 浅灰文本 */
+        --light-gray: #2c3e50; /* 深灰 */
+        --medium-gray: #7f8c8d; /* 中灰 */
+        --dark-gray: #bdc3c7; /* 浅灰 */
+    }
 }
 
 * {
@@ -29,7 +40,12 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 30px;
-}
+
+    /* 莫奈风格暗黑模式容器 */
+    @media (prefers-color-scheme: dark) {
+        background-color: #16213e; /* 莫奈深蓝色 */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
 
 h1 {
     color: var(--primary-color);
@@ -44,7 +60,11 @@ h1 {
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 30px;
-}
+
+    /* 暗黑模式计算器容器 */
+    @media (prefers-color-scheme: dark) {
+        background-color: #0f3460; /* 莫奈深蓝色调 */
+    }
 
 .input-group {
     margin-bottom: 20px;
@@ -72,7 +92,32 @@ input:focus {
     box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
 }
 
-#calculate-button {
+.calculator-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.calculator-tabs button {
+    padding: 14px 24px;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.calculator-tabs button.active-tab {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#calculate-ptt-button, #calculate-world-button {
     width: 100%;
     padding: 14px 24px;
     background-color: var(--primary-color);
@@ -105,17 +150,70 @@ input:focus {
     margin-bottom: 15px;
 }
 
-#result-value {
+#ptt-result, #world-result {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--primary-color);
+}
+
+.calculator-container {
+    display: none;
+}
+
+.calculator-container.active-calculator {
+    display: block;
+}
+
+.formula-content {
+    display: none;
+}
+
+.formula-content.active-formula {
+    display: block;
+}
+
+.play-plus-options {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.play-plus-options > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+select {
+    width: 100%;
+    padding: 14px 20px;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+}
+
+.input-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+    transform: scale(1.2);
 }
 
 .formula-explanation {
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 20px;
-}
+
+    /* 暗黑模式公式说明容器 */
+    @media (prefers-color-scheme: dark) {
+        background-color: #0f3460; /* 莫奈深蓝色调 */
+    }
 
 .formula-explanation h3 {
     color: var(--primary-color);

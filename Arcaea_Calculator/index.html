@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcaea 计算器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Arcaea 计算器</h1>
+        <div class="calculator-tabs">
+            <button id="ptt-tab" class="active-tab">单曲PTT计算器</button>
+            <button id="world-tab">世界模式步数计算器</button>
+        </div>
+        <div id="ptt-calculator" class="calculator-container active-calculator">
+            <div class="input-group">
+                <label for="score-input">分数:</label>
+                <input type="number" id="score-input" placeholder="分数" min="0">
+            </div>
+            <div class="input-group">
+                <label for="difficulty-input">定数:</label>
+                <input type="number" id="difficulty-input" placeholder="定数(如: 10.5)" step="0.1" min="0">
+            </div>
+            <button id="calculate-ptt-button">计算PTT</button>
+            <div class="result-container">
+                <h2>计算结果</h2>
+                <p id="ptt-result">--</p>
+            </div>
+        </div>
+
+        <div id="world-calculator" class="calculator-container">
+            <div class="input-group">
+                <label for="potential-input">单曲潜力值:</label>
+                <input type="number" id="potential-input" placeholder="单曲潜力值" step="0.1" min="0">
+            </div>
+            <div class="input-group">
+                <label for="partner-step-input">搭档Step值:</label>
+                <input type="number" id="partner-step-input" placeholder="搭档Step值" min="0">
+            </div>
+            <div class="input-group">
+                <label for="partner-skill-input">搭档技能加成:</label>
+                <input type="number" id="partner-skill-input" placeholder="搭档技能加成" step="0.1" min="0" value="0">
+            </div>
+            <div class="input-group">
+                <label for="source-enhance">源韵强化:</label>
+                <input type="checkbox" id="source-enhance">
+                <span>开启(步数×4)</span>
+            </div>
+            <div class="input-group">
+                <label>Play+机制:</label>
+                <div class="play-plus-options">
+                    <div>
+                        <label for="stamina-cost">体力消耗:</label>
+                        <select id="stamina-cost">
+                            <option value="1">1点 (×1)</option>
+                            <option value="2">2点 (×2)</option>
+                            <option value="4">4点 (×4)</option>
+                            <option value="6">6点 (×6)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="shard-cost">残片消耗:</label>
+                        <select id="shard-cost">
+                            <option value="1">0个 (×1)</option>
+                            <option value="1.1">100个 (×1.1)</option>
+                            <option value="1.25">250个 (×1.25)</option>
+                            <option value="1.5">500个 (×1.5)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button id="calculate-world-button">计算步数</button>
+            <div class="result-container">
+                <h2>世界模式进度</h2>
+                <p id="world-result">--</p>
+            </div>
+        </div>
+        <div class="formula-explanation">
+            <h3>计算公式</h3>
+            <div id="ptt-formula" class="formula-content active-formula">
+                <ul>
+                    <li>分数 ≥ 10,000,000 (PM): 定数 + 2 (此时屏蔽物量影响)</li>
+                    <li>9,800,000 ≤ 分数 < 10,000,000: 定数 + 1 + (分数 - 9,800,000) / 200,000</li>
+                    <li>分数 < 9,800,000: 定数 + (分数 - 9,500,000) / 300,000 (下限为0)</li>
+                </ul>
+            </div>
+            <div id="world-formula" class="formula-content">
+                <ul>
+                    <li>游玩结果 = 2.5 + 2.45√[单曲潜力值]</li>
+                    <li>搭档效果 = [搭档Step值] ÷ 50</li>
+                    <li>本次游玩的世界模式进度 = 游玩结果 × 搭档效果 + 搭档技能(选填)</li>
+                    <li>源韵强化: 开启后步数×4</li>
+                    <li>Play+体力增幅: 消耗1/2/4/6点体力，步数×1/2/4/6</li>
+                    <li>Play+残片增幅: 消耗0/100/250/500残片，步数×1/1.1/1.25/1.5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
