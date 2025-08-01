@@ -6,17 +6,6 @@
     --light-gray: #dfe6e9;
     --medium-gray: #b2bec3;
     --dark-gray: #636e72;
-
-    /* 莫奈风格暗黑模式颜色变量 */
-    @media (prefers-color-scheme: dark) {
-        --primary-color: #8a78d1; /* 莫奈紫色 */
-        --secondary-color: #b8a9f0; /* 浅紫 */
-        --background-color: #1a1a2e; /* 深蓝黑色背景 */
-        --text-color: #e2e8f0; /* 浅灰文本 */
-        --light-gray: #2c3e50; /* 深灰 */
-        --medium-gray: #7f8c8d; /* 中灰 */
-        --dark-gray: #bdc3c7; /* 浅灰 */
-    }
 }
 
 * {
@@ -40,12 +29,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 30px;
-
-    /* 莫奈风格暗黑模式容器 */
-    @media (prefers-color-scheme: dark) {
-        background-color: #16213e; /* 莫奈深蓝色 */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    }
+}
 
 h1 {
     color: var(--primary-color);
@@ -60,11 +44,7 @@ h1 {
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 30px;
-
-    /* 暗黑模式计算器容器 */
-    @media (prefers-color-scheme: dark) {
-        background-color: #0f3460; /* 莫奈深蓝色调 */
-    }
+}
 
 .input-group {
     margin-bottom: 20px;
@@ -209,11 +189,7 @@ select:focus {
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 20px;
-
-    /* 暗黑模式公式说明容器 */
-    @media (prefers-color-scheme: dark) {
-        background-color: #0f3460; /* 莫奈深蓝色调 */
-    }
+}
 
 .formula-explanation h3 {
     color: var(--primary-color);
