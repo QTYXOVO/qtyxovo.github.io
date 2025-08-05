@@ -21,10 +21,32 @@
             <input type="text" id="search-input" placeholder="输入歌曲名称搜索..." autocomplete="off">
             <select id="difficulty-select" aria-label="难度选择">
                 <option value="all">所有难度</option>
+                <option value="PST">PST</option>
+                <option value="PRS">PRS</option>
+                <option value="FTR">FTR</option>
                 <option value="BYD">BYD</option>
                 <option value="ETR">ETR</option>
             </select>
             <button id="search-button">搜索</button>
+        </div>
+        <div class="sort-container">
+            <label for="sort-difficulty">排序难度:</label>
+            <select id="sort-difficulty" aria-label="排序难度选择">
+                <option value="none">不排序</option>
+                <option value="PST">PST</option>
+                <option value="PRS">PRS</option>
+                <option value="FTR">FTR</option>
+                <option value="BYD">BYD</option>
+                <option value="ETR">ETR</option>
+            </select>
+            <label for="sort-direction">排序方向:</label>
+            <select id="sort-direction" aria-label="排序方向选择">
+                <option value="desc">从大到小</option>
+                <option value="asc">从小到大</option>
+            </select>
+        </div>
+        <div class="sort-note">
+            <p><strong>排序说明:</strong> 选择难度排序时，只会显示该难度有值的歌曲，方便快速查找特定难度的歌曲。</p>
         </div>
         <div class="results-container">
             <table id="results-table">

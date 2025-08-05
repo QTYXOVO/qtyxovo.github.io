@@ -66,6 +66,8 @@ fetchSongData();
 const searchInput = document.getElementById('search-input');
 const difficultySelect = document.getElementById('difficulty-select');
 const searchButton = document.getElementById('search-button');
+const sortDifficultySelect = document.getElementById('sort-difficulty');
+const sortDirectionSelect = document.getElementById('sort-direction');
 const resultsBody = document.getElementById('results-body');
 const noResults = document.getElementById('no-results');
 
@@ -83,11 +85,15 @@ searchInput.addEventListener('keypress', (e) => {
 });
 
 difficultySelect.addEventListener('change', performSearch);
+sortDifficultySelect.addEventListener('change', performSearch);
+sortDirectionSelect.addEventListener('change', performSearch);
 
 // 执行搜索
 function performSearch() {
     const searchTerm = searchInput.value.trim().toLowerCase();
     const selectedDifficulty = difficultySelect.value;
+    const sortDifficulty = sortDifficultySelect.value;
+    const sortDirection = sortDirectionSelect.value;
 
     // 过滤歌曲
     const filteredSongs = songData.filter(song => {
@@ -103,7 +109,29 @@ function performSearch() {
         }
     });
 
-    renderResults(filteredSongs);
+    // 排序歌曲
+    let sortedSongs = filteredSongs;
+    if (sortDifficulty !== 'none') {
+        // 只对所选难度有值的歌曲进行排序
+        const songsWithDifficulty = filteredSongs.filter(song => {
+            return song.difficulties[sortDifficulty] !== '' && !isNaN(parseFloat(song.difficulties[sortDifficulty]));
+        });
+        
+        sortedSongs = [...songsWithDifficulty].sort((a, b) => {
+            // 获取两个歌曲的难度值
+            const aValue = parseFloat(a.difficulties[sortDifficulty]);
+            const bValue = parseFloat(b.difficulties[sortDifficulty]);
+
+            // 根据排序方向返回比较结果
+            if (sortDirection === 'asc') {
+                return aValue - bValue;
+            } else {
+                return bValue - aValue;
+            }
+        });
+    }
+
+    renderResults(sortedSongs);
 }
 
 // 渲染搜索结果
