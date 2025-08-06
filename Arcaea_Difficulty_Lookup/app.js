@@ -59,12 +59,37 @@ window.addEventListener('click', (e) => {
     }
 });
 
+// 暗黑模式切换逻辑
+const themeToggle = document.getElementById('theme-toggle');
+
+// 检查本地存储中的主题偏好
+if (localStorage.getItem('theme') === 'dark' ||
+    (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark-mode');
+    themeToggle.textContent = '切换亮色模式';
+} else {
+    document.documentElement.classList.remove('dark-mode');
+    themeToggle.textContent = '切换暗黑模式';
+}
+
+// 主题切换按钮事件监听
+themeToggle.addEventListener('click', () => {
+    if (document.documentElement.classList.contains('dark-mode')) {
+        document.documentElement.classList.remove('dark-mode');
+        themeToggle.textContent = '切换暗黑模式';
+        localStorage.setItem('theme', 'light');
+    } else {
+        document.documentElement.classList.add('dark-mode');
+        themeToggle.textContent = '切换亮色模式';
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
 // 页面加载时获取数据
 fetchSongData();
 
 // DOM元素
 const searchInput = document.getElementById('search-input');
-const difficultySelect = document.getElementById('difficulty-select');
 const searchButton = document.getElementById('search-button');
 const sortDifficultySelect = document.getElementById('sort-difficulty');
 const sortDirectionSelect = document.getElementById('sort-direction');
@@ -84,14 +109,12 @@ searchInput.addEventListener('keypress', (e) => {
     }
 });
 
-difficultySelect.addEventListener('change', performSearch);
 sortDifficultySelect.addEventListener('change', performSearch);
 sortDirectionSelect.addEventListener('change', performSearch);
 
 // 执行搜索
 function performSearch() {
     const searchTerm = searchInput.value.trim().toLowerCase();
-    const selectedDifficulty = difficultySelect.value;
     const sortDifficulty = sortDifficultySelect.value;
     const sortDirection = sortDirectionSelect.value;
 
@@ -99,25 +122,16 @@ function performSearch() {
     const filteredSongs = songData.filter(song => {
         // 检查歌曲名称是否匹配搜索词
         const nameMatches = song.name.toLowerCase().includes(searchTerm);
-
-        // 检查难度是否匹配
-        if (selectedDifficulty === 'all') {
-            return nameMatches;
-        } else {
-            // 只返回选择的难度有值的歌曲
-            return nameMatches && song.difficulties[selectedDifficulty] !== '';
-        }
+        return nameMatches;
     });
 
     // 排序歌曲
-    let sortedSongs = filteredSongs;
+    let sortedSongs = [...filteredSongs]; // 始终创建一个副本
     if (sortDifficulty !== 'none') {
         // 只对所选难度有值的歌曲进行排序
-        const songsWithDifficulty = filteredSongs.filter(song => {
+        sortedSongs = filteredSongs.filter(song => {
             return song.difficulties[sortDifficulty] !== '' && !isNaN(parseFloat(song.difficulties[sortDifficulty]));
-        });
-        
-        sortedSongs = [...songsWithDifficulty].sort((a, b) => {
+        }).sort((a, b) => {
             // 获取两个歌曲的难度值
             const aValue = parseFloat(a.difficulties[sortDifficulty]);
             const bValue = parseFloat(b.difficulties[sortDifficulty]);

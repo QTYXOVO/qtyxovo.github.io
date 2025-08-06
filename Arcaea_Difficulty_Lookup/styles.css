@@ -8,6 +8,17 @@
     --dark-gray: #636e72;
 }
 
+/* 暗黑模式变量 */
+:root.dark-mode {
+    --primary-color: #8a79f8;
+    --secondary-color: #b8afff;
+    --background-color: #1a1a2e;
+    --text-color: #e4e4e7;
+    --light-gray: #2d3748;
+    --medium-gray: #718096;
+    --dark-gray: #a0aec0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +40,11 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 30px;
+}
+
+.dark-mode .container {
+    background-color: #16213e;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -166,6 +182,14 @@ h1 {
 
 #results-table tr:nth-child(even) {
     background-color: #f9f9f9;
+}
+
+.dark-mode #results-table tr:nth-child(even) {
+    background-color: #1e293b;
+}
+
+.dark-mode #results-table tr:hover {
+    background-color: rgba(138, 121, 248, 0.1);
 }
 
 .difficulty-tag {

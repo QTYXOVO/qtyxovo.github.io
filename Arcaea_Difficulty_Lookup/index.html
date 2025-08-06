@@ -15,18 +15,14 @@
             <p>数据来源于Arcaea中文维基 <a href="https://arcwiki.mcd.blue/" target="_blank">链接</a></p>
         </div>
     </div>
-    <button id="about-button" style="margin: 10px 0; padding: 8px 16px; cursor: pointer;">关于</button>
+    <div style="display: flex; gap: 10px; margin: 10px 0;">
+        <button id="about-button" style="padding: 8px 16px; cursor: pointer;">关于</button>
+        <button id="theme-toggle" style="padding: 8px 16px; cursor: pointer;">切换暗黑模式</button>
+    </div>
         <h1>Arcaea 定数查询</h1>
         <div class="search-container">
             <input type="text" id="search-input" placeholder="输入歌曲名称搜索..." autocomplete="off">
-            <select id="difficulty-select" aria-label="难度选择">
-                <option value="all">所有难度</option>
-                <option value="PST">PST</option>
-                <option value="PRS">PRS</option>
-                <option value="FTR">FTR</option>
-                <option value="BYD">BYD</option>
-                <option value="ETR">ETR</option>
-            </select>
+
             <button id="search-button">搜索</button>
         </div>
         <div class="sort-container">
