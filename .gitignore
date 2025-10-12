@@ -9,3 +9,4 @@ env/
 *.pyo
 *.pyd
 .vercel/
+.Random_Songs/

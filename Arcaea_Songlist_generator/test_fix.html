@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcaea Songlist Generator 修复测试</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        .solution {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .code-block {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .success-message {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Arcaea Songlist Generator 修复测试</h1>
+    
+    <p>您报告的"购买方式"字段留空无法添加的问题，我们已经在代码中修复了。但是，如果您仍然遇到问题，可能是由于浏览器缓存导致的。</p>
+    
+    <div class="solution">
+        <h3>解决方案：</h3>
+        <ol>
+            <li>按 Ctrl + F5 强制刷新页面，清除浏览器缓存</li>
+            <li>或者尝试在无痕/隐身模式下打开网站</li>
+            <li>如果问题仍然存在，请尝试以下调试工具</li>
+        </ol>
+    </div>
+    
+    <h3>修复确认工具：</h3>
+    <p>点击下方按钮检测您正在使用的代码版本：</p>
+    <button id="check-version">检测代码版本</button>
+    <div id="result"></div>
+    
+    <script>
+        document.getElementById('check-version').addEventListener('click', function() {
+            // 检查main.js是否已加载
+            if (typeof addSong === 'function') {
+                // 获取addSong函数的源码字符串
+                const addSongSource = addSong.toString();
+                
+                // 检查验证逻辑中是否包含purchase字段
+                const hasPurchaseValidation = addSongSource.includes('!purchase');
+                
+                const resultDiv = document.getElementById('result');
+                
+                if (hasPurchaseValidation) {
+                    resultDiv.innerHTML = '<p>检测结果：您正在使用的代码版本仍然包含purchase字段的验证。请清除缓存或刷新页面。</p>';
+                } else {
+                    resultDiv.innerHTML = '<p class="success-message">检测结果：您正在使用的代码版本已经修复了这个问题。purchase字段不再是必填项。</p>';
+                    resultDiv.innerHTML += '<p>如果您仍然遇到"请填写所有必填字段"的错误，请检查其他必填字段是否都已填写：索引(idx)、歌曲ID(id)、所属曲包(set)、背景文件(bg)、时间戳(date)、艺术家(artist)、BPM(bpm)和基准BPM(bpm-base)。</p>';
+                }
+                
+                resultDiv.innerHTML += '<div class="code-block">'+addSongSource.substring(0, 500)+'...</div>';
+            } else {
+                document.getElementById('result').innerHTML = '<p>无法检测代码版本，请确保您在Arcaea Songlist Generator页面上运行此工具。</p>';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,539 +1,350 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="zh-CN">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gen.css">
-    <script src="main.js" defer=""></script>
-    <title>Songlist generator - Arcaea</title>
-    <style type="text/css">
-      @font-face {
-        font-family: "element-icons";
-        src: url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.woff")
-            format("woff"),
-          url("chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.ttf ")
-            format("truetype"); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-      }
-    </style>
-  <style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 2147483647;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.immersive-translate-attach-loading::after {
-  content: " ";
-
-  --loading-color: #f78fb6;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  display: block;
-  margin: 12px auto;
-  position: relative;
-  color: white;
-  left: -100px;
-  box-sizing: border-box;
-  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-2000%, -50%);
-  z-index: 100;
-}
-
-.immersive-translate-loading-spinner {
-  vertical-align: middle !important;
-  width: 10px !important;
-  height: 10px !important;
-  display: inline-block !important;
-  margin: 0 4px !important;
-  border: 2px rgba(221, 244, 255, 0.6) solid !important;
-  border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
-  border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
-  border-radius: 50% !important;
-  padding: 0 !important;
-  -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
-  animation: immersive-translate-loading-animation 0.6s infinite linear !important;
-}
-
-@-webkit-keyframes immersive-translate-loading-animation {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-
-  to {
-    -webkit-transform: rotate(359deg);
-  }
-}
-
-@keyframes immersive-translate-loading-animation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
-}
-
-.immersive-translate-input-loading {
-  --loading-color: #f78fb6;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  display: block;
-  margin: 12px auto;
-  position: relative;
-  color: white;
-  left: -100px;
-  box-sizing: border-box;
-  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
-}
-
-@keyframes immersiveTranslateShadowRolling {
-  0% {
-    box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0),
-      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
-  }
-
-  12% {
-    box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0),
-      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
-  }
-
-  25% {
-    box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color),
-      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
-  }
-
-  36% {
-    box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color),
-      100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
-  }
-
-  50% {
-    box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color),
-      110px 0 var(--loading-color), 100px 0 var(--loading-color);
-  }
-
-  62% {
-    box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color),
-      120px 0 var(--loading-color), 110px 0 var(--loading-color);
-  }
-
-  75% {
-    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
-      130px 0 var(--loading-color), 120px 0 var(--loading-color);
-  }
-
-  87% {
-    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
-      200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
-  }
-
-  100% {
-    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
-      200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
-  }
-}
-
-.immersive-translate-toast {
-  display: flex;
-  position: fixed;
-  z-index: 2147483647;
-  left: 0;
-  right: 0;
-  top: 1%;
-  width: fit-content;
-  padding: 12px 20px;
-  margin: auto;
-  overflow: auto;
-  background: #fef6f9;
-  box-shadow: 0px 4px 10px 0px rgba(0, 10, 30, 0.06);
-  font-size: 15px;
-  border-radius: 8px;
-  color: #333;
-}
-
-.immersive-translate-toast-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.immersive-translate-toast-hidden {
-  margin: 0 20px 0 72px;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.immersive-translate-toast-close {
-  color: #666666;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 768px) {
-  .immersive-translate-toast {
-    top: 0;
-    padding: 12px 0px 0 10px;
-  }
-  .immersive-translate-toast-content {
-    flex-direction: column;
-    text-align: center;
-  }
-  .immersive-translate-toast-hidden {
-    margin: 10px auto;
-  }
-}
-
-.immersive-translate-modal {
-  display: none;
-  position: fixed;
-  z-index: 2147483647;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-  font-size: 15px;
-}
-
-.immersive-translate-modal-content {
-  background-color: #fefefe;
-  margin: 10% auto;
-  padding: 40px 24px 24px;
-  border: 1px solid #888;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 270px;
-  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-  position: relative;
-}
-
-@media screen and (max-width: 768px) {
-  .immersive-translate-modal-content {
-    margin: 50% auto !important;
-  }
-}
-
-.immersive-translate-modal .immersive-translate-modal-content-in-input {
-  max-width: 500px;
-}
-.immersive-translate-modal-content-in-input .immersive-translate-modal-body {
-  text-align: left;
-  max-height: unset;
-}
-
-.immersive-translate-modal-title {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  color: #333333;
-}
-
-.immersive-translate-modal-body {
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-  color: #333333;
-  word-break: break-all;
-  margin-top: 24px;
-}
-
-@media screen and (max-width: 768px) {
-  .immersive-translate-modal-body {
-    max-height: 250px;
-    overflow-y: auto;
-  }
-}
-
-.immersive-translate-close {
-  color: #666666;
-  position: absolute;
-  right: 16px;
-  top: 16px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.immersive-translate-close:hover,
-.immersive-translate-close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.immersive-translate-modal-footer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 24px;
-}
-
-.immersive-translate-btn {
-  width: fit-content;
-  color: #fff;
-  background-color: #ea4c89;
-  border: none;
-  font-size: 16px;
-  margin: 0 8px;
-  padding: 9px 30px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.immersive-translate-btn:hover {
-  background-color: #f082ac;
-}
-.immersive-translate-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-.immersive-translate-btn:disabled:hover {
-  background-color: #ea4c89;
-}
-
-.immersive-translate-cancel-btn {
-  /* gray color */
-  background-color: rgb(89, 107, 120);
-}
-
-.immersive-translate-cancel-btn:hover {
-  background-color: hsl(205, 20%, 32%);
-}
-
-.immersive-translate-action-btn {
-  background-color: transparent;
-  color: #ea4c89;
-  border: 1px solid #ea4c89;
-}
-
-.immersive-translate-btn svg {
-  margin-right: 5px;
-}
-
-.immersive-translate-link {
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-  -webkit-user-drag: none;
-  user-drag: none;
-  text-decoration: none;
-  color: #007bff;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
-}
-
-.immersive-translate-primary-link {
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-drag: none;
-  text-decoration: none;
-  color: #ea4c89;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
-}
-
-.immersive-translate-modal input[type="radio"] {
-  margin: 0 6px;
-  cursor: pointer;
-}
-
-.immersive-translate-modal label {
-  cursor: pointer;
-}
-
-.immersive-translate-close-action {
-  position: absolute;
-  top: 2px;
-  right: 0px;
-  cursor: pointer;
-}
-
-.imt-image-status {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border-radius: 16px !important;
-}
-.imt-image-status img,
-.imt-image-status svg,
-.imt-img-loading {
-  width: 28px !important;
-  height: 28px !important;
-  margin: 0 0 8px 0 !important;
-  min-height: 28px !important;
-  min-width: 28px !important;
-  position: relative !important;
-}
-.imt-img-loading {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAPHRSTlMABBMIDyQXHwyBfFdDMSw+OjXCb+5RG51IvV/k0rOqlGRM6KKMhdvNyZBz9MaupmxpWyj437iYd/yJVNZeuUC7AAACt0lEQVRIx53T2XKiUBCA4QYOiyCbiAsuuGBcYtxiYtT3f6/pbqoYHVFO5r+iivpo6DpAWYpqeoFfr9f90DsYAuRSWkFnPO50OgR9PwiCUFcl2GEcx+N/YBh6pvKaefHlUgZd1zVe0NbYcQjGBfzrPE8Xz8aF+71D8gG6DHFPpc4a7xFiCDuhaWgKgGIJQ3d5IMGDrpS4S5KgpIm+en9f6PlAhKby4JwEIxlYJV9h5k5nee9GoxHJ2IDSNB0dwdad1NAxDJ/uXDHYmebdk4PdbkS58CIVHdYSUHTYYRWOJblWSyu2lmy3KNFVJNBhxcuGW4YBVCbYGRZwIooipHsNqjM4FbgOQqQqSKQQU9V8xmi1QlgHqQQ6DDBvRUVCDirs+EzGDGOQTCATgtYTnbCVLgsVgRE0T1QE0qHCFAht2z6dLvJQs3Lo2FQoDxWNUiBhaP4eRgwNkI+dAjVOA/kUrIDwf3CG8NfNOE0eiFotSuo+rBiq8tD9oY4Qzc6YJw99hl1wzpQvD7ef2M8QgnOGJfJw+EltQc+oX2yn907QB22WZcvlUpd143dqQu+8pCJZuGE4xCuPXJqqcs5sNpsI93Rmzym1k4Npk+oD1SH3/a3LOK/JpUBpWfqNySxWzCfNCUITuDG5dtuphrUJ1myeIE9bIsPiKrfqTai5WZxbhtNphYx6GEIHihyGFTI69lje/rxajdh0s0msZ0zYxyPLhYCb1CyHm9Qsd2H37Y3lugVwL9kNh8Ot8cha6fUNQ8nuXi5z9/ExsAO4zQrb/ev1yrCB7lGyQzgYDGuxq1toDN/JGvN+HyWNHKB7zEoK+PX11e12G431erGYzwmytAWU56fkMHY5JJnDRR2eZji3AwtIcrEV8Cojat/BdQ7XOwGV1e1hDjGGjXbdArm8uJZtCH5MbcctVX8A1WpqumJHwckAAAAASUVORK5CYII=");
-  background-size: 28px 28px;
-  animation: image-loading-rotate 1s linear infinite !important;
-}
-
-.imt-image-status span {
-  color: var(--bg-2, #fff) !important;
-  font-size: 14px !important;
-  line-height: 14px !important;
-  font-weight: 500 !important;
-  font-family: "PingFang SC", Arial, sans-serif !important;
-}
-
-@keyframes image-loading-rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-</style></head>
-  <body ontouchstart="">
+    <title>Arcaea 歌曲列表生成器</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
     <div class="app-container">
-      <header class="app-header">
-        <h4>Arcaea Songlist generator - by esterTion</h4>
-        <div class="version-history">
-          <details class="version-details">
-            <summary>版本历史</summary>
-            <ul class="version-list">
-              <li>2020.06.12 v3.0 简易适配 by 某魏</li>
-              <li>2021.09.27 移除 Tempestissimo 自动添加</li>
-              <li>2023.09.12 v4.0.255 添加消色侧支持 by 御坂12456</li>
-              <li>2024.07.28 v5.4 添加 ETR (Eternal) 难度支持 by 御坂12456</li>
-              <li>2024.12.11 v6.0 添加Lephon侧支持 by 御坂12456</li>
-            </ul>
-          </details>
+        <!-- 顶部导航栏 -->
+        <header class="navbar">
+            <div class="navbar-brand">
+                <i class="fas fa-music"></i>
+                <h1>Arcaea 歌曲列表生成器</h1>
+            </div>
+            <div class="navbar-actions">
+                <button id="toggle-dark-mode" class="btn btn-icon">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="save-all" class="btn btn-success">
+                    <i class="fas fa-save"></i> 保存全部
+                </button>
+            </div>
+        </header>
+
+        <div class="app-layout">
+            <!-- 左侧难度边栏 -->
+            <aside class="difficulty-sidebar">
+                <div class="sidebar-header">
+                    <h2>难度设置</h2>
+                    <button id="add-difficulty" class="btn btn-primary btn-sm">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <div class="difficulty-list">
+                    <!-- 难度项目将由JS动态生成 -->
+                </div>
+            </aside>
+
+            <!-- 主内容区 -->
+            <main class="main-content">
+                <!-- 状态消息 -->
+                <div id="status-message" class="status hidden">
+                    <span class="status-text"></span>
+                </div>
+
+                <!-- 表单区域 -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <h2>歌曲信息</h2>
+                        <div class="section-actions">
+                            <button id="clear-form" class="btn btn-secondary">
+                                <i class="fas fa-eraser"></i> 清空填写
+                            </button>
+                            <button id="add-song" class="btn btn-primary">
+                                <i class="fas fa-plus"></i> 添加歌曲
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 表单内容 - 分为必填和可选两栏 -->
+                    <div class="form-columns">
+                        <!-- 基础信息列 -->
+                        <div class="form-column basic-fields">
+                            <div class="form-card">
+                                <h3><i class="fas fa-info-circle"></i> 基础信息</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="idx">索引 (idx)</label>
+                                        <input type="number" id="idx" placeholder="唯一标识符">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="id">歌曲ID (id)</label>
+                                        <input type="text" id="id" placeholder="只能使用ASCII字符">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="set">所属曲包 (set)</label>
+                                        <input type="text" id="set" placeholder="曲包ID">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="purchase">购买方式 (purchase)</label>
+                                        <input type="text" id="purchase" placeholder="曲包名或歌曲ID 否则留空">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="side">歌曲属性 (side)</label>
+                                        <select id="side">
+                                            <option value="0">光芒侧 (0)</option>
+                                            <option value="1">纷争侧 (1)</option>
+                                            <option value="2">消色之侧 (2)</option>
+                                            <option value="3">Lephon侧 (3)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="bg">背景文件名 (bg)</label>
+                                        <input type="text" id="bg" placeholder="只能使用ASCII字符">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date">加入时间戳 (date)</label>
+                                        <input type="number" id="date" placeholder="10位时间戳">
+                                        <button id="get-current-timestamp" class="btn btn-sm btn-secondary mt-1">
+                                            <i class="fas fa-clock"></i> 获取当前时间戳
+                                        </button>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="artist">作曲者 (artist)</label>
+                                        <input type="text" id="artist" placeholder="作曲者名称">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="version">游戏版本 (version)</label>
+                                        <input type="text" id="version" placeholder="例如: 3.0.0">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="audio-preview">预览开始时间 (audioPreview)</label>
+                                        <input type="number" id="audio-preview" placeholder="毫秒">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="audio-preview-end">预览结束时间 (audioPreviewEnd)</label>
+                                        <input type="number" id="audio-preview-end" placeholder="毫秒">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 曲名多语言设置 -->
+                            <div class="form-card mt-4">
+                                <h3><i class="fas fa-language"></i> 曲名</h3>
+                                <div class="language-inputs">
+                                    <div class="form-group">
+                                        <label for="title-en">英文 (en)</label>
+                                        <input type="text" id="title-en" placeholder="英文曲名">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="title-ja">日文 (ja)</label>
+                                        <input type="text" id="title-ja" placeholder="日文曲名">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="title-zh-hans">简体中文 (zh-Hans)</label>
+                                        <input type="text" id="title-zh-hans" placeholder="简体中文曲名">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="title-zh-hant">繁体中文 (zh-Hant)</label>
+                                        <input type="text" id="title-zh-hant" placeholder="繁体中文曲名">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- BPM设置 -->
+                            <div class="form-card mt-4">
+                                <h3><i class="fas fa-drum"></i> BPM设置</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="bpm">显示BPM (bpm)</label>
+                                        <input type="text" id="bpm" placeholder="例如: 150">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="bpm-base">基准BPM (bpm_base)</label>
+                                        <input type="number" id="bpm-base" step="0.01" placeholder="例如: 150.0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 可选字段列 -->
+                        <div class="form-column optional-fields">
+                            <div class="form-card">
+                                <h3><i class="fas fa-ellipsis-h"></i> 可选信息</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="category">单曲包分类 (category)</label>
+                                        <select id="category">
+                                            <option value="">无</option>
+                                            <option value="partner">partner</option>
+                                            <option value="original">original</option>
+                                            <option value="variety">variety</option>
+                                            <option value="poprec">poprec</option>
+                                            <option value="musicgames">musicgames</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 开关选项 -->
+                            <div class="form-card mt-4">
+                                <h3><i class="fas fa-toggle-on"></i> 开关选项</h3>
+                                <div class="toggle-grid">
+                                    <div class="toggle-item">
+                                        <label class="toggle-label">
+                                            <input type="checkbox" id="world-unlock">
+                                            <span class="toggle-text">需要世界模式解锁 (world_unlock)</span>
+                                        </label>
+                                    </div>
+                                    <div class="toggle-item">
+                                        <label class="toggle-label">
+                                            <input type="checkbox" id="remote-dl">
+                                            <span class="toggle-text">需要远程下载 (remote_dl)</span>
+                                        </label>
+                                    </div>
+                                    <div class="toggle-item">
+                                        <label class="toggle-label">
+                                            <input type="checkbox" id="byd-local-unlock">
+                                            <span class="toggle-text">Beyond本地解锁 (byd_local_unlock)</span>
+                                        </label>
+                                    </div>
+                                    <div class="toggle-item">
+                                        <label class="toggle-label">
+                                            <input type="checkbox" id="songlist-hidden">
+                                            <span class="toggle-text">解锁前隐藏 (songlist_hidden)</span>
+                                        </label>
+                                    </div>
+                                    <div class="toggle-item">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="no-pp">
+                            <span class="toggle-text">无版权标记 (no_pp) <span class="tooltip-icon" title="启用此选项表示该歌曲不会显示版权标记">?</span></span>
+                        </label>
+                    </div>
+                                    <div class="toggle-item">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="no-stream">
+                            <span class="toggle-text">不可直播 (no_stream) <span class="tooltip-icon" title="启用此选项表示该歌曲受版权限制，不允许直播">?</span></span>
+                        </label>
+                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 附加信息 -->
+                            <div class="form-card mt-4">
+                                <h3><i class="fas fa-info-circle"></i> 附加信息</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="bg-inverse">反转背景 (bg_inverse)</label>
+                                        <input type="text" id="bg-inverse" placeholder="只能使用ASCII字符">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="source-localized-en">出处 (英文)</label>
+                                        <input type="text" id="source-localized-en" placeholder="英文出处">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="source-copyright">版权方 (source_copyright)</label>
+                                        <input type="text" id="source-copyright" placeholder="包括©符号">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 生成的歌曲列表 -->
+                <div class="output-section">
+                    <div class="section-header">
+                        <h2>歌曲列表</h2>
+                        <div class="section-actions">
+                            <button id="export-json" class="btn btn-primary">
+                                <i class="fas fa-file-export"></i> 导出JSON
+                            </button>
+                            <button id="clear-all" class="btn btn-danger">
+                                <i class="fas fa-trash-alt"></i> 清空所有
+                            </button>
+                        </div>
+                    </div>
+                    <div id="output-list" class="output-list">
+                        <!-- 生成的歌曲列表将由JS动态填充 -->
+                        <div class="empty-state">
+                            <i class="fas fa-music fa-4x text-gray-400"></i>
+                            <p>暂无生成的歌曲，请填写表单并点击"添加歌曲"</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
-      </header>
 
-      <div class="main-content">
-        <section class="control-panel">
-          <form autocomplete="off" style="display: none">
-            <label><input type="radio" name="file-type" data-value="songlist">Songlist</label>
-          </form>
-          <div class="button-group">
-            <input type="file" id="load-file" class="file-input">
-            <input type="button" id="load-from-text" value="手动输入songlist">
-            <input type="button" id="save-file" value="保存文件">
-            <input type="button" id="copy-content" value="复制输出">
-            <label class="dark-mode-switch">
-              <input type="checkbox" id="darkModeToggle">
-              暗黑模式
-            </label>
-          </div>
-          <div id="status-message"></div>
-        </section>
-
-        <section class="form-section">
-          <form class="input-field songlist">
-            <div class="form-grid">
-              <div class="form-group basic-info">
-                <table>
-                  <tbody>
-                    <tr><td>id：</td><td><input type="text" name="info-id"></td></tr>
-                    <tr><td>曲名：</td><td><input type="text" name="info-title"></td></tr>
-                    <tr><td>曲师：</td><td><input type="text" name="info-artist"></td></tr>
-                    <tr><td>显示bpm：</td><td><input type="text" name="info-bpm"></td></tr>
-                    <tr><td>基准bpm：</td><td><input type="text" name="info-bpm_base"></td></tr>
-                    <tr><td>曲包id：</td><td><input type="text" name="info-set" value="base"></td></tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div class="form-group advanced-info">
-                <table>
-                  <tbody>
-                    <tr><td>音频预览开始/ms：</td><td><input type="text" name="info-audioPreview"></td></tr>
-                    <tr><td>音频预览结束/ms：</td><td><input type="text" name="info-audioPreviewEnd"></td></tr>
-                    <tr><td>歌曲侧：</td><td><select name="info-side"><option value="0">光芒(光)</option><option value="1">纷争(对立)</option><option value="2">消色</option><option value="3">Lephon</option></select></td></tr>
-                    <tr><td>背景：</td><td><input type="text" name="info-bg"></td></tr>
-                    <tr><td>日期(若不填则为现在的时间)：</td><td><input type="text" name="info-date"></td></tr>
-                    <tr><td>版本：</td><td><input type="text" name="info-version"></td></tr>
-                  </tbody>
-                </table>
-              </div>
+        <!-- 底部信息 -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="version-info">使用AI生成————版本: TEST</div>
+                
+                <div class="footer-links">
+                    <a href="#" class="footer-link"><i class="fas fa-question-circle"></i> 帮助</a>
+                    <a href="#" class="footer-link"><i class="fas fa-github"></i> GitHub</a>
+                </div>
             </div>
-
-            <div class="difficulty-grid">
-              <div class="difficulty-card">
-                <span class="difficulty chart-0">PST</span><input type="checkbox" title="启用此难度" name="enable-0">
-                <table><tbody>
-                  <tr><td>谱师：</td><td><input type="text" name="charter-0"></td></tr>
-                  <tr><td>封面画师：</td><td><input type="text" name="jacket-0"></td></tr>
-                  <tr><td>难度：</td><td><input type="text" name="rating-0"></td></tr>
-                  <tr><td>+：</td><td><select name="ratingPlus-0"><option value="0">false</option><option value="1">true</option></select></td></tr>
-                </tbody></table>
-              </div>
-
-              <div class="difficulty-card">
-                <span class="difficulty chart-1">PRS</span><input type="checkbox" title="启用此难度" name="enable-1">
-                <table><tbody>
-                  <tr><td>谱师：</td><td><input type="text" name="charter-1"></td></tr>
-                  <tr><td>封面画师：</td><td><input type="text" name="jacket-1"></td></tr>
-                  <tr><td>难度：</td><td><input type="text" name="rating-1"></td></tr>
-                  <tr><td>+：</td><td><select name="ratingPlus-1"><option value="0">false</option><option value="1">true</option></select></td></tr>
-                </tbody></table>
-              </div>
-
-              <div class="difficulty-card">
-                <span class="difficulty chart-2">FTR</span><input type="checkbox" title="启用此难度" name="enable-2">
-                <table><tbody>
-                  <tr><td>谱师：</td><td><input type="text" name="charter-2"></td></tr>
-                  <tr><td>封面画师：</td><td><input type="text" name="jacket-2"></td></tr>
-                  <tr><td>难度：</td><td><input type="text" name="rating-2"></td></tr>
-                  <tr><td>+：</td><td><select name="ratingPlus-2"><option value="0">false</option><option value="1">true</option></select></td></tr>
-                </tbody></table>
-              </div>
-
-              <div class="difficulty-card">
-                <span class="difficulty chart-3">BYD</span><input type="checkbox" title="启用此难度" name="enable-3">
-                <table><tbody>
-                  <tr><td>谱师：</td><td><input type="text" name="charter-3"></td></tr>
-                  <tr><td>封面画师：</td><td><input type="text" name="jacket-3"></td></tr>
-                  <tr><td>难度：</td><td><input type="text" name="rating-3"></td></tr>
-                  <tr><td>+：</td><td><select name="ratingPlus-3"><option value="0">false</option><option value="1">true</option></select></td></tr>
-                </tbody></table>
-              </div>
-
-              <div class="difficulty-card">
-                <span class="difficulty chart-4">ETR</span><input type="checkbox" title="启用此难度" name="enable-4">
-                <table><tbody>
-                  <tr><td>谱师：</td><td><input type="text" name="charter-4"></td></tr>
-                  <tr><td>封面画师：</td><td><input type="text" name="jacket-4"></td></tr>
-                  <tr><td>难度：</td><td><input type="text" name="rating-4"></td></tr>
-                  <tr><td>+：</td><td><select name="ratingPlus-4"><option value="0">false</option><option value="1">true</option></select></td></tr>
-                </tbody></table>
-              </div>
-            </div>
-
-            <div class="form-actions">
-              <input type="submit" value="添加">
-              <input type="button" value="清空" id="clear-list">
-            </div>
-
-            <div id="output-list"></div>
-          </form>
-        </section>
-      </div>
+        </footer>
     </div>
-    <div id="immersive-translate-popup" style="all: initial"></div>
-  </body>
+
+    <!-- 难度编辑模态框 -->
+    <div id="difficulty-modal" class="modal hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">编辑难度</h3>
+                <button id="close-modal" class="btn btn-icon">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="difficulty-type">难度类型</label>
+                        <select id="difficulty-type">
+                            <option value="0">PST (0)</option>
+                            <option value="1">PRS (1)</option>
+                            <option value="2">FTR (2)</option>
+                            <option value="3">BYD (3)</option>
+                            <option value="4">ETR (4)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="difficulty-rating">难度等级 (rating)</label>
+                        <input type="number" id="difficulty-rating" min="0" max="15" placeholder="例如: 9">
+                    </div>
+                    <div class="form-group">
+                        <label for="chart-designer">谱师 (chartDesigner)</label>
+                        <input type="text" id="chart-designer" placeholder="谱师名称">
+                    </div>
+                    <div class="form-group">
+                        <label for="jacket-designer">封面绘师 (jacketDesigner)</label>
+                        <input type="text" id="jacket-designer" placeholder="绘师名称">
+                    </div>
+                </div>
+                <div class="toggle-grid mt-4">
+                    <div class="toggle-item">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="difficulty-rating-plus">
+                            <span class="toggle-text">难度带+ (ratingPlus)</span>
+                        </label>
+                    </div>
+                    <div class="toggle-item">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="difficulty-legacy11">
+                            <span class="toggle-text">旧版判定 (legacy11) <span class="tooltip-icon" title="启用此选项表示该谱面使用旧版(1.1版本前)的判定区域">?</span></span>
+                        </label>
+                    </div>
+                    <div class="toggle-item">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="difficulty-plus-fingers">
+                            <span class="toggle-text">多指操作 (plusFingers) <span class="tooltip-icon" title="启用此选项表示该谱面设计需要多指操作\n官方更新的某些谱面也出现了多押但没有使用本参数">?</span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="delete-difficulty" class="btn btn-danger">删除难度</button>
+                <button id="save-difficulty" class="btn btn-primary">保存难度</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
 </html>
