@@ -1,4 +1,11 @@
 debug.txt
 vercel.json
 __pycache__/
-.vscode
+.vscode/
+Other_Tools/
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+.vercel/

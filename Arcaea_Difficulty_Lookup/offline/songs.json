@@ -181,6 +181,16 @@
       }
     },
     {
+      "name": "Undying Macula",
+      "difficulties": {
+        "PST": "5.5",
+        "PRS": "8.7",
+        "FTR": "10.1",
+        "BYD": "",
+        "ETR": "11.0"
+      }
+    },
+    {
       "name": "Misdeed -la bonté de Dieu et l'origine du mal-",
       "difficulties": {
         "PST": "5.5",
@@ -285,6 +295,16 @@
       "difficulties": {
         "PST": "5.5",
         "PRS": "8.0",
+        "FTR": "10.1",
+        "BYD": "",
+        "ETR": "10.9"
+      }
+    },
+    {
+      "name": "Welcome, Queen of Fiction.",
+      "difficulties": {
+        "PST": "5.0",
+        "PRS": "8.5",
         "FTR": "10.1",
         "BYD": "",
         "ETR": "10.9"
@@ -461,6 +481,16 @@
       }
     },
     {
+      "name": "ANDORXOR",
+      "difficulties": {
+        "PST": "4.5",
+        "PRS": "7.8",
+        "FTR": "9.9",
+        "BYD": "",
+        "ETR": "10.8"
+      }
+    },
+    {
       "name": "ouroboros -twin stroke of the end-",
       "difficulties": {
         "PST": "4.5",
@@ -548,6 +578,16 @@
         "FTR": "9.3",
         "BYD": "",
         "ETR": "10.7"
+      }
+    },
+    {
+      "name": "AlterGate",
+      "difficulties": {
+        "PST": "5.5",
+        "PRS": "8.7",
+        "FTR": "10.7",
+        "BYD": "",
+        "ETR": ""
       }
     },
     {
@@ -951,6 +991,16 @@
       }
     },
     {
+      "name": "CHAOSBLAST",
+      "difficulties": {
+        "PST": "4.5",
+        "PRS": "7.8",
+        "FTR": "9.6",
+        "BYD": "",
+        "ETR": "10.5"
+      }
+    },
+    {
       "name": "γuarδina",
       "difficulties": {
         "PST": "4.0",
@@ -1101,6 +1151,26 @@
       }
     },
     {
+      "name": "Eternity Break",
+      "difficulties": {
+        "PST": "3.5",
+        "PRS": "7.5",
+        "FTR": "9.6",
+        "BYD": "",
+        "ETR": "10.4"
+      }
+    },
+    {
+      "name": "No Way Back",
+      "difficulties": {
+        "PST": "4.5",
+        "PRS": "7.5",
+        "FTR": "8.9",
+        "BYD": "",
+        "ETR": "10.4"
+      }
+    },
+    {
       "name": "Metallic Punisher",
       "difficulties": {
         "PST": "3.0",
@@ -1238,6 +1308,16 @@
         "FTR": "8.8",
         "BYD": "",
         "ETR": "10.3"
+      }
+    },
+    {
+      "name": "ROST PAGE GENE",
+      "difficulties": {
+        "PST": "5.0",
+        "PRS": "8.2",
+        "FTR": "10.3",
+        "BYD": "",
+        "ETR": ""
       }
     },
     {
@@ -1901,6 +1981,26 @@
       }
     },
     {
+      "name": "incomplete the one",
+      "difficulties": {
+        "PST": "3.5",
+        "PRS": "7.5",
+        "FTR": "8.8",
+        "BYD": "",
+        "ETR": "9.9"
+      }
+    },
+    {
+      "name": "Vainspire",
+      "difficulties": {
+        "PST": "3.5",
+        "PRS": "7.0",
+        "FTR": "8.4",
+        "BYD": "",
+        "ETR": "9.9"
+      }
+    },
+    {
       "name": "SOUNDWiTCH",
       "difficulties": {
         "PST": "3.5",
@@ -2371,6 +2471,16 @@
       }
     },
     {
+      "name": "disintegration",
+      "difficulties": {
+        "PST": "4.0",
+        "PRS": "6.5",
+        "FTR": "8.3",
+        "BYD": "",
+        "ETR": "9.8"
+      }
+    },
+    {
       "name": "Lethaeus",
       "difficulties": {
         "PST": "3.5",
@@ -2731,6 +2841,16 @@
       }
     },
     {
+      "name": "Acheron",
+      "difficulties": {
+        "PST": "3.5",
+        "PRS": "7.5",
+        "FTR": "9.7",
+        "BYD": "",
+        "ETR": ""
+      }
+    },
+    {
       "name": "carmine:scythe",
       "difficulties": {
         "PST": "4.0",
@@ -2884,6 +3004,16 @@
       "name": "See the Lights!",
       "difficulties": {
         "PST": "3.5",
+        "PRS": "6.5",
+        "FTR": "8.6",
+        "BYD": "",
+        "ETR": "9.6"
+      }
+    },
+    {
+      "name": "Factorder",
+      "difficulties": {
+        "PST": "2.5",
         "PRS": "6.5",
         "FTR": "8.6",
         "BYD": "",
@@ -3095,6 +3225,16 @@
       "difficulties": {
         "PST": "3.0",
         "PRS": "6.0",
+        "FTR": "9.5",
+        "BYD": "",
+        "ETR": ""
+      }
+    },
+    {
+      "name": "Viola Illyria",
+      "difficulties": {
+        "PST": "2.5",
+        "PRS": "6.5",
         "FTR": "9.5",
         "BYD": "",
         "ETR": ""
@@ -4751,5 +4891,5 @@
       }
     }
   ],
-  "last_updated": "2025-08-06T15:45:31.248698"
+  "last_updated": "2025-10-12T11:43:22.586970"
 }
