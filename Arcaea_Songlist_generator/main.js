@@ -17,11 +17,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const getCurrentTimestampBtn = document.getElementById('get-current-timestamp');
     const addSongBtn = document.getElementById('add-song');
     const exportJsonBtn = document.getElementById('export-json');
+    const importJsonInput = document.getElementById('import-json');
     const clearFormBtn = document.getElementById('clear-form');
     const clearAllBtn = document.getElementById('clear-all');
     const outputList = document.getElementById('output-list');
     const statusMessage = document.getElementById('status-message');
     const statusText = statusMessage.querySelector('.status-text');
+    
+    // 侧边栏相关元素
+    const toggleSidebarBtn = document.getElementById('toggle-sidebar');
+    const difficultySidebar = document.getElementById('difficulty-sidebar');
+    const sidebarOverlay = document.getElementById('sidebar-overlay');
 
     // 难度类型映射
     const difficultyTypes = {
@@ -31,6 +37,161 @@ document.addEventListener('DOMContentLoaded', function() {
         3: { name: 'BYD', badgeClass: 'difficulty-byd' },
         4: { name: 'ETR', badgeClass: 'difficulty-etr' }
     };
+
+    // 验证歌曲数据格式（根据example.txt中的要求，同时兼容songlist-example.json）
+    function validateSong(song) {
+        try {
+            // 检查必需字段，但idx根据示例文件可以不存在
+            // 如果idx不存在，会在导入时自动生成
+            if (!song.id || typeof song.id !== 'string') return false; // id必须存在且为字符串
+            if (!song.title_localized || typeof song.title_localized !== 'object') return false; // title_localized必须存在且为对象
+            // artist可以是空字符串
+            if (song.artist === undefined || typeof song.artist !== 'string') return false;
+            // bpm可以是空字符串
+            if (song.bpm === undefined || typeof song.bpm !== 'string') return false;
+            // bpm_base可以是0
+            if (song.bpm_base === undefined) return false;
+            // set必须存在且为字符串
+            if (!song.set || typeof song.set !== 'string') return false;
+            // purchase可以是空字符串
+            if (song.purchase === undefined || typeof song.purchase !== 'string') return false;
+            // side必须存在（0, 1, 2, 3）
+            if (song.side === undefined) return false;
+            // bg必须存在且为字符串
+            if (!song.bg || typeof song.bg !== 'string') return false;
+            // date可以是0
+            if (song.date === undefined) return false;
+            // difficulties必须是数组且至少有一个元素
+            if (!Array.isArray(song.difficulties) || song.difficulties.length === 0) return false;
+            
+            // 检查难度格式 - 只验证必需字段
+            for (const diff of song.difficulties) {
+                // ratingClass必须存在（0, 1, 2, 3, 4）
+                if (diff.ratingClass === undefined) return false;
+                // chartDesigner可以是空字符串
+                if (diff.chartDesigner === undefined || typeof diff.chartDesigner !== 'string') return false;
+                // jacketDesigner可以是空字符串
+                if (diff.jacketDesigner === undefined || typeof diff.jacketDesigner !== 'string') return false;
+                // rating可以是0
+                if (diff.rating === undefined) return false;
+            }
+            
+            // 所有必需字段验证通过
+            return true;
+        } catch (error) {
+            console.error('验证歌曲时出错:', error);
+            return false;
+        }
+    }
+    
+    // 导入JSON
+    function importJson(file) {
+        const reader = new FileReader();
+        
+        reader.onload = function(event) {
+            try {
+                // 解析JSON
+                const jsonData = JSON.parse(event.target.result);
+                
+                // 验证顶层数据格式
+                if (!jsonData || typeof jsonData !== 'object') {
+                    showStatus('JSON格式错误：不是有效的JSON对象', 'error');
+                    return;
+                }
+                
+                // 检查是否有songs数组
+                if (!jsonData.songs || !Array.isArray(jsonData.songs)) {
+                    // 尝试直接将JSON数据作为歌曲数组处理（支持简化格式）
+                    if (Array.isArray(jsonData)) {
+                        jsonData.songs = jsonData;
+                    } else {
+                        showStatus('JSON格式错误：缺少songs数组', 'error');
+                        return;
+                    }
+                }
+                
+                // 验证每首歌曲的格式
+                const validSongs = [];
+                const invalidSongs = [];
+                
+                jsonData.songs.forEach((song, index) => {
+                    if (validateSong(song)) {
+                        // 深拷贝以避免引用问题
+                        const songCopy = JSON.parse(JSON.stringify(song));
+                        
+                        // 自动生成idx字段（如果不存在）
+                        if (songCopy.idx === undefined) {
+                            // 生成一个唯一的idx值
+                            // 考虑songList和已经导入的validSongs中的最大值
+                            let maxIdx = 0;
+                            
+                            // 检查songList中的最大idx
+                            if (songList.length > 0) {
+                                maxIdx = songList.reduce((max, s) => s.idx > max ? s.idx : max, 0);
+                            }
+                            
+                            // 检查已导入validSongs中的最大idx
+                            if (validSongs.length > 0) {
+                                const currentMax = validSongs.reduce((max, s) => s.idx && s.idx > max ? s.idx : max, 0);
+                                maxIdx = Math.max(maxIdx, currentMax);
+                            }
+                            
+                            // 生成新的idx
+                            songCopy.idx = maxIdx + 1;
+                        }
+                        
+                        validSongs.push(songCopy);
+                    } else {
+                        invalidSongs.push({
+                            index: index,
+                            song: song
+                        });
+                        console.error(`歌曲索引 ${index} 验证失败:`, song);
+                    }
+                });
+                
+                if (validSongs.length === 0) {
+                    showStatus(`没有有效的歌曲数据。共 ${invalidSongs.length} 首歌曲验证失败。`, 'error');
+                    return;
+                }
+                
+                // 合并或替换现有歌曲
+                if (confirm(`发现 ${validSongs.length} 首有效歌曲。是否要替换当前所有歌曲？点击取消将合并到当前列表。\n注意：${invalidSongs.length} 首歌曲因格式不符合要求被跳过。`)) {
+                    songList = validSongs;
+                    showStatus(`成功导入 ${validSongs.length} 首歌曲，已替换当前列表`, 'success');
+                } else {
+                    // 确保不添加重复歌曲（基于idx和id）
+                    const existingIds = new Set(songList.map(s => `${s.idx}-${s.id}`));
+                    const newSongs = validSongs.filter(s => !existingIds.has(`${s.idx}-${s.id}`));
+                    
+                    songList = [...songList, ...newSongs];
+                    
+                    if (newSongs.length < validSongs.length) {
+                        showStatus(`成功导入 ${newSongs.length} 首新歌曲，${validSongs.length - newSongs.length} 首歌曲因已存在而跳过，已合并到当前列表`, 'info');
+                    } else {
+                        showStatus(`成功导入 ${validSongs.length} 首歌曲，已合并到当前列表`, 'success');
+                    }
+                }
+                
+                // 显示导入详情
+                if (invalidSongs.length > 0) {
+                    console.log('导入失败的歌曲详情:', invalidSongs);
+                    showStatus(`导入完成！成功导入 ${validSongs.length} 首歌曲，${invalidSongs.length} 首歌曲因格式问题被跳过`, 'warning');
+                }
+                
+                updateSongList();
+            } catch (error) {
+                console.error('JSON解析错误:', error);
+                showStatus('JSON解析失败: ' + error.message, 'error');
+            }
+        };
+        
+        reader.onerror = function() {
+            showStatus('文件读取失败，请检查文件是否可读', 'error');
+        };
+        
+        reader.readAsText(file);
+    }
 
     // 初始化
     function init() {
@@ -47,8 +208,28 @@ document.addEventListener('DOMContentLoaded', function() {
         getCurrentTimestampBtn.addEventListener('click', setCurrentTimestamp);
         addSongBtn.addEventListener('click', addSong);
         exportJsonBtn.addEventListener('click', exportJson);
+        importJsonInput.addEventListener('change', function() {
+            if (this.files && this.files[0]) {
+                importJson(this.files[0]);
+                // 重置input以允许重新选择同一文件
+                this.value = '';
+            }
+        });
         clearFormBtn.addEventListener('click', clearForm);
         clearAllBtn.addEventListener('click', clearAllSongs);
+        
+        // 侧边栏控制逻辑
+        toggleSidebarBtn.addEventListener('click', function() {
+            difficultySidebar.classList.toggle('open');
+            sidebarOverlay.classList.toggle('active');
+            document.body.style.overflow = difficultySidebar.classList.contains('open') ? 'hidden' : 'auto';
+        });
+        
+        sidebarOverlay.addEventListener('click', function() {
+            difficultySidebar.classList.remove('open');
+            sidebarOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
         
         // 点击模态框背景关闭
         difficultyModal.addEventListener('click', function(e) {
@@ -61,6 +242,15 @@ document.addEventListener('DOMContentLoaded', function() {
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape' && !difficultyModal.classList.contains('hidden')) {
                 closeDifficultyModal();
+            }
+        });
+        
+        // 监听屏幕大小变化，在调整为大屏幕时关闭侧边栏
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768 && difficultySidebar.classList.contains('open')) {
+                difficultySidebar.classList.remove('open');
+                sidebarOverlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
             }
         });
     }
@@ -389,10 +579,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // 更新歌曲列表
     function updateSongList() {
         if (songList.length === 0) {
+            // 侧边栏版本的空状态提示 - 更简洁的文本和更小的图标
             outputList.innerHTML = `
                 <div class="empty-state">
-                    <i class="fas fa-music fa-4x text-gray-400"></i>
-                    <p>暂无生成的歌曲，请填写表单并点击"添加歌曲"</p>
+                    <i class="fas fa-music fa-2x text-gray-400"></i>
+                    <p>暂无生成的歌曲</p>
                 </div>
             `;
             return;
@@ -407,6 +598,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // 获取曲名（优先使用英文）
             const title = song.title_localized.en || Object.values(song.title_localized)[0] || '未命名歌曲';
             
+            // 为侧边栏优化的歌曲项结构
             songItem.innerHTML = `
                 <div class="song-header">
                     <div>

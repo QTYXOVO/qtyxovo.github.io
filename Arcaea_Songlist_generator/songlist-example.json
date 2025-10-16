@@ -1,0 +1,798 @@
+{
+  "songs": [
+    {
+      "id": "arcahv",
+      "title_localized": {
+        "en": "Arcahv"
+      },
+      "artist": "Feryquitous",
+      "bpm": "191",
+      "bpm_base": 191,
+      "set": "single",
+      "purchase": "",
+      "audioPreview": 1256,
+      "audioPreviewEnd": 31413,
+      "side": 2,
+      "bg": "arcahv",
+      "remote_dl": false,
+      "world_unlock": true,
+      "date": 1590537606,
+      "version": "3.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 4
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 7
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "random",
+      "title_localized": {
+        "en": "RANDOM"
+      },
+      "artist": "",
+      "bpm": "",
+      "bpm_base": 0,
+      "set": "extra",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 100000,
+      "side": 3,
+      "bg": "base_light",
+      "date": 1487980800,
+      "version": "?",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "tutorial",
+      "title_localized": {
+        "en": "Tutorial"
+      },
+      "artist": "ak+q",
+      "bpm": "128",
+      "bpm_base": 128,
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 36850,
+      "side": 0,
+      "bg": "vs_light",
+      "date": 1487980800,
+      "version": "?",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 4
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "ifishit",
+      "title_localized": {
+        "en": "#114514"
+      },
+      "bg": "vs_conflict",
+      "artist": "かめりあ(EDP)",
+      "bpm": "181",
+      "bpm_base": 181,
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 18100,
+      "side": 1,
+      "date": 1145141919810,
+      "version": "guy",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "1919810",
+          "jacketDesigner": "望月けい",
+          "ratingPlus": true,
+          "rating": -18
+        }
+      ]
+    },
+    {
+      "id": "satisfaction",
+      "title_localized": {
+        "en": "SATISFACTION"
+      },
+      "artist": "P*Light & DJ Noriken feat. KMNZ",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "basee",
+      "purchase": "",
+      "audioPreview": 101333,
+      "audioPreviewEnd": 132666,
+      "side": 1,
+      "bg": "vs_conflict",
+      "version": "6.6",
+      "date": 1750896000,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Yukinobu Ito (RICOL)",
+          "rating": 3,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Yukinobu Ito (RICOL)",
+          "rating": 6,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Yukinobu Ito (RICOL)",
+          "rating": 8,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "Nitro - QTYXOVO",
+          "jacketDesigner": "Yukinobu Ito (RICOL)",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "polygons",
+      "title_localized": {
+        "en": "Polygons (Remastered)"
+      },
+      "artist": "Riya",
+      "bpm": "65",
+      "bpm_base": 65,
+      "set": "basee",
+      "purchase": "",
+      "audioPreview": 68308,
+      "audioPreviewEnd": 91846,
+      "side": 1,
+      "bg": "apophenia",
+      "version": "6.6",
+      "date": 1753674787,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "拖延",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "拖延",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "拖延",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "faeth",
+      "title_localized": {
+        "en": "Faeth"
+      },
+      "artist": "Wisp X",
+      "bpm": "86",
+      "bpm_base": 86,
+      "set": "basee",
+      "purchase": "",
+      "audioPreview": 89913,
+      "audioPreviewEnd": 113509,
+      "side": 0,
+      "bg": "alice_light",
+      "version": "1.0",
+      "date": 1754193899,
+      "difficulties": [
+        {
+          "ratingClass": 2,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "withoutyou",
+      "title_localized": {
+        "en": "Without You (Radio Version)"
+      },
+      "artist": "Refuzion",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "basee",
+      "purchase": "",
+      "audioPreview": 65017,
+      "audioPreviewEnd": 97534,
+      "side": 0,
+      "bg": "finale_light",
+      "version": "1.0",
+      "date": 1754917190,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_ignotusafterburn",
+      "title_localized": {
+        "en": "Ignotus Afterburn"
+      },
+      "artist": "Arcaea Sound Team",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "base_conflict",
+      "bg_inverse": "base_light",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\nTaroNuke vs Arcaea Charting Team",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\nTaroNuke vs Arcaea Charting Team",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\nTaroNuke vs Arcaea Charting Team",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 3,
+          "title_localized": {
+            "en": "Ignotus Afterburn 4"
+          },
+          "chartDesigner": "《WARNING》\nTaroNuke vs Arcaea Charting Team",
+          "jacketDesigner": "",
+          "jacketOverride": true,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_redandblueandgreen",
+      "title_localized": {
+        "en": "Red and Blue and Green"
+      },
+      "artist": "fn(ArcaeaSoundTeam)",
+      "bpm": "160",
+      "bpm_base": 160,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "base_conflict",
+      "bg_inverse": "base_light",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\n-chartaesthesia- and\n†chartaesthesia† UNCHAINED",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\n-chartaesthesia- and\n†chartaesthesia† UNCHAINED",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\n-chartaesthesia- and\n†chartaesthesia† UNCHAINED",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_singularityvvvip",
+      "title_localized": {
+        "en": "Singularity VVVIP"
+      },
+      "artist": "Arcaea Sound Team against. ETIA.",
+      "bpm": "175",
+      "bpm_base": 175,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "nijuusei-conflict-b",
+      "bg_inverse": "nijuusei-light-b",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team【Electrify】\nvs TaroNuke",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team【Electrify】\nvs TaroNuke",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team【Electrify】\nvs TaroNuke",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 3,
+          "title_localized": {
+            "en": "Singularity MMXXIVIP"
+          },
+          "chartDesigner": "《WARNING》\nArcaea Charting Team【Electrify】\nvs TaroNuke",
+          "jacketDesigner": "",
+          "jacketOverride": true,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_overdead",
+      "title_localized": {
+        "en": "overdead."
+      },
+      "artist": "fn",
+      "bpm": "500",
+      "bpm_base": 500,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "nijuusei-conflict-b",
+      "bg_inverse": "nijuusei-light-b",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\n-chartaesthesia-\nLIMITER:underflow_error%\n(OVERDRIVE:+overflow_error%)",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\n-chartaesthesia-\nLIMITER:underflow_error%\n(OVERDRIVE:+overflow_error%)",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\n-chartaesthesia-\nLIMITER:underflow_error%\n(OVERDRIVE:+overflow_error%)",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_mismal",
+      "title_localized": {
+        "en": "Mistempered Malignance"
+      },
+      "artist": "s-don vs nitro (lowiro)",
+      "bpm": "155",
+      "bpm_base": 155,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44444,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "vs_conflict",
+      "bg_inverse": "vs_light",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n「Maledictive Misanthrope」",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n「Maledictive Misanthrope」",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n「Maledictive Misanthrope」",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 3,
+          "title_localized": {
+            "en": "Misremembered Malpractice"
+          },
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n「Maledictive Misanthrope」",
+          "jacketDesigner": "",
+          "jacketOverride": true,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_ifirmx",
+      "title_localized": {
+        "en": "0xe0e1ccull"
+      },
+      "artist": "f→n",
+      "bpm": "198-216",
+      "bpm_base": 216,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "vs_conflict",
+      "bg_inverse": "vs_light",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\nvs-chromaesthesia-",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\nvs-chromaesthesia-",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\nvs-chromaesthesia-",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 3,
+          "title_localized": {
+            "en": "0xff0000ull"
+          },
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\nvs-chromaesthesia-",
+          "jacketDesigner": "",
+          "jacketOverride": true,
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_hivemindrmx",
+      "title_localized": {
+        "en": "HIVEMIND INTERLINKED"
+      },
+      "artist": "かたぎり",
+      "bpm": "252",
+      "bpm_base": 252,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "observer_conflict",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\nArcaea Cognition Team\n-assimilated-",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\nArcaea Cognition Team\n-assimilated-",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\nArcaea Cognition Team\n-assimilated-",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "- April Fools' Day/april_lfdyrmx",
+      "title_localized": {
+        "en": "Live Faster Die Younger"
+      },
+      "artist": "Dustvoxx",
+      "bpm": "200",
+      "bpm_base": 200,
+      "set": "april",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 1,
+      "bg": "nijuusei2_conflict",
+      "date": 1487980900,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n\"worldly wayfarers\"",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n\"worldly wayfarers\"",
+          "jacketDesigner": "",
+          "rating": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "《WARNING》\nArcaea Charting Team\n\"worldly wayfarers\"",
+          "jacketDesigner": "",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "id": "guxing",
+      "title_localized": {
+        "en": "ギターと孤独と蒼い惑星"
+      },
+      "artist": "結束バンド",
+      "bpm": "193",
+      "bpm_base": 193,
+      "set": "single",
+      "purchase": "",
+      "audioPreview": 184161,
+      "audioPreviewEnd": 207788,
+      "side": 1,
+      "bg": "gdyg",
+      "source_localized": {
+        "en": "ぼっち・ざ・ろっく！"
+      },
+      "version": "",
+      "date": 1669816396,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "HXDan-chart hero-",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "paradise",
+      "title_localized": {
+        "en": "Paradise"
+      },
+      "artist": "Sound Souler",
+      "bpm": "126",
+      "bpm_base": 126,
+      "set": "basee",
+      "purchase": "",
+      "audioPreview": 78095,
+      "audioPreviewEnd": 95420,
+      "side": 0,
+      "bg": "shiawase",
+      "version": "6.0",
+      "date": 1750896000,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "ましろみ のあ",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "ましろみ のあ",
+          "rating": 4,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "ましろみ のあ",
+          "rating": 7,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "ましろみ のあ",
+          "rating": 9,
+          "ratingPlus": false,
+          "audioOverride": true,
+          "bg": "shiawase2",
+          "title_localized": {
+            "en": "Paradise (Extended Mix)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "journeywithyou",
+      "title_localized": {
+        "en": "Journey with You"
+      },
+      "artist": "Iris",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "basee",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 133405,
+      "side": 0,
+      "bg": "mirai_light",
+      "version": "6.0",
+      "date": 1750896000,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "BTKCyber",
+          "rating": 0,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "BTKCyber",
+          "rating": 0,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "BTKCyber",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    }
+  ]
+}

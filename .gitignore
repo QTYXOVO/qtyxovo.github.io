@@ -10,4 +10,3 @@ env/
 *.pyd
 .vercel/
 .Random_Songs/
-Arcaea_Songlist_generator/example.txt

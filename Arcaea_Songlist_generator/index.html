@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcaea 歌曲列表生成器</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
@@ -19,25 +19,61 @@
                 <button id="toggle-dark-mode" class="btn btn-icon">
                     <i class="fas fa-moon"></i>
                 </button>
+                <label for="import-json" class="btn btn-secondary">
+                    <i class="fas fa-file-import"></i> 导入JSON
+                    <input type="file" id="import-json" accept=".json" style="display: none;">
+                </label>
                 <button id="save-all" class="btn btn-success">
                     <i class="fas fa-save"></i> 保存全部
                 </button>
             </div>
         </header>
 
+        <!-- 移动端侧边栏切换按钮 -->
+        <button id="toggle-sidebar" class="mobile-sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        
         <div class="app-layout">
             <!-- 左侧难度边栏 -->
-            <aside class="difficulty-sidebar">
-                <div class="sidebar-header">
-                    <h2>难度设置</h2>
-                    <button id="add-difficulty" class="btn btn-primary btn-sm">
-                        <i class="fas fa-plus"></i>
-                    </button>
-                </div>
+        <aside id="difficulty-sidebar" class="difficulty-sidebar">
+            <div class="sidebar-header">
+                <h2>难度设置</h2>
+                <button id="add-difficulty" class="btn btn-primary btn-sm">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+            <div class="difficulty-section">
                 <div class="difficulty-list">
                     <!-- 难度项目将由JS动态生成 -->
                 </div>
-            </aside>
+            </div>
+            
+            <!-- 生成的歌曲列表 - 移到左侧边栏 -->
+            <div class="output-section">
+                <div class="section-header">
+                    <h2>歌曲列表</h2>
+                    <div class="section-actions">
+                        <button id="export-json" class="btn btn-primary btn-sm">
+                            <i class="fas fa-file-export"></i>
+                        </button>
+                        <button id="clear-all" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="output-list" class="output-list">
+                    <!-- 生成的歌曲列表将由JS动态填充 -->
+                    <div class="empty-state">
+                        <i class="fas fa-music fa-2x text-gray-400"></i>
+                        <p>暂无生成的歌曲</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- 侧边栏覆盖层 -->
+        <div id="sidebar-overlay" class="sidebar-overlay"></div>
 
             <!-- 主内容区 -->
             <main class="main-content">
@@ -170,11 +206,11 @@
                                         <label for="category">单曲包分类 (category)</label>
                                         <select id="category">
                                             <option value="">无</option>
-                                            <option value="partner">partner</option>
-                                            <option value="original">original</option>
-                                            <option value="variety">variety</option>
-                                            <option value="poprec">poprec</option>
-                                            <option value="musicgames">musicgames</option>
+                                            <option value="poprec">流行/推荐 (poprec)</option>
+                                            <option value="partner">搭档 (partner)</option>
+                                            <option value="original">原创 (original)</option>
+                                            <option value="variety">综合 (variety)</option>
+                                            <option value="musicgames">音乐游戏 (musicgames)</option>
                                         </select>
                                     </div>
                                 </div>
@@ -244,39 +280,17 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- 生成的歌曲列表 -->
-                <div class="output-section">
-                    <div class="section-header">
-                        <h2>歌曲列表</h2>
-                        <div class="section-actions">
-                            <button id="export-json" class="btn btn-primary">
-                                <i class="fas fa-file-export"></i> 导出JSON
-                            </button>
-                            <button id="clear-all" class="btn btn-danger">
-                                <i class="fas fa-trash-alt"></i> 清空所有
-                            </button>
-                        </div>
-                    </div>
-                    <div id="output-list" class="output-list">
-                        <!-- 生成的歌曲列表将由JS动态填充 -->
-                        <div class="empty-state">
-                            <i class="fas fa-music fa-4x text-gray-400"></i>
-                            <p>暂无生成的歌曲，请填写表单并点击"添加歌曲"</p>
-                        </div>
-                    </div>
-                </div>
             </main>
         </div>
 
         <!-- 底部信息 -->
         <footer class="app-footer">
             <div class="footer-content">
-                <div class="version-info">使用AI生成————版本: TEST</div>
+                <div class="version-info">使用AI生成———版本: TEST</div>
                 
                 <div class="footer-links">
                     <a href="#" class="footer-link"><i class="fas fa-question-circle"></i> 帮助</a>
-                    <a href="#" class="footer-link"><i class="fas fa-github"></i> GitHub</a>
+                    <a href="https://qtyxovo.github.io/" class="footer-link"><i class="fas fa-github"></i>主页</a>
                 </div>
             </div>
         </footer>
@@ -333,7 +347,7 @@
                     <div class="toggle-item">
                         <label class="toggle-label">
                             <input type="checkbox" id="difficulty-plus-fingers">
-                            <span class="toggle-text">多指操作 (plusFingers) <span class="tooltip-icon" title="启用此选项表示该谱面设计需要多指操作\n官方更新的某些谱面也出现了多押但没有使用本参数">?</span></span>
+                            <span class="toggle-text">多指操作 (plusFingers) <span class="tooltip-icon" title="启用表示该谱面需要多指操作，默认不选">?</span></span>
                         </label>
                     </div>
                 </div>
