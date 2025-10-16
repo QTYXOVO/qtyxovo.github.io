@@ -210,18 +210,30 @@ body {
 .mobile-sidebar-toggle {
     display: none;
     position: fixed;
-    top: 16px;
+    top: auto;
+    bottom: 16px;
     left: 16px;
     z-index: 150;
     background-color: var(--primary-color);
     color: white;
     border: none;
-    border-radius: 50%;
-    width: 48px;
+    border-radius: 24px;
+    width: 120px;
     height: 48px;
-    font-size: 18px;
+    font-size: 14px;
     cursor: pointer;
     box-shadow: var(--shadow-medium);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.mobile-sidebar-toggle .toggle-text {
+    color: white;
+    font-weight: 500;
+    display: none;
 }
 
 /* 侧边栏覆盖层 */
@@ -246,8 +258,10 @@ body {
 @media (max-width: 768px) {
     .mobile-sidebar-toggle {
         display: flex;
-        align-items: center;
-        justify-content: center;
+    }
+    
+    .mobile-sidebar-toggle .toggle-text {
+        display: inline;
     }
     
     .sidebar-overlay.active {
