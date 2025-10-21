@@ -341,6 +341,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('difficulty-rating-plus').checked = false;
         document.getElementById('difficulty-legacy11').checked = false;
         document.getElementById('difficulty-plus-fingers').checked = false;
+        document.getElementById('difficulty-jacket-override').checked = false;
+        document.getElementById('difficulty-audio-override').checked = false;
         
         difficultyModal.classList.remove('hidden');
         document.getElementById('difficulty-rating').focus();
@@ -362,6 +364,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('difficulty-rating-plus').checked = difficulty.ratingPlus || false;
         document.getElementById('difficulty-legacy11').checked = difficulty.legacy11 || false;
         document.getElementById('difficulty-plus-fingers').checked = difficulty.plusFingers || false;
+        document.getElementById('difficulty-jacket-override').checked = difficulty.jacketOverride || false;
+        document.getElementById('difficulty-audio-override').checked = difficulty.audioOverride || false;
         
         difficultyModal.classList.remove('hidden');
         document.getElementById('difficulty-rating').focus();
@@ -382,6 +386,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const ratingPlus = document.getElementById('difficulty-rating-plus').checked;
         const legacy11 = document.getElementById('difficulty-legacy11').checked;
         const plusFingers = document.getElementById('difficulty-plus-fingers').checked;
+        const jacketOverride = document.getElementById('difficulty-jacket-override').checked;
+        const audioOverride = document.getElementById('difficulty-audio-override').checked;
         
         // 验证
         if (isNaN(rating) || rating < 0 || rating > 15) {
@@ -394,12 +400,25 @@ document.addEventListener('DOMContentLoaded', function() {
             ratingClass: difficultyType,  // 必须字段
             chartDesigner: chartDesigner || "",  // 必须字段，如果为空则使用空字符串
             jacketDesigner: jacketDesigner || "",  // 必须字段，如果为空则使用空字符串
-            rating: rating,  // 必须字段
-            // 以下为可选字段，只有在为true时才包含
-            ratingPlus: ratingPlus,
-            legacy11: legacy11,
-            plusFingers: plusFingers
+            rating: rating  // 必须字段
         };
+        
+        // 可选字段，只有在为true时才包含
+        if (ratingPlus) {
+            difficultyData.ratingPlus = true;
+        }
+        if (legacy11) {
+            difficultyData.legacy11 = true;
+        }
+        if (plusFingers) {
+            difficultyData.plusFingers = true;
+        }
+        if (jacketOverride) {
+            difficultyData.jacketOverride = true;
+        }
+        if (audioOverride) {
+            difficultyData.audioOverride = true;
+        }
         
         if (currentEditingDifficultyIndex === -1) {
             // 检查是否已存在相同类型的难度
