@@ -1,0 +1,86 @@
+{
+  "songs": [
+    {
+      "idx": 0,
+      "id": "journeywithyou",
+      "title_localized": {
+        "en": "Journey with You"
+      },
+      "artist": "Iris",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "base",
+      "purchase": "",
+      "side": 0,
+      "bg": "mirai_light",
+      "date": 1750896000,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "BTKCyber",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ],
+      "version": "6.0",
+      "audioPreview": 0,
+      "audioPreviewEnd": 133405
+    },
+    {
+      "idx": 1,
+      "id": "polygons",
+      "title_localized": {
+        "en": "Polygons (Remastered)"
+      },
+      "artist": "Riya",
+      "bpm": "65",
+      "bpm_base": 65,
+      "set": "base",
+      "purchase": "",
+      "side": 1,
+      "bg": "apophenia",
+      "date": 1753674787,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "QTYXOVO",
+          "jacketDesigner": "拖延",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ],
+      "version": "6.0",
+      "audioPreview": 68308,
+      "audioPreviewEnd": 91846
+    }
+  ]
+}

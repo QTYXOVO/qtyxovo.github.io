@@ -749,8 +749,25 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
+        // 深拷贝歌曲列表以避免修改原始数据
+        const cleanedSongList = JSON.parse(JSON.stringify(songList));
+        
+        // 清理每个歌曲的所有难度数据中的false值字段（保留ratingPlus字段）
+        // 此逻辑适用于所有难度类型(0-PST, 1-PRS, 2-FTR, 3-BYD, 4-ETR)
+        cleanedSongList.forEach(song => {
+            // 遍历所有难度对象，不管ratingClass是什么值
+            song.difficulties.forEach(difficulty => {
+                // 移除值为false的字段，但保留ratingPlus
+                if (difficulty.legacy11 === false) delete difficulty.legacy11;
+                if (difficulty.plusFingers === false) delete difficulty.plusFingers;
+                if (difficulty.world_unlock === false) delete difficulty.world_unlock;
+                if (difficulty.jacketOverride === false) delete difficulty.jacketOverride;
+                if (difficulty.audioOverride === false) delete difficulty.audioOverride;
+            });
+        });
+        
         const jsonData = {
-            songs: songList
+            songs: cleanedSongList
         };
         
         try {

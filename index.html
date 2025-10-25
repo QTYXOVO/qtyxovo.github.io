@@ -6,6 +6,211 @@
     <title>Arcaea 工具导航</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 个人创作谱面区块样式 */
+        .charts-container {
+            text-align: center;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 35px 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            width: 100%;
+            max-width: 900px;
+            border: none;
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+            margin: 0 auto !important;
+            flex: 0 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .charts-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #FF5722, #FF9800);
+        }
+        .charts-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        .charts-container h2 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, #FF5722 0%, #FF9800 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 15px;
+        }
+        .chart-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        .chart-item {
+            display: flex;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+            width: 100%;
+            max-width: 800px;
+            transition: all 0.3s ease;
+        }
+        .chart-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+        .chart-image {
+            flex: 0 0 auto;
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+        .chart-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .chart-info {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+            text-align: left;
+        }
+        .chart-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+        .chart-artist {
+            font-size: 1rem;
+            color: #666;
+            margin: 0;
+        }
+        .chart-difficulties {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .difficulty-tag {
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: white;
+        }
+        .chart-actions {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 20px;
+        }
+        .download-button {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #FF5722 0%, #FF9800 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 87, 34, 0.3);
+        }
+        .no-charts {
+            color: #666;
+            font-size: 1.1rem;
+            padding: 40px;
+        }
+        
+        /* 难度颜色对应 - 从Arcaea_Songlist_generator项目复制的正确颜色 */
+        .difficulty-pst { background-color: #3a9aca; }
+        .difficulty-prs { background-color: #88a66a; }
+        .difficulty-ftr { background-color: #70436a; }
+        .difficulty-byd { background-color: #85292e; }
+        .difficulty-etr { background-color: #5f5077; }
+        
+        /* 暗黑模式适配 */
+        @media (prefers-color-scheme: dark) {
+            .charts-container {
+                background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+                box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            }
+            .charts-container h2 {
+                color: #e0e0e0;
+            }
+            .chart-item {
+                background: #2d2d2d;
+            }
+            .chart-title {
+                color: #e0e0e0;
+            }
+            .chart-artist {
+                color: #b0b0b0;
+            }
+            .no-charts {
+                color: #999;
+            }
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .chart-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            .chart-image {
+                width: 100%;
+                height: 200px;
+            }
+            .chart-info {
+                text-align: center;
+                align-items: center;
+            }
+            .chart-actions {
+                justify-content: center;
+                padding: 0 20px 20px;
+            }
+            .charts-container h2 {
+                font-size: 1.5rem;
+                padding: 8px 16px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .charts-container {
+                padding: 25px 15px;
+                border-radius: 10px;
+            }
+            .chart-info {
+                padding: 15px;
+            }
+            .chart-title {
+                font-size: 1.2rem;
+            }
+            .download-button {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -17,6 +222,87 @@
             <a href="https://www.123865.com/s/CUh3jv-J9V0h" class="nav-button" target="_blank">安装包存档</a>
         </div>
     </div>
+    
+    <!-- 个人创作谱面区块 -->
+    <div class="charts-container">
+        <h2>个人创作谱面</h2>
+        <div class="chart-list" id="chart-list">
+            <div class="no-charts">加载中...</div>
+        </div>
+    </div>
+    
     <div style="text-align: center; padding: 20px; font-size: 0.9rem; color: #666;">使用AI生成</div>
+    
+    <script>
+        // 加载并显示谱面列表
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('charts/songlist.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const chartListElement = document.getElementById('chart-list');
+                    
+                    if (!data.songs || data.songs.length === 0) {
+                        chartListElement.innerHTML = '<div class="no-charts">暂无创作谱面</div>';
+                        return;
+                    }
+                    
+                    let html = '';
+                    data.songs.forEach(song => {
+                        // 获取歌曲索引作为文件名基础
+                        const songIdx = song.idx;
+                        
+                        // 创建谱面项
+                        html += `
+                            <div class="chart-item">
+                                <div class="chart-image">
+                                    <img src="charts/${songIdx}.jpg" alt="${song.title_localized.en}" onerror="this.src='charts/default.jpg';" />
+                                </div>
+                                <div class="chart-info">
+                                    <h3 class="chart-title">${song.title_localized.en}</h3>
+                                    <p class="chart-artist">曲师: ${song.artist || 'Unknown'}</p>
+                                    <div class="chart-difficulties">`;
+                        
+                        // 添加难度标签 - PST、PRS、FTR始终显示，BYD、ETR只在存在时显示
+                        song.difficulties.forEach(diff => {
+                            const diffNames = ['PST', 'PRS', 'FTR', 'BYD', 'ETR'];
+                            const diffClasses = ['difficulty-pst', 'difficulty-prs', 'difficulty-ftr', 'difficulty-byd', 'difficulty-etr'];
+                            const diffName = diffNames[diff.ratingClass] || 'Unknown';
+                            const diffClass = diffClasses[diff.ratingClass] || '';
+                            
+                            // 对于BYD(3)和ETR(4)，只在存在时显示
+                            if ((diff.ratingClass === 3 || diff.ratingClass === 4) && (!diff.rating || diff.rating === 0)) {
+                                return; // 不显示没有rating的高级难度
+                            }
+                            
+                            html += `
+                                <span class="difficulty-tag ${diffClass}">
+                                    ${diffName} ${diff.rating}${diff.ratingPlus ? '+' : ''}
+                                </span>`;
+                        });
+                        
+                        html += `
+                                    </div>
+                                </div>
+                                <div class="chart-actions">
+                                    <a href="charts/${songIdx}.zip" class="download-button" download="${song.title_localized.en.replace(/[^\w\s]/gi, '')}.zip">
+                                        下载谱面
+                                    </a>
+                                </div>
+                            </div>`;
+                    });
+                    
+                    chartListElement.innerHTML = html;
+                })
+                .catch(error => {
+                    console.error('Error loading songlist:', error);
+                    document.getElementById('chart-list').innerHTML = '<div class="no-charts">加载谱面失败</div>';
+                });
+        });
+    </script>
 </body>
 </html>
